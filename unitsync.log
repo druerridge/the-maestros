@@ -1,0 +1,21 @@
+Using configuration source: "C:\Users\RAICHU\AppData\Local\springsettings.cfg"
+Available log sections: ArchiveScanner, VFS, unitsync
+Enabled log sections: 
+Enable or disable log sections using the LogSections configuration key
+  or the SPRING_LOG_SECTIONS environment variable (both comma separated).
+  Use "none" to disable the default log sections.
+LogOutput initialized.
+Spring 91.0 (Headless Unitsync)
+Build date/time: Aug 30 2012 21:05:17
+Build environment: boost-104800, GNU libstdc++ version 20100429
+Compiler: gcc-4.4.4
+Using read-write data directory: C:\Program Files (x86)\Spring\
+Using read-only data directory: C:\Users\RAICHU\Documents\My Games\Spring\
+Archive cache doesn't exist: C:\Program Files (x86)\Spring\cache\ArchiveCache.lua
+Scanning: C:\Program Files (x86)\Spring\maps
+Scanning: C:\Program Files (x86)\Spring\base
+Scanning: C:\Program Files (x86)\Spring\games
+[unitsync] loaded, 91.0 (Headless Unitsync)
+[unitsync] initialized, 91.0 (Headless Unitsync)
+[unitsync] hosting
+[unitsync] deinitialized

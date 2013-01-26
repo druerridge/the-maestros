@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="date" content="" />
+</head>
+<body>
+<div id="spring-rts-game-engine"
+><h1
+  >Spring RTS game engine</h1
+  ><div id="authors"
+  ><h2
+    >AUTHORS</h2
+    ><p
+    >Spring (formerly TASpring) was originally written by the Swedish clan SY, and later extended by a bunch of other people, some of whom are listed here (in alphabetical order):</p
+    ><ul
+    ><li
+      >Auswaschbar (Karl-Robert Ernst <script type="text/javascript"
+	>
+<!--
+h='&#x6d;&#x79;&#x2d;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#104;';a='&#64;';n='&#x6b;&#x2d;&#114;&#46;&#x65;&#114;&#110;&#x73;&#116;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'<code>'+e+'</code>'+'<\/'+'a'+'>');
+// -->
+</script
+	><noscript
+	>&#x6b;&#x2d;&#114;&#46;&#x65;&#114;&#110;&#x73;&#116;&#32;&#x61;&#116;&#32;&#x6d;&#x79;&#x2d;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#104;</noscript
+	>)</li
+      ><li
+      >hoijui (Robin Vobruba <script type="text/javascript"
+	>
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#104;&#x6f;&#x69;&#106;&#x75;&#x69;&#46;&#x71;&#x75;&#x61;&#x65;&#114;&#x6f;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'<code>'+e+'</code>'+'<\/'+'a'+'>');
+// -->
+</script
+	><noscript
+	>&#104;&#x6f;&#x69;&#106;&#x75;&#x69;&#46;&#x71;&#x75;&#x61;&#x65;&#114;&#x6f;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript
+	>)</li
+      ><li
+      >imbaczek (Marek Baczynski <script type="text/javascript"
+	>
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#x69;&#x6d;&#98;&#x61;&#x63;&#122;&#x65;&#x6b;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'<code>'+e+'</code>'+'<\/'+'a'+'>');
+// -->
+</script
+	><noscript
+	>&#x69;&#x6d;&#98;&#x61;&#x63;&#122;&#x65;&#x6b;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript
+	>)</li
+      ><li
+      >jcnossen (Jelmer Cnossen <script type="text/javascript"
+	>
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#106;&#46;&#x63;&#110;&#x6f;&#x73;&#x73;&#x65;&#110;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'<code>'+e+'</code>'+'<\/'+'a'+'>');
+// -->
+</script
+	><noscript
+	>&#106;&#46;&#x63;&#110;&#x6f;&#x73;&#x73;&#x65;&#110;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript
+	>)</li
+      ><li
+      >jk</li
+      ><li
+      >kloot (<script type="text/javascript"
+	>
+<!--
+h='&#104;&#x6f;&#116;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#98;&#108;&#x61;&#x75;&#x77;&#x5f;&#x73;&#x63;&#104;&#x65;&#114;&#x6d;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'<code>'+e+'</code>'+'<\/'+'a'+'>');
+// -->
+</script
+	><noscript
+	>&#98;&#108;&#x61;&#x75;&#x77;&#x5f;&#x73;&#x63;&#104;&#x65;&#114;&#x6d;&#32;&#x61;&#116;&#32;&#104;&#x6f;&#116;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript
+	>)</li
+      ><li
+      >tim blokdijk</li
+      ><li
+      >tobi (Tobi Vollebregt <script type="text/javascript"
+	>
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#116;&#x6f;&#98;&#x69;&#118;&#x6f;&#108;&#108;&#x65;&#98;&#114;&#x65;&#x67;&#116;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'<code>'+e+'</code>'+'<\/'+'a'+'>');
+// -->
+</script
+	><noscript
+	>&#116;&#x6f;&#98;&#x69;&#118;&#x6f;&#108;&#108;&#x65;&#98;&#114;&#x65;&#x67;&#116;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript
+	>)</li
+      ><li
+      >trepan (Dave Rodgers)</li
+      ><li
+      >victor</li
+      ><li
+      >xiphux (Christopher Han <script type="text/javascript"
+	>
+<!--
+h='&#x67;&#x6d;&#x61;&#x69;&#108;&#46;&#x63;&#x6f;&#x6d;';a='&#64;';n='&#120;&#x69;&#112;&#104;&#x75;&#120;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'<code>'+e+'</code>'+'<\/'+'a'+'>');
+// -->
+</script
+	><noscript
+	>&#120;&#x69;&#112;&#104;&#x75;&#120;&#32;&#x61;&#116;&#32;&#x67;&#x6d;&#x61;&#x69;&#108;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#x6d;</noscript
+	>)</li
+      ><li
+      >zerver (<script type="text/javascript"
+	>
+<!--
+h='&#122;&#x65;&#114;&#118;&#x65;&#114;&#46;&#110;&#x65;&#116;';a='&#64;';n='&#x6d;&#114;';e=n+a+h;
+document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'">'+'<code>'+e+'</code>'+'<\/'+'a'+'>');
+// -->
+</script
+	><noscript
+	>&#x6d;&#114;&#32;&#x61;&#116;&#32;&#122;&#x65;&#114;&#118;&#x65;&#114;&#32;&#100;&#x6f;&#116;&#32;&#110;&#x65;&#116;</noscript
+	>)</li
+      ></ul
+    ><div id="notes"
+    ><h3
+      >Notes</h3
+      ><p
+      >NEVER send bug reports, help- and feature-requests directly to the persons in this list, but visit <a href="http://springrts.com"
+	><code
+	  >http://springrts.com</code
+	  ></a
+	> instead. Of course you are free to write mails about donating.</p
+      ><p
+      >For additions/corrections to the list, please post in the community forum.</p
+      ></div
+    ></div
+  ></div
+>
+</body>
+</html>
+
