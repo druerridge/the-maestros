@@ -9,13 +9,18 @@ Spring 91.0 (Headless Unitsync)
 Build date/time: Aug 30 2012 21:05:17
 Build environment: boost-104800, GNU libstdc++ version 20100429
 Compiler: gcc-4.4.4
-Using read-write data directory: C:\Program Files (x86)\Spring\
+Using read-write data directory: C:\workspace\Spring\the-maestros\
 Using read-only data directory: C:\Users\RAICHU\Documents\My Games\Spring\
-Archive cache doesn't exist: C:\Program Files (x86)\Spring\cache\ArchiveCache.lua
-Scanning: C:\Program Files (x86)\Spring\maps
-Scanning: C:\Program Files (x86)\Spring\base
-Scanning: C:\Program Files (x86)\Spring\games
+Scanning: C:\workspace\Spring\the-maestros\maps
+Scanning: C:\workspace\Spring\the-maestros\base
+Scanning: C:\workspace\Spring\the-maestros\games
 [unitsync] loaded, 91.0 (Headless Unitsync)
 [unitsync] initialized, 91.0 (Headless Unitsync)
 [unitsync] hosting
+[unitsync] Warning: The deprecated unitsync function GetPrimaryModName was called. Please update your lobby client
+[unitsync] Error: GetPrimaryModName: deprecated unitsync function called: GetPrimaryModName
+[unitsync] Warning: The deprecated unitsync function GetPrimaryModVersion was called. Please update your lobby client
+[unitsync] Error: GetPrimaryModVersion: deprecated unitsync function called: GetPrimaryModVersion
+[unitsync] Warning: The deprecated unitsync function GetPrimaryModShortName was called. Please update your lobby client
+[unitsync] Error: GetPrimaryModShortName: deprecated unitsync function called: GetPrimaryModShortName
 [unitsync] deinitialized

@@ -2,10 +2,10 @@ local archiveCache = {
 
 	internalver = 9,
 
-	archives = {  -- count = 4
+	archives = {  -- count = 5
 		{
 			name = "bitmaps.sdz",
-			path = [[C:\Program Files (x86)\Spring\base\spring\]],
+			path = [[C:\workspace\Spring\the-maestros\base\spring\]],
 			modified = "1346357261",
 			checksum = "2343186445",
 			archivedata = {
@@ -16,7 +16,7 @@ local archiveCache = {
 		},
 		{
 			name = "cursors.sdz",
-			path = [[C:\Program Files (x86)\Spring\base\]],
+			path = [[C:\workspace\Spring\the-maestros\base\]],
 			modified = "1346357261",
 			checksum = "2940605174",
 			archivedata = {
@@ -27,7 +27,7 @@ local archiveCache = {
 		},
 		{
 			name = "maphelper.sdz",
-			path = [[C:\Program Files (x86)\Spring\base\]],
+			path = [[C:\workspace\Spring\the-maestros\base\]],
 			modified = "1346357261",
 			checksum = "3099124429",
 			archivedata = {
@@ -38,7 +38,7 @@ local archiveCache = {
 		},
 		{
 			name = "springcontent.sdz",
-			path = [[C:\Program Files (x86)\Spring\base\]],
+			path = [[C:\workspace\Spring\the-maestros\base\]],
 			modified = "1346357261",
 			checksum = "211251712",
 			archivedata = {
@@ -47,6 +47,25 @@ local archiveCache = {
 				name = "Spring content v1",
 				depend = {
 					"Spring Bitmaps",
+				},
+			},
+		},
+		{
+			name = "TheMaestros.sdd",
+			path = [[C:\workspace\Spring\the-maestros\games\]],
+			modified = "1359173242",
+			checksum = "3626970354",
+			archivedata = {
+				description = "Prototype for Maestro",
+				game = "The Maestros Game",
+				modtype = 1,
+				name = "The Maestros",
+				shortgame = "MaestrosGame",
+				shortname = "Maestros",
+				url = "http://www.somewebsite.com/",
+				depend = {
+					"cursors.sdz",
+					"springcontent.sdz",
 				},
 			},
 		},
