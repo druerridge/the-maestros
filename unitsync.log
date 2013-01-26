@@ -234,4 +234,22 @@ Scanning: C:\workspace\Spring\the-maestros\games
 [unitsync] hosting
 [unitsync] Error: GetPrimaryModName: deprecated unitsync function called: GetPrimaryModName
 [unitsync] Error: GetPrimaryModVersion: deprecated unitsync function called: GetPrimaryModVersion
-[unitsync] Error: GetPrimaryModShortName: deprecated unitsync function called: GetPrimaryMo
+[unitsync] Error: GetPrimaryModShortName: deprecated unitsync function called: GetPrimaryModShortName
+[unitsync] deinitialized
+Using read-write data directory: C:\workspace\Spring\the-maestros\
+Using read-only data directory: C:\Users\RAICHU\Documents\My Games\Spring\
+Scanning: C:\workspace\Spring\the-maestros\maps
+Scanning: C:\workspace\Spring\the-maestros\base
+Scanning: C:\workspace\Spring\the-maestros\games
+[unitsync] loaded, 91.0 (Headless Unitsync)
+[unitsync] initialized, 91.0 (Headless Unitsync)
+[unitsync] hosting
+[unitsync] Error: GetPrimaryModName: deprecated unitsync function called: GetPrimaryModName
+[unitsync] Error: GetPrimaryModVersion: deprecated unitsync function called: GetPrimaryModVersion
+[unitsync] Error: GetPrimaryModShortName: deprecated unitsync function called: GetPrimaryModShortName
+[unitsync] deinitialized
+Using read-write data directory: C:\workspace\Spring\the-maestros\
+Using read-only data directory: C:\Users\RAICHU\Documents\My Games\Spring\
+Scanning: C:\workspace\Spring\the-maestros\maps
+Scanning: C:\workspace\Spring\the-maestros\base
+Scanning: C:\workspace\Spring\the-

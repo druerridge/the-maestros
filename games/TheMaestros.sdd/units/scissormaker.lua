@@ -5,7 +5,7 @@ local unitDef =
 -- Internal settings
 	BuildPic = "base.bmp",
 	Category = "BUILDING NOTSCOUT NOTHEAVY NOTAIR NOTEPIC NOTSHIP NOTSTEALTHY ALL",
-	ObjectName = "base2.s3o",
+	ObjectName = "building.s3o",
 	Side = "TANK",
 	TEDClass = "PLANT",
 	script = "scissormakerscript.lua",
@@ -48,7 +48,7 @@ local unitDef =
 -- Abilities
 	Builder = 1,
         Reclaimable = 0,
-	ShowNanoSpray = 1,
+	ShowNanoSpray = 0,
 	CanMove = 1,
 	CanStop = 1,
 	LeaveTracks = 1,
