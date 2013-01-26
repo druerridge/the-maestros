@@ -1,4 +1,4 @@
-local unitName = "garage"
+local unitName = "scissormaker"
 
 local unitDef =
 {
@@ -8,15 +8,15 @@ local unitDef =
 	ObjectName = "base2.s3o",
 	Side = "TANK",
 	TEDClass = "PLANT",
-	script = "garagescript.lua",
+	script = "scissormakerscript.lua",
 	
 -- Unit limitations and properties
 	ActivateWhenBuilt = true,
-	BuildTime = 1000,
+	BuildTime = 800,
     commander = true,
 	Description = "Produces tinkerer base units and factories",
 	MaxDamage = 1500,
-	Name = "The Garage",
+	Name = "The Scissor Maker",
 	RadarDistance = 0,
 	SightDistance = 400,
 	SoundCategory = "BUILDING",
@@ -25,7 +25,8 @@ local unitDef =
 	levelground = 1,
 	
 -- Energy and metal related
-	BuildCostEnergy = 500,
+	BuildCostEnergy = 0,
+	BuildCostMetal = 400,
 	EnergyStorage = 0,
 	EnergyUse = 0,
 	MetalStorage = 0,
@@ -54,8 +55,7 @@ local unitDef =
 	CanBeAssisted = 0,
 	buildoptions = 
 	{
-		"scissormaker",
-		"plaid",
+		"edward",
 	},
 	
 -- Abilities new to Spring

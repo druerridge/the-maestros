@@ -1,20 +1,20 @@
-local unitName  =  "edward"
+local unitName  =  "plaid"
 
 local unitDef  =  {
 --Internal settings
     BuildPic = "filename.bmp",
     Category = "TANK SMALL NOTAIR NOTSUB",
-    ObjectName = "robotClassChange1.s3o",
-    name = "EDWARD",
+    ObjectName = "plaid.s3o",
+    name = "PLAID_V1.0",
     Side = "TANKS",
     TEDClass = "TANK",
-    UnitName = "edward",
+    UnitName = "plaid",
 --script = "tankscript.lua",
     
 --Unit limitations and properties
-    BuildTime = 1000,
-    Description = "A single target melee robot.",
-    MaxDamage = 800,
+    BuildTime = 500,
+    Description = "A tiny melee robot and arkanium gatherer.",
+    MaxDamage = 400,
     RadarDistance = 0,
     SightDistance = 400,
     SoundCategory = "TANK",
@@ -30,11 +30,10 @@ local unitDef  =  {
     FootprintX = 2,
     FootprintZ = 2,
     MaxSlope = 15,
-    MaxVelocity = 5.0,
+    MaxVelocity = 6.0,
     MaxWaterDepth = 20,
     MovementClass = "Default2x2",
     TurnRate = 3600,
-    
     
 --Abilities
     Builder = 0,
