@@ -8,8 +8,8 @@ local unitDef  =  {
     name = "EDWARD",
     Side = "TANKS",
     TEDClass = "TANK",
-    UnitName = "tank",
-    script = "tankscript.lua",
+    UnitName = "edward",
+--script = "tankscript.lua",
     
 --Unit limitations and properties
     BuildTime = 1000,
@@ -21,7 +21,7 @@ local unitDef  =  {
     Upright = 0,
     
 --Energy and metal related
-    BuildCostEnergy = 100,
+    BuildCostEnergy = 0,
     BuildCostMetal = 0,
     
 --Pathfinding and related

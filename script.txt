@@ -5,7 +5,7 @@
 	IsHost=1;
 	MyPlayerName=invalid;
 
-	ModHash=3812880242;
+	ModHash=693984598;
 	MapHash=650402604;
 	Mapname=Small Supreme Battlefield V2;
 	GameType=The Maestros;
@@ -49,8 +49,8 @@
 		StartPosX=936;
 		StartPosZ=5210;
 		AllyTeam=0;
-		RGBColor=1 1 0;
-		Side=TANKS;
+		RGBColor=0 0 1;
+		Side=Maestros;
 		Handicap=0;
 	}
 
