@@ -50,7 +50,7 @@ Video mode set to 1920x1080/32bit
 [f=0000000] Connecting to local server
 [f=0000000] Binding UDP socket to IP (v6) :: port 8452
 [f=0000000] [UDPListener] successfully bound socket on port 8452
-[f=0000000] PreGame::StartServer: 7 ms
+[f=0000000] PreGame::StartServer: 9 ms
 [f=0000000] Using map: Small Supreme Battlefield V2
 [f=0000000] Using game: The Maestros
 [f=0000000] [Sound] OpenAL info:
@@ -65,22 +65,22 @@ Video mode set to 1920x1080/32bit
 [f=0000000] [Sound]   EFX Enabled: yes
 [f=0000000] [Sound]   Max Sounds: 128
 [f=0000000] Using game archive: TheMaestros.sdd
-[f=0000000] recording demo: demos/20130125_233656_Small Supreme Battlefield V2_91.sdf
-[f=0000000] PreGame::GameDataReceived: 139 ms
+[f=0000000] recording demo: demos/20130126_094529_Small Supreme Battlefield V2_91.sdf
+[f=0000000] PreGame::GameDataReceived: 138 ms
 [f=0000000] User number 0 (team 0, allyteam 0)
 [f=0000000] Loading Radar Icons
 [f=0000000] Loading GameData Definitions
 [f=0000000] Loading all definitions:  0.009000
-[f=0000000] Game::LoadDefs (GameData): 14 ms
+[f=0000000] Game::LoadDefs (GameData): 11 ms
 [f=0000000] Loading Sound Definitions
 [f=0000000] [Sound]  parsed 4 sounds from gamedata/sounds.lua
 [f=0000000] [Sound] Warning: Unable to open audio file: sounds/incoming_chat.wav
-[f=0000000] Game::LoadDefs (Sound): 2 ms
+[f=0000000] Game::LoadDefs (Sound): 1 ms
 [f=0000000] Parsing Map Information
 [f=0000000] Loading SMF
 [f=0000000] Loading Map (103 MB)
 [f=0000000] Creating Smooth Height Mesh
-[f=0000000] SmoothHeightMesh::MakeSmoothMesh: 152 ms
+[f=0000000] SmoothHeightMesh::MakeSmoothMesh: 151 ms
 [f=0000000] Creating QuadField & CEGs
 [f=0000000] Number of damage types: 1
 [f=0000000] [RegisterAssimpModelParsers] supported Assimp model formats: *.3d;*.3ds;*.ac;*.ac3d;*.acc;*.ase;*.ask;*.b3d;*.blend;*.bvh;*.cob;*.csm;*.dae;*.dxf;*.enff;*.hmp;*.ifc;*.irr;*.irrmesh;*.lwo;*.lws;*.lxo;*.m3;*.md2;*.md3;*.md5anim;*.md5camera;*.md5mesh;*.mdc;*.mdl;*.mesh.xml;*.mot;*.ms3d;*.ndo;*.nff;*.obj;*.off;*.pk3;*.ply;*.prj;*.q3o;*.q3s;*.raw;*.scn;*.smd;*.stl;*.ter;*.uc;*.vta;*.x;*.xgl;*.xml;*.zgl;
@@ -106,7 +106,7 @@ Video mode set to 1920x1080/32bit
 [f=0000000] Creating ProjectileDrawer & UnitDrawer
 [f=0000000] Creating Projectile Textures
 [f=0000000] Creating Water
-[f=0000000] Game::LoadInterface (Camera&Mouse): 140 ms
+[f=0000000] Game::LoadInterface (Camera&Mouse): 124 ms
 [f=0000000] [Sound] Warning: Unable to open audio file: sounds/multiselect.wav
 [f=0000000] Game::LoadInterface (Console): 8 ms
 [f=0000000] [Sound] Warning: Unable to open audio file: FailedCommand
@@ -126,16 +126,18 @@ Video mode set to 1920x1080/32bit
 [f=0000000]  -> Version: 91.0
 [f=0000000]  -> Connection established (given id 0)
 [f=0000000] Player invalid finished loading and is now ingame
-[f=0000000] GameID: 9f870351b78377fe3296b2ec79b8f899
-[f=0000134] [Texture] Warning: [LoadS3OTextureNow] could not load texture "Spring unit" from model "objects3d/robotclasschange1.s3o"
-[f=0000134] Warning: Could not load COB script for unit "edward" from: scripts/edward.cob
-[f=0000875] User exited
-[f=0000875] [CCollisionHandler] dis-/continuous tests: 0/4501273
-[f=0000875] Path cache hits 0 0%
-[f=0000875] Path cache hits 0 0%
-[f=0000875] Statistics for RectangleOptimizer: 0%
-[f=0000875] Statistics for RectangleOptimizer: 0%
-[f=0000875] Statistics for local connection:
-Received: 1921 bytes
-Sent: 9249 bytes
+[f=0000000] GameID: 411604516cd67b0e3296b2ec79b8f899
+[f=0000256] [Texture] Warning: [LoadS3OTextureNow] could not load texture "Spring unit" from model "objects3d/robotclasschange1.s3o"
+[f=0000308] Warning: Could not load COB script for unit "edward" from: scripts/edward.cob
+[f=0001153] Warning: Could not load COB script for unit "edward" from: scripts/edward.cob
+[f=0001935] Warning: Could not load COB script for unit "edward" from: scripts/edward.cob
+[f=0007441] User exited
+[f=0007442] [CCollisionHandler] dis-/continuous tests: 0/35512787
+[f=0007442] Path cache hits 0 0%
+[f=0007442] Path cache hits 11 22%
+[f=0007442] Statistics for RectangleOptimizer: 0%
+[f=0007442] Statistics for RectangleOptimizer: 0%
+[f=0007442] Statistics for local connection:
+Received: 13436 bytes
+Sent: 80168 bytes
 

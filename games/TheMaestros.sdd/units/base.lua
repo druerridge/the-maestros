@@ -14,7 +14,7 @@ local unitDef =
 	ActivateWhenBuilt = true,
 	BuildTime = 1000,
     commander = true,
-	Description = "Produces units",
+	Description = "Produces tinkerer base units",
 	MaxDamage = 1500,
 	Name = "Base",
 	RadarDistance = 0,
@@ -34,16 +34,23 @@ local unitDef =
 	MetalMake = 0,
 	
 -- Pathfinding and related
-	FootprintX = 4,
-	FootprintZ = 4,
-	MaxSlope = 10,
-	MaxWaterDepth = 0,
-	YardMap = "cccc cccc cccc cccc",
+	Acceleration = 0.15,
+    BrakeRate = 0.1,
+    FootprintX = 4,
+    FootprintZ = 4,
+    MaxSlope = 15,
+    MaxVelocity = 2.0,
+    MaxWaterDepth = 20,
+    MovementClass = "Default2x2",
+    TurnRate = 3600,
 
 -- Abilities
 	Builder = 1,
         Reclaimable = 0,
 	ShowNanoSpray = 0,
+	CanMove = 1,
+	CanStop = 1,
+	LeaveTracks = 1,
 	CanBeAssisted = 0,
 	buildoptions = 
 	{
