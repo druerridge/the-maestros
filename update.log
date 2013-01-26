@@ -1,0 +1,101 @@
+20:19:29: m_exe_to_update C:\Users\Jean\Documents\GitHub\the-maestros\springlobby.exe
+20:19:29: m_version 0.157
+20:19:29: GlobalsManager::GlobalsManager()
+20:19:29: Error: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\AUTHORS
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\COPYING
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\NEWS
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\README
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\THANKS
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\include
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\include/spring
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\include/spring/Downloader/pr-downloader.h
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/es
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/es/LC_MESSAGES/springlobby.mo
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/da
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/da/LC_MESSAGES/springlobby.mo
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/ar
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/ar/LC_MESSAGES/springlobby.mo
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/de
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/de/LC_MESSAGES/springlobby.mo
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/pt
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/pt/LC_MESSAGES/springlobby.mo
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/fi
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/fi/LC_MESSAGES/springlobby.mo
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/ro
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/ro/LC_MESSAGES/springlobby.mo
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/sv
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/sv/LC_MESSAGES/springlobby.mo
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/el
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/el/LC_MESSAGES/springlobby.mo
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/pl
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/pl/LC_MESSAGES/springlobby.mo
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/cs
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/cs/LC_MESSAGES/springlobby.mo
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/uk
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/uk/LC_MESSAGES/springlobby.mo
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/it
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/it/LC_MESSAGES/springlobby.mo
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/ru
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/ru/LC_MESSAGES/springlobby.mo
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/fr
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/fr/LC_MESSAGES/springlobby.mo
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale
+20:19:58: Warning: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/zh_CN
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\locale/zh_CN/LC_MESSAGES/springlobby.mo
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\springlobby.exe
+20:19:58: unzipping: C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\springlobby_updater.exe
+20:19:58: springlobby.info/windows/springlobby-0.157-win32.zip
+successfully unzipped in:
+C:\Users\Jean\Documents\GitHub\the-maestros\lobby\SpringLobby\update\temp.zip
+20:19:58: Got minor rev 147
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\ar' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\ar\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\cs' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\cs\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\da' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\da\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\de' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\de\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\el' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\el\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\es' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\es\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\fi' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\fi\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\fr' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\fr\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\it' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\it\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\pl' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\pl\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\pt' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\pt\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\ro' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\ro\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\ru' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\ru\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\sv' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\sv\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\uk' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\uk\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\zh_CN' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:19:58: Error: Directory 'C:\Users\Jean\Documents\GitHub\the-maestros\locale\zh_CN\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+20:22:12: GlobalsManager::DestroyAll()

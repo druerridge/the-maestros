@@ -1,0 +1,61 @@
+[GAME]
+{
+	HostIP=;
+	HostPort=8452;
+	IsHost=1;
+	MyPlayerName=invalid;
+
+	ModHash=4032068617;
+	MapHash=480445294;
+	Mapname=IsisDelta_v02;
+	GameType=The Maestros;
+
+	startpostype=3;
+	[mapoptions]
+	{
+	}
+	[modoptions]
+	{
+		relayhoststartpostype=3;
+		disablemapdamage=0;
+		fixedallies=0;
+		ghostedbuildings=1;
+		limitdgun=0;
+		maxspeed=3;
+		maxunits=500;
+		minspeed=0.3;
+	}
+	NumRestrictions=0;
+	[RESTRICT]
+	{
+	}
+
+	NumPlayers=1;
+	NumUsers=1;
+
+	[PLAYER0]
+	{
+		Name=invalid;
+		CountryCode=;
+		Spectator=0;
+		Rank=0;
+		IsFromDemo=0;
+		Team=0;
+	}
+
+	[TEAM0]
+	{
+		TeamLeader=0;
+		StartPosX=5060;
+		StartPosZ=2104;
+		AllyTeam=0;
+		RGBColor=1 1 0;
+		Side=TANKS;
+		Handicap=0;
+	}
+
+	[ALLYTEAM0]
+	{
+		NumAllies=0;
+	}
+}

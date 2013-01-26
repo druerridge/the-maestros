@@ -2,11 +2,39 @@ local archiveCache = {
 
 	internalver = 9,
 
-	archives = {  -- count = 4
+	archives = {  -- count = 8
+		{
+			name = "b74fb917131a359c06ff49eee54fe5c8.sdp",
+			path = [[C:\Users\Jean\Documents\My Games\Spring\packages\]],
+			modified = "1359161028",
+			checksum = "437765387",
+			archivedata = {
+				description = "Zero-K",
+				modtype = 1,
+				mutator = "1",
+				name = "Zero-K v1.1.1.1",
+				shortname = "ZK",
+				version = "v1.1.1.1",
+			},
+		},
+		{
+			name = "bec3feb6303d68c556fc05837dbb6a5d.sdp",
+			path = [[C:\Users\Jean\Documents\My Games\Spring\packages\]],
+			modified = "1356062789",
+			checksum = "3949427109",
+			archivedata = {
+				description = "Zero-K",
+				modtype = 1,
+				mutator = "1",
+				name = "Zero-K v1.0.12.2",
+				shortname = "ZK",
+				version = "v1.0.12.2",
+			},
+		},
 		{
 			name = "bitmaps.sdz",
-			path = [[C:\Program Files (x86)\Spring\base\spring\]],
-			modified = "1346357261",
+			path = [[C:\Users\Jean\Documents\GitHub\the-maestros\base\spring\]],
+			modified = "1359173935",
 			checksum = "2343186445",
 			archivedata = {
 				description = "Various bitmaps used by spring",
@@ -16,8 +44,8 @@ local archiveCache = {
 		},
 		{
 			name = "cursors.sdz",
-			path = [[C:\Program Files (x86)\Spring\base\]],
-			modified = "1346357261",
+			path = [[C:\Users\Jean\Documents\GitHub\the-maestros\base\]],
+			modified = "1359173935",
 			checksum = "2940605174",
 			archivedata = {
 				description = "Cursor pack by Erom",
@@ -26,9 +54,20 @@ local archiveCache = {
 			},
 		},
 		{
+			name = "IsisDelta_v02.sd7",
+			path = [[C:\Users\Jean\Documents\My Games\Spring\maps\]],
+			modified = "1356062813",
+			checksum = "2753290659",
+			archivedata = {
+				mapfile = "maps/IsisDelta_v02.smf",
+				modtype = 3,
+				name = "IsisDelta_v02",
+			},
+		},
+		{
 			name = "maphelper.sdz",
-			path = [[C:\Program Files (x86)\Spring\base\]],
-			modified = "1346357261",
+			path = [[C:\Users\Jean\Documents\GitHub\the-maestros\base\]],
+			modified = "1359173935",
 			checksum = "3099124429",
 			archivedata = {
 				description = "Maps can use this archive for its lua tdf parser",
@@ -38,8 +77,8 @@ local archiveCache = {
 		},
 		{
 			name = "springcontent.sdz",
-			path = [[C:\Program Files (x86)\Spring\base\]],
-			modified = "1346357261",
+			path = [[C:\Users\Jean\Documents\GitHub\the-maestros\base\]],
+			modified = "1359173935",
 			checksum = "211251712",
 			archivedata = {
 				description = "Mods can depend on this archive to get all the spring content",
@@ -47,6 +86,25 @@ local archiveCache = {
 				name = "Spring content v1",
 				depend = {
 					"Spring Bitmaps",
+				},
+			},
+		},
+		{
+			name = "TheMaestros.sdd",
+			path = [[C:\Users\Jean\Documents\GitHub\the-maestros\games\]],
+			modified = "1359173935",
+			checksum = "3626970354",
+			archivedata = {
+				description = "Prototype for Maestro",
+				game = "The Maestros Game",
+				modtype = 1,
+				name = "The Maestros",
+				shortgame = "MaestrosGame",
+				shortname = "Maestros",
+				url = "http://www.somewebsite.com/",
+				depend = {
+					"cursors.sdz",
+					"springcontent.sdz",
 				},
 			},
 		},
