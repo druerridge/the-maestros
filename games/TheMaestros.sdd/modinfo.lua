@@ -1,9 +1,9 @@
 local modinfo = {
-	name = "Empty Mod plus Tank",
-	shortname = "Tank",
-	game = "Empty Example Mod plus Tank Unit",
-	shortgame = "Tank",
-	description = "Mod with the bare minimum to run, plus a basic tank unit. Based on FLOZi's MDK",
+	name = "The Maestros",
+	shortname = "Maestros",
+	game = "The Maestros Game",
+	shortgame = "MaestrosGame",
+	description = "Prototype for Maestro",
 	url = "http://www.somewebsite.com/",
 	
 	modtype = "1",
