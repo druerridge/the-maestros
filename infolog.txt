@@ -1,12 +1,4 @@
-<<<<<<< HEAD
 Using configuration source: "C:\Users\Diglett\AppData\Local\springsettings.cfg"
-=======
-<<<<<<< HEAD
-Using configuration source: "C:\Users\Jean\AppData\Local\springsettings.cfg"
-=======
-Using configuration source: "C:\Users\RAICHU\AppData\Local\springsettings.cfg"
->>>>>>> 0065847a1dcfa8d9311f7ef3aba9f9a86bd7bf52
->>>>>>> e97a68aa0241f4b738ec873881425c35e79e42e5
 [CMyMath::Init] CPU SSE mask: 127, flags:
 	SSE 1.0:  1,  SSE 2.0:  1
 	SSE 3.0:  1, SSSE 3.0:  1
@@ -14,18 +6,8 @@ Using configuration source: "C:\Users\RAICHU\AppData\Local\springsettings.cfg"
 	SSE 4.0A: 0,  SSE 5.0A: 0
 	using streflop SSE FP-math mode, CPU supports SSE instructions
 OS: Microsoft Windows
-<<<<<<< HEAD
 Microsoft Windows 7 Home Premium Edition, 64-bit Service Pack 1 (build 7601)
 Intel(R) Core(TM) i5 CPU       M 480  @ 2.67GHz; 3958MB RAM, 7915MB pagefile
-=======
-<<<<<<< HEAD
-Microsoft Windows 7 Home Premium Edition, 64-bit Service Pack 1 (build 7601)
-Intel(R) Core(TM) i7-2640M CPU @ 2.80GHz; 8139MB RAM, 16277MB pagefile
-=======
-Microsoft Windows 7 Business Edition, 64-bit Service Pack 1 (build 7601)
-Intel(R) Core(TM) i7-2670QM CPU @ 2.20GHz; 8139MB RAM, 16277MB pagefile
->>>>>>> 0065847a1dcfa8d9311f7ef3aba9f9a86bd7bf52
->>>>>>> e97a68aa0241f4b738ec873881425c35e79e42e5
 OS: emulated 32bit mode
 [Watchdog] Installed (HangTimeout: 10sec)
 Available log sections: KeyBindings, CSMFGroundTextures, RoamMeshDrawer, BumpWater, DynWater, SkyBox, FarTextureHandler, Model, Piece, ModelDrawer, OBJParser, WorldObjectModelRenderer, Texture, Font, CollisionVolume, GroundMoveType, Path, UnitScript, AutohostInterface, ArchiveScanner, VFS, Sound, LuaSocket
@@ -38,7 +20,6 @@ Spring 91.0
 Build date/time: Aug 30 2012 21:05:51
 Build environment: boost-104800, GNU libstdc++ version 20100429
 Compiler: gcc-4.4.4
-<<<<<<< HEAD
 Using read-write data directory: C:\Users\Diglett\Documents\GIT\maestrohub\the-maestros\
 Using read-only data directory: C:\Users\Diglett\Documents\My Games\Spring\
 Scanning: C:\Users\Diglett\Documents\My Games\Spring\games
@@ -52,85 +33,20 @@ Video mode set to 1024x768/32bit
 [f=0000000] GL vendor:    NVIDIA Corporation
 [f=0000000] GL renderer:  GeForce 310M/PCIe/SSE2
 [f=0000000] GLSL version: 3.30 NVIDIA via Cg compiler
-=======
-<<<<<<< HEAD
-Using read-write data directory: C:\Users\Jean\Documents\GitHub\the-maestros\
-Using read-only data directory: C:\Users\Jean\Documents\My Games\Spring\
-Scanning: C:\Users\Jean\Documents\My Games\Spring\maps
-Scanning: C:\Users\Jean\Documents\My Games\Spring\mods
-Scanning: C:\Users\Jean\Documents\My Games\Spring\packages
-Scanning: C:\Users\Jean\Documents\GitHub\the-maestros\maps
-Scanning: C:\Users\Jean\Documents\GitHub\the-maestros\base
-Scanning: C:\Users\Jean\Documents\GitHub\the-maestros\games
-Supported Video modes: 1366x768, 1360x768, 1280x768, 1280x720, 1280x600, 1024x768, 800x600, 640x480, 640x400, 512x384, 400x300, 320x240, 320x200
-Video mode set to 1366x768/32bit
-[f=0000000] SDL version:  1.2.10
-[f=0000000] GL version:   3.1.0 - Build 8.15.10.2653
-[f=0000000] GL vendor:    Intel
-[f=0000000] GL renderer:  Intel(R) HD Graphics 3000
-[f=0000000] GLSL version: 1.40 - Intel Build 8.15.10.2653
-=======
-Using read-write data directory: C:\workspace\Spring\the-maestros\
-Using read-only data directory: C:\Users\RAICHU\Documents\My Games\Spring\
-Scanning: C:\workspace\Spring\the-maestros\maps
-Scanning: C:\workspace\Spring\the-maestros\base
-Scanning: C:\workspace\Spring\the-maestros\games
-Supported Video modes: 1920x1080, 1680x1050, 1600x900, 1440x900, 1400x1050, 1366x768, 1360x768, 1280x1024, 1280x960, 1280x800, 1280x768, 1280x720, 1280x600, 1152x864, 1024x768, 800x600, 640x480, 640x400, 512x384, 400x300, 320x240, 320x200
-Video mode set to 1920x1080/32bit
-[f=0000000] SDL version:  1.2.10
-[f=0000000] GL version:   4.1.11013 Compatibility Profile Context
-[f=0000000] GL vendor:    ATI Technologies Inc.
-[f=0000000] GL renderer:  Radeon (TM) HD 7690M
-[f=0000000] GLSL version: 4.10
->>>>>>> 0065847a1dcfa8d9311f7ef3aba9f9a86bd7bf52
->>>>>>> e97a68aa0241f4b738ec873881425c35e79e42e5
 [f=0000000] GLEW version: 1.5.8
-[f=0000000] Video RAM:    total 1024MB, available 851MB
+[f=0000000] Video RAM:    total 1024MB, available 791MB
 [f=0000000] GL info:
-<<<<<<< HEAD
 	haveARB: 1, haveGLSL: 1, ATI hacks: 0
 	FBO support: 1, NPOT-texture support: 1, 24bit Z-buffer support: 1
 	maximum texture size: 8192, compress MIP-map textures: 0
 	maximum SmoothPointSize: 63, maximum vec4 varying/attributes: 15/16
 	maximum drawbuffers: 8, maximum recommended indices/vertices: 1048576/1048576
 	number of UniformBufferBindings: 36 (64kB)
-=======
-<<<<<<< HEAD
-	haveARB: 1, haveGLSL: 0, ATI hacks: 0
-	FBO support: 1, NPOT-texture support: 1, 24bit Z-buffer support: 1
-	maximum texture size: 8192, compress MIP-map textures: 0
-	maximum SmoothPointSize: 20, maximum vec4 varying/attributes: 10/16
-	maximum drawbuffers: 8, maximum recommended indices/vertices: 1200/1200
-	number of UniformBufferBindings: 36 (16kB)
 [f=0000000] VSync disabled
 [f=0000000] Joysticks found: 0
 [f=0000000] Warning: Joystick 0 not found
 [f=0000000] CPU Cores: 4
 [f=0000000] CPU affinity not set
-=======
-	haveARB: 1, haveGLSL: 1, ATI hacks: 1
-	FBO support: 1, NPOT-texture support: 1, 24bit Z-buffer support: 0
-	maximum texture size: 16384, compress MIP-map textures: 0
-	maximum SmoothPointSize: 63, maximum vec4 varying/attributes: 32/29
-	maximum drawbuffers: 8, maximum recommended indices/vertices: 16777215/2147483647
-	number of UniformBufferBindings: 75 (64kB)
->>>>>>> e97a68aa0241f4b738ec873881425c35e79e42e5
-[f=0000000] VSync disabled
-[f=0000000] Joysticks found: 0
-[f=0000000] Warning: Joystick 0 not found
-[f=0000000] CPU Cores: 4
-[f=0000000] CPU affinity not set
-<<<<<<< HEAD
-=======
-[f=0000000] Loading startscript from: C:\workspace\Spring\the-maestros\script.txt
-[f=0000000] Connecting to local server
-[f=0000000] Binding UDP socket to IP (v6) :: port 8452
-[f=0000000] [UDPListener] successfully bound socket on port 8452
-[f=0000000] PreGame::StartServer: 7 ms
-[f=0000000] Using map: Small Supreme Battlefield V2
-[f=0000000] Using game: The Maestros
->>>>>>> 0065847a1dcfa8d9311f7ef3aba9f9a86bd7bf52
->>>>>>> e97a68aa0241f4b738ec873881425c35e79e42e5
 [f=0000000] [Sound] OpenAL info:
 [f=0000000] [Sound]   Available Devices:
 [f=0000000] [Sound]               DirectSound Software
@@ -142,63 +58,27 @@ Video mode set to 1920x1080/32bit
 [f=0000000] [Sound]   ALC Extensions: ALC_ENUMERATE_ALL_EXT ALC_ENUMERATION_EXT ALC_EXT_CAPTURE ALC_EXT_disconnect ALC_EXT_EFX ALC_EXTX_thread_local_context
 [f=0000000] [Sound]   EFX Enabled: yes
 [f=0000000] [Sound]   Max Sounds: 128
-<<<<<<< HEAD
 [f=0000000] Connecting to local server
-[f=0000000] PreGame::StartServer: 12 ms
-[f=0000000] Using map: Small Supreme Battlefield V2
+[f=0000000] PreGame::StartServer: 139 ms
+[f=0000000] Using map: Maptest10
 [f=0000000] Using game: The Maestros
 [f=0000000] Using game archive: TheMaestros.sdd
-[f=0000000] recording demo: demos/20130126_173253_Small Supreme Battlefield V2_91.sdf
-[f=0000000] PreGame::GameDataReceived: 59 ms
-=======
-<<<<<<< HEAD
-[f=0000000] [ArchiveScanner] Warning: No game selected checksum: not found (0)
-[f=0000000] [ArchiveScanner] Warning: No map selected checksum: not found (0)
-=======
-[f=0000000] Using game archive: TheMaestros.sdd
-<<<<<<< HEAD
-[f=0000000] recording demo: demos/20130126_161022_Small Supreme Battlefield V2_91.sdf
-[f=0000000] PreGame::GameDataReceived: 133 ms
-[f=0000000] User number 0 (team 1, allyteam 0)
-[f=0000000] Loading Radar Icons
-[f=0000000] Loading GameData Definitions
-[f=0000000] Loading all definitions:  0.012000
-[f=0000000] Game::LoadDefs (GameData): 40 ms
-[f=0000000] Loading Sound Definitions
-[f=0000000] [Sound]  parsed 4 sounds from gamedata/sounds.lua
-[f=0000000] [Sound] Warning: Unable to open audio file: sounds/incoming_chat.wav
-[f=0000000] Game::LoadDefs (Sound): 32 ms
-=======
-[f=0000000] recording demo: demos/20130126_114414_Small Supreme Battlefield V2_91.sdf
-[f=0000000] PreGame::GameDataReceived: 156 ms
->>>>>>> e97a68aa0241f4b738ec873881425c35e79e42e5
+[f=0000000] recording demo: demos/20130126_180028_Maptest10_91.sdf
+[f=0000000] PreGame::GameDataReceived: 52 ms
 [f=0000000] User number 0 (team 0, allyteam 0)
 [f=0000000] Loading Radar Icons
 [f=0000000] Loading GameData Definitions
-[f=0000000] Loading all definitions:  0.009000
-[f=0000000] Game::LoadDefs (GameData): 10 ms
+[f=0000000] Loading all definitions:  0.099000
+[f=0000000] Game::LoadDefs (GameData): 102 ms
 [f=0000000] Loading Sound Definitions
 [f=0000000] [Sound]  parsed 4 sounds from gamedata/sounds.lua
 [f=0000000] [Sound] Warning: Unable to open audio file: sounds/incoming_chat.wav
-<<<<<<< HEAD
 [f=0000000] Game::LoadDefs (Sound): 1 ms
-=======
-[f=0000000] Game::LoadDefs (Sound): 2 ms
->>>>>>> 0065847a1dcfa8d9311f7ef3aba9f9a86bd7bf52
->>>>>>> e97a68aa0241f4b738ec873881425c35e79e42e5
 [f=0000000] Parsing Map Information
 [f=0000000] Loading SMF
-[f=0000000] Loading Map (103 MB)
+[f=0000000] Loading Map (25 MB)
 [f=0000000] Creating Smooth Height Mesh
-<<<<<<< HEAD
-[f=0000000] SmoothHeightMesh::MakeSmoothMesh: 174 ms
-=======
-<<<<<<< HEAD
-[f=0000000] SmoothHeightMesh::MakeSmoothMesh: 252 ms
-=======
-[f=0000000] SmoothHeightMesh::MakeSmoothMesh: 152 ms
->>>>>>> 0065847a1dcfa8d9311f7ef3aba9f9a86bd7bf52
->>>>>>> e97a68aa0241f4b738ec873881425c35e79e42e5
+[f=0000000] SmoothHeightMesh::MakeSmoothMesh: 40 ms
 [f=0000000] Creating QuadField & CEGs
 [f=0000000] Number of damage types: 1
 [f=0000000] [RegisterAssimpModelParsers] supported Assimp model formats: *.3d;*.3ds;*.ac;*.ac3d;*.acc;*.ase;*.ask;*.b3d;*.blend;*.bvh;*.cob;*.csm;*.dae;*.dxf;*.enff;*.hmp;*.ifc;*.irr;*.irrmesh;*.lwo;*.lws;*.lxo;*.m3;*.md2;*.md3;*.md5anim;*.md5camera;*.md5mesh;*.mdc;*.mdl;*.mesh.xml;*.mot;*.ms3d;*.ndo;*.nff;*.obj;*.off;*.pk3;*.ply;*.prj;*.q3o;*.q3s;*.raw;*.scn;*.smd;*.stl;*.ter;*.uc;*.vta;*.x;*.xgl;*.xml;*.zgl;
@@ -209,7 +89,7 @@ Video mode set to 1920x1080/32bit
 [f=0000000] Initializing Map Features
 [f=0000000] Reading Estimate PathCosts [8]
 [f=0000000] Reading Estimate PathCosts [32]
-[f=0000000] [CPathManager] pathing data checksum: 8b9008f7
+[f=0000000] [CPathManager] pathing data checksum: e2bd7610
 [f=0000000] [IPathManager::GetInstance] using DEFAULT path-manager
 [f=0000000] [Sound] Warning: Unable to open audio file: sounds/mappoint.wav
 [f=0000000] Creating Sky
@@ -218,35 +98,15 @@ Video mode set to 1920x1080/32bit
 [f=0000000] Loading Tile Files
 [f=0000000] Reading Tile Map
 [f=0000000] Loading Square Textures
-<<<<<<< HEAD
-[f=0000000] CSMFGroundTextures::ConvolveHeightMap: 6 ms
-=======
-<<<<<<< HEAD
-[f=0000000] CSMFGroundTextures::ConvolveHeightMap: 12 ms
-=======
-[f=0000000] CSMFGroundTextures::ConvolveHeightMap: 5 ms
->>>>>>> 0065847a1dcfa8d9311f7ef3aba9f9a86bd7bf52
->>>>>>> e97a68aa0241f4b738ec873881425c35e79e42e5
+[f=0000000] CSMFGroundTextures::ConvolveHeightMap: 1 ms
 [f=0000000] Switching to ROAM Mesh Rendering
 [f=0000000] Creating TreeDrawer
 [f=0000000] Creating ProjectileDrawer & UnitDrawer
 [f=0000000] Creating Projectile Textures
 [f=0000000] Creating Water
-<<<<<<< HEAD
-[f=0000000] Game::LoadInterface (Camera&Mouse): 104 ms
+[f=0000000] Game::LoadInterface (Camera&Mouse): 97 ms
 [f=0000000] [Sound] Warning: Unable to open audio file: sounds/multiselect.wav
 [f=0000000] Game::LoadInterface (Console): 0 ms
-=======
-<<<<<<< HEAD
-[f=0000000] Game::LoadInterface (Camera&Mouse): 206 ms
-[f=0000000] [Sound] Warning: Unable to open audio file: sounds/multiselect.wav
-[f=0000000] Game::LoadInterface (Console): 0 ms
-=======
-[f=0000000] Game::LoadInterface (Camera&Mouse): 138 ms
-[f=0000000] [Sound] Warning: Unable to open audio file: sounds/multiselect.wav
-[f=0000000] Game::LoadInterface (Console): 8 ms
->>>>>>> 0065847a1dcfa8d9311f7ef3aba9f9a86bd7bf52
->>>>>>> e97a68aa0241f4b738ec873881425c35e79e42e5
 [f=0000000] [Sound] Warning: Unable to open audio file: FailedCommand
 [f=0000000] [Sound] Warning: CSound::GetSoundId: could not find sound: FailedCommand
 [f=0000000] Loading LuaRules
@@ -263,53 +123,16 @@ Video mode set to 1920x1080/32bit
 [f=0000000] Connection attempt from UnnamedPlayer
 [f=0000000]  -> Version: 91.0
 [f=0000000]  -> Connection established (given id 0)
-<<<<<<< HEAD
 [f=0000000] Player UnnamedPlayer finished loading and is now ingame
-[f=0000000] GameID: d08304519173f819ff4f2efa1cdf4421
-[f=0000106] [Texture] Warning: [LoadS3OTextureNow] could not load texture "Spring unit" from model "objects3d/plaid.s3o"
-[f=0000418] Warning: Could not load COB script for unit "plaid" from: scripts/plaid.cob
-[f=0000659] Warning: Could not load COB script for unit "plaid" from: scripts/plaid.cob
-[f=0000673] Warning: Could not load COB script for unit "edward" from: scripts/edward.cob
-[f=0001121] Warning: Could not load COB script for unit "edward" from: scripts/edward.cob
-[f=0001395] [CCollisionHandler] dis-/continuous tests: 0/6558340
-[f=0001395] Path cache hits 0 0%
-[f=0001395] Path cache hits 2 29%
-[f=0001395] Statistics for RectangleOptimizer: 0%
-[f=0001395] Statistics for RectangleOptimizer: 0%
-[f=0001395] Statistics for local connection:
-Received: 2770 bytes
-Sent: 14886 bytes
-=======
-[f=0000000] Player invalid finished loading and is now ingame
-<<<<<<< HEAD
-[f=0000000] GameID: 79700451dc553175e5c1edb679b8f899
-[f=0000000] [Texture] Warning: [LoadS3OTextureNow] could not load texture "Spring unit" from model "objects3d/edward.s3o"
-[f=0000001] Skirmish AI "Bot1" (ID:0, Short-Name:"NullAI", Version:"0.1") took over control of team 0
-[f=0002252] User exited
-[f=0002253] [CCollisionHandler] dis-/continuous tests: 0/3397261
-[f=0002253] Path cache hits 2 40%
-[f=0002253] Path cache hits 4 25%
-[f=0002253] Statistics for RectangleOptimizer: 0%
-[f=0002253] Statistics for RectangleOptimizer: 0%
-[f=0002253] Statistics for local connection:
-Received: 4437 bytes
-Sent: 24049 bytes
-=======
-[f=0000000] GameID: 16320451f53f52f13296b2ec79b8f899
-[f=0001051] [Texture] Warning: [LoadS3OTextureNow] could not load texture "Spring unit" from model "objects3d/robotclasschange1.s3o"
-[f=0001103] Warning: Could not load COB script for unit "edward" from: scripts/edward.cob
-[f=0001484] Warning: Could not load COB script for unit "plaid" from: scripts/plaid.cob
-[f=0001607] Warning: Could not load COB script for unit "edward" from: scripts/edward.cob
-[f=0002171] User exited
-[f=0002171] [CCollisionHandler] dis-/continuous tests: 0/11868496
-[f=0002171] Path cache hits 0 0%
-[f=0002171] Path cache hits 0 0%
-[f=0002171] Statistics for RectangleOptimizer: 0%
-[f=0002171] Statistics for RectangleOptimizer: 0%
-[f=0002171] Statistics for local connection:
-Received: 4028 bytes
-Sent: 23081 bytes
->>>>>>> 0065847a1dcfa8d9311f7ef3aba9f9a86bd7bf52
->>>>>>> e97a68aa0241f4b738ec873881425c35e79e42e5
+[f=0000000] GameID: 5b8a04519d7c6dde86c4d1901cdf4421
+[f=0000345] [Texture] Warning: [LoadS3OTextureNow] could not load texture "Spring unit" from model "objects3d/plaid.s3o"
+[f=0000786] Warning: Could not load COB script for unit "plaid" from: scripts/plaid.cob
+[f=0003992] [CCollisionHandler] dis-/continuous tests: 0/3429899
+[f=0003992] Path cache hits 0 0%
+[f=0003992] Path cache hits 0 0%
+[f=0003992] Statistics for RectangleOptimizer: 0%
+[f=0003992] Statistics for RectangleOptimizer: 0%
+[f=0003992] Statistics for local connection:
+Received: 6690 bytes
+Sent: 42202 bytes
 
->>>>>>> 0065847a1dcfa8d9311f7ef3aba9f9a86bd7bf52
