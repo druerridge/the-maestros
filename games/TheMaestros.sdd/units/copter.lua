@@ -2,7 +2,7 @@ local unitName  =  "copter"
 
 local unitDef  =  {
 --Internal settings
-    BuildPic = "copter.bmp",
+    BuildPic = "HeliThumbnail.png",
     Category = "TANK SMALL NOTAIR NOTSUB",
     ObjectName = "copter.s3o",
     name = "COPTER_2.4",

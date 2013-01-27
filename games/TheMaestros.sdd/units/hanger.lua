@@ -3,7 +3,7 @@ local unitName = "hanger"
 local unitDef =
 {
 -- Internal settings
-	BuildPic = "hanger.bmp",
+	BuildPic = "Hangarthumbnail.png",
 	Category = "BUILDING NOTSCOUT NOTHEAVY NOTAIR NOTEPIC NOTSHIP NOTSTEALTHY ALL",
 	ObjectName = "hanger.s3o",
 	Side = "TANK",
@@ -48,7 +48,7 @@ local unitDef =
     TurnRate = 3600,
 
 -- Abilities
-	Builder = 1,
+	Builder = 0,
     Reclaimable = 0,
     reclaimSpeed = 1000.0;
 	ShowNanoSpray = 0,
@@ -56,10 +56,10 @@ local unitDef =
 	CanStop = 1,
 	LeaveTracks = 1,
 	CanBeAssisted = 0,
-	buildoptions = 
-	{
-		"copter",
-	},
+--	buildoptions = 
+--	{
+--		"copter",
+--	},
 	
 -- Abilities new to Spring
 	
