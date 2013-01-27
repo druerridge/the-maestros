@@ -9,9 +9,11 @@ local unitDef  =  {
     Side = "TANKS",
     TEDClass = "TANK",
     UnitName = "plaid",
+    --animation script
 	script = "plaidscriptS.lua",
     
     customParams = {transform = "edward",},
+
 --Unit limitations and properties
     BuildTime = 500,
     Description = "A tiny melee robot and arkanium gatherer.",
@@ -39,6 +41,7 @@ local unitDef  =  {
 --Abilities
     Builder = 1,
     CanAttack = 1,
+    CanFight = 1,
     CanGuard = 1,
     CanMove = 1,
     CanPatrol = 1,

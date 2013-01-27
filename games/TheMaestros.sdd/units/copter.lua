@@ -12,7 +12,9 @@ local unitDef  =  {
 	--animation script
     script = "copterscriptS.lua",
 
-    
+    customParams = {transform = "plaid",},
+    --modify refers to the target output of the possible modifications
+
 --Unit limitations and properties
     BuildTime = 1000,
     Description = "A multi-target melee robot.",

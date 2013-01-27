@@ -50,9 +50,10 @@ local unitDef =
 -- Abilities
 	Builder = 1,
     Reclaimable = 0,
-    reclaimSpeed = 1000.0;
+    canReclaim = 0,
 	ShowNanoSpray = 0,
 	CanMove = 1,
+	CanBuild = 0,
 	CanStop = 1,
 	LeaveTracks = 1,
 	CanBeAssisted = 0,

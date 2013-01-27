@@ -65,11 +65,11 @@ teamleader=1;
 {
 allyteam=0;
 handicap=0;
-rgbcolor=1 0 0.0235294;
+rgbcolor=0 0 1;
 side=Maestros;
 startposx=1700;
 startposz=2000;
-teamleader=0;
+teamleader=1;
 }
 gametype=The Maestros;
 hostip=;
@@ -77,10 +77,10 @@ hostport=8452;
 ishost=1;
 maphash=3321872071;
 mapname=Maptest29;
-modhash=2050471509;
+modhash=2066710741;
 myplayername=invalid;
 numplayers=1;
 numrestrictions=0;
-numusers=1;
+numusers=2;
 startpostype=3;
 }

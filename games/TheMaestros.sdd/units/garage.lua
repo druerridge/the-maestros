@@ -10,6 +10,9 @@ local unitDef =
 	TEDClass = "PLANT",
 	script = "garagescript.lua",
 	
+	customParams = {modify = "plaid",},
+	--modify refers to the target output of the possible modifications
+
 -- Unit limitations and properties
 	ActivateWhenBuilt = true,
 	BuildTime = 1000,
@@ -57,7 +60,6 @@ local unitDef =
 		"scissormaker",
 		"hanger",
 		"plaid",
-		"arkanium",
 	},
 	
 -- Abilities new to Spring
