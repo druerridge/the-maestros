@@ -2,7 +2,7 @@ local unitName  =  "edward"
 
 local unitDef  =  {
 --Internal settings
-    BuildPic = "filename.bmp",
+    BuildPic = "edward.bmp",
     Category = "TANK SMALL NOTAIR NOTSUB",
     ObjectName = "edward.s3o",
     name = "EDWARD_2.6",
@@ -10,12 +10,12 @@ local unitDef  =  {
     TEDClass = "TANK",
     UnitName = "edward",
 	--animation script
-    script = "edwardScript.lua",
+    script = "edwardscriptS.lua",
 
     
 --Unit limitations and properties
     BuildTime = 1000,
-    Description = "A multi-target melee robot.",
+    Description = "A single target melee robot.",
     MaxDamage = 800,
     RadarDistance = 0,
     SightDistance = 4000,
@@ -32,7 +32,7 @@ local unitDef  =  {
     FootprintX = 3,
     FootprintZ = 3,
     MaxSlope = 15,
-    MaxVelocity = 10,
+    MaxVelocity = 6,
     MaxWaterDepth = 20,
     MovementClass = "Default2x2",
     TurnRate = 3600,
@@ -79,19 +79,15 @@ local weaponDefs = {
     commandfire = false,
     craterboost = 0,
     cratermult = 0,
-	areaofeffect = 500,
-    edgeeffectiveness = 0.1,
-    explosionspeed = 128,
-    impulseboost = 0,
-    impulsefactor = 0,
-    intensity = 1,
+	areaofeffect = 0,
+    
     noselfdamage = true,
     size = 4,
 	targetborder = 0,
 	tolerence = 4000,
 --        soundstart = "tank_fire",
 --        soundhit = "explo01",
-    range = 150,
+    range = 100,
 	weaponvelocity = 500,
     reloadtime = 0.5,
     rgbcolor = "1.0 1.0 1.0",

@@ -57,7 +57,7 @@ allyteam=1;
 handicap=0;
 rgbcolor=0.976471 1 0;
 side=Maestros;
-startposx=1700;
+startposx=2700;
 startposz=2000;
 teamleader=1;
 }
@@ -67,7 +67,7 @@ allyteam=0;
 handicap=0;
 rgbcolor=1 0 0.0235294;
 side=Maestros;
-startposx=2700;
+startposx=1700;
 startposz=2000;
 teamleader=1;
 }

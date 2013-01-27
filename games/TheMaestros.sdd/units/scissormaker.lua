@@ -3,9 +3,9 @@ local unitName = "scissormaker"
 local unitDef =
 {
 -- Internal settings
-	BuildPic = "base.bmp",
+	BuildPic = "scisormaker.bmp",
 	Category = "BUILDING NOTSCOUT NOTHEAVY NOTAIR NOTEPIC NOTSHIP NOTSTEALTHY ALL",
-	ObjectName = "building.s3o",
+	ObjectName = "spider.s3o",
 	Side = "TANK",
 	TEDClass = "PLANT",
 	script = "scissormakerscript.lua",
@@ -17,7 +17,7 @@ local unitDef =
 	ActivateWhenBuilt = true,
 	BuildTime = 800,
     commander = true,
-	Description = "Produces tinkerer base units and factories",
+	Description = "Produces EDWARD_2.6's",
 	MaxDamage = 1500,
 	Name = "The Scissor Maker",
 	RadarDistance = 0,

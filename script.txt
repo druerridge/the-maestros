@@ -63,7 +63,7 @@
 	[TEAM0]
 	{
 		TeamLeader=1;
-		StartPosX=1700;
+		StartPosX=2700;
 		StartPosZ=2000;
 		AllyTeam=1;
 		RGBColor=0.976471 1 0;
@@ -73,7 +73,7 @@
 	[TEAM1]
 	{
 		TeamLeader=1;
-		StartPosX=2700;
+		StartPosX=1700;
 		StartPosZ=2000;
 		AllyTeam=0;
 		RGBColor=1 0 0.0235294;

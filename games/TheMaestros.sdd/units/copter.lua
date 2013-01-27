@@ -1,20 +1,22 @@
-local unitName  =  "plaid"
+local unitName  =  "copter"
 
 local unitDef  =  {
 --Internal settings
-    BuildPic = "plaid.bmp",
+    BuildPic = "copter.bmp",
     Category = "TANK SMALL NOTAIR NOTSUB",
-    ObjectName = "plaid.s3o",
-    name = "PLAID_V1.0",
+    ObjectName = "copter.s3o",
+    name = "COPTER_2.4",
     Side = "TANKS",
     TEDClass = "TANK",
-    UnitName = "plaid",
-	script = "plaidscriptS.lua",
+    UnitName = "copter",
+	--animation script
+    script = "copterscriptS.lua",
+
     
 --Unit limitations and properties
-    BuildTime = 500,
-    Description = "A tiny melee robot and arkanium gatherer.",
-    MaxDamage = 400,
+    BuildTime = 1000,
+    Description = "A multi-target melee robot.",
+    MaxDamage = 800,
     RadarDistance = 0,
     SightDistance = 4000,
     SoundCategory = "TANK",
@@ -25,26 +27,26 @@ local unitDef  =  {
     BuildCostMetal = 100,
     
 --Pathfinding and related
-    Acceleration = 0.2,
+    Acceleration = 0.15,
     BrakeRate = 0.5,
-    FootprintX = 2,
-    FootprintZ = 2,
+    FootprintX = 3,
+    FootprintZ = 3,
     MaxSlope = 15,
-    MaxVelocity = 8,
+    MaxVelocity = 7,
     MaxWaterDepth = 20,
     MovementClass = "Default2x2",
     TurnRate = 3600,
     
+    
 --Abilities
-    Builder = 1,
+    Builder = 0,
     CanAttack = 1,
     CanGuard = 1,
     CanMove = 1,
     CanPatrol = 1,
     CanStop = 1,
-    CanReclaim = 1,
     LeaveTracks = 1,
-    Reclaimable = 1,
+    Reclaimable = 0,
     
 --Hitbox
 --    collisionVolumeOffsets    =  "0 0 0",
@@ -53,17 +55,20 @@ local unitDef  =  {
 --    collisionVolumeType       =  "box",
     
 --Weapons and related
-    
+
+
     ExplodeAs = "TANKDEATH",
+
 	weapons = {
         [1] = {
-            def = "smallarms",
+            def = "blades",
         },
     },
+
 }
 local weaponDefs = {
-    smallarms = {
-    name = "Clamps",
+    blades = {
+    name = "Spinning Blades",
     weapontype = "Cannon",
     avoidfeature = false,
     avoidfriendly = false,
@@ -74,8 +79,12 @@ local weaponDefs = {
     commandfire = false,
     craterboost = 0,
     cratermult = 0,
-	areaofeffect = 0,
-    
+	areaofeffect = 100,
+    edgeeffectiveness = 0.1,
+    explosionspeed = 128,
+    impulseboost = 0,
+    impulsefactor = 0,
+    intensity = 1,
     noselfdamage = true,
     size = 4,
 	targetborder = 0,
@@ -96,5 +105,4 @@ local weaponDefs = {
     },
 }
 unitDef.weaponDefs = weaponDefs
-
 return lowerkeys({ [unitName]  =  unitDef })

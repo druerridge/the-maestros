@@ -1,4 +1,4 @@
-local building, platform, nanopoint = piece "building", piece "buildzone", piece "cauldron"
+local building, platform, nanopoint = piece "body", piece "buildzone", piece "nanopoint"
 -- declares all the pieces we'll be using.
 
 function script.Create(unitID)

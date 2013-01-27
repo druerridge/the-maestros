@@ -1,22 +1,25 @@
-local unitName = "garage"
+local unitName = "hanger"
 
 local unitDef =
 {
 -- Internal settings
-	BuildPic = "garage.bmp",
+	BuildPic = "hanger.bmp",
 	Category = "BUILDING NOTSCOUT NOTHEAVY NOTAIR NOTEPIC NOTSHIP NOTSTEALTHY ALL",
-	ObjectName = "garage.s3o",
+	ObjectName = "hanger.s3o",
 	Side = "TANK",
 	TEDClass = "PLANT",
-	script = "garagescript.lua",
+	script = "hangerscript.lua",
+	
+	customParams = {modify = "copter",},
+	--modify refers to the target output of the possible modifications
 	
 -- Unit limitations and properties
 	ActivateWhenBuilt = true,
-	BuildTime = 1000,
+	BuildTime = 800,
     commander = true,
-	Description = "Produces tinkerer base units and factories",
+	Description = "Produces Copters",
 	MaxDamage = 1500,
-	Name = "The Garage",
+	Name = "The Hanger",
 	RadarDistance = 0,
 	SightDistance = 400,
 	SoundCategory = "BUILDING",
@@ -24,7 +27,8 @@ local unitDef =
 	WorkerTime = 80,
 	
 -- Energy and metal related
-	BuildCostEnergy = 500,
+	BuildCostEnergy = 0,
+	BuildCostMetal = 400,
 	EnergyStorage = 0,
 	EnergyUse = 0,
 	MetalStorage = 0,
@@ -35,8 +39,8 @@ local unitDef =
 -- Pathfinding and related
 	Acceleration = 0.15,
     BrakeRate = 0.1,
-    FootprintX = 4,
-    FootprintZ = 4,
+    FootprintX = 2,
+    FootprintZ = 2,
     MaxSlope = 15,
     MaxVelocity = 2.0,
     MaxWaterDepth = 20,
@@ -46,17 +50,15 @@ local unitDef =
 -- Abilities
 	Builder = 1,
     Reclaimable = 0,
-    CanReclaim = 0,
-	ShowNanoSpray = 1,
+    reclaimSpeed = 1000.0;
+	ShowNanoSpray = 0,
 	CanMove = 1,
 	CanStop = 1,
 	LeaveTracks = 1,
 	CanBeAssisted = 0,
 	buildoptions = 
 	{
-		"scissormaker",
-		"hanger",
-		"plaid",
+		"copter",
 	},
 	
 -- Abilities new to Spring
