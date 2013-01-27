@@ -6,8 +6,13 @@
 	MyPlayerName=invalid;
 
 	ModHash=693984598;
+<<<<<<< HEAD
+	MapHash=3427893200;
+	Mapname=Maptest10;
+=======
 	MapHash=650402604;
 	Mapname=Small Supreme Battlefield V2;
+>>>>>>> 0065847a1dcfa8d9311f7ef3aba9f9a86bd7bf52
 	GameType=The Maestros;
 
 	startpostype=3;
@@ -46,8 +51,8 @@
 	[TEAM0]
 	{
 		TeamLeader=0;
-		StartPosX=936;
-		StartPosZ=5210;
+		StartPosX=1700;
+		StartPosZ=2000;
 		AllyTeam=0;
 		RGBColor=0 0 1;
 		Side=Maestros;

@@ -348,4 +348,5 @@ Scanning: C:\workspace\Spring\the-maestros\games
 [unitsync] Error: GetPrimaryModShortName: deprecated unitsync function called: GetPrimaryModShortName
 [unitsync] Error: GetPrimaryModName: deprecated unitsync function called: GetPrimaryModName
 [unitsync] Error: GetPrimaryModVersion: deprecated unitsync function called: GetPrimaryModVersion
-[unitsync] E
+[unitsync] Error: GetPrimaryModShortName: deprecated unitsync function called: GetPrimaryModShortName
+[unitsync] deinitialized
