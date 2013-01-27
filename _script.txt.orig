@@ -69,7 +69,11 @@ rgbcolor=1 0 0.0235294;
 side=Maestros;
 startposx=1700;
 startposz=2000;
+<<<<<<< HEAD
+teamleader=1;
+=======
 teamleader=0;
+>>>>>>> e764988d0d3214a5b093b5589ebe9da18d3b76e1
 }
 gametype=The Maestros;
 hostip=;
@@ -77,10 +81,14 @@ hostport=8452;
 ishost=1;
 maphash=3321872071;
 mapname=Maptest29;
+<<<<<<< HEAD
+modhash=1568489891;
+=======
 modhash=2050471509;
+>>>>>>> e764988d0d3214a5b093b5589ebe9da18d3b76e1
 myplayername=invalid;
 numplayers=1;
 numrestrictions=0;
-numusers=1;
+numusers=2;
 startpostype=3;
 }
