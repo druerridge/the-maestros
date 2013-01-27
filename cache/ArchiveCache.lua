@@ -2,7 +2,7 @@ local archiveCache = {
 
 	internalver = 9,
 
-	archives = {  -- count = 8
+	archives = {  -- count = 10
 		{
 			name = "b74fb917131a359c06ff49eee54fe5c8.sdp",
 			path = [[C:\Users\Jean\Documents\My Games\Spring\packages\]],
@@ -76,6 +76,28 @@ local archiveCache = {
 			},
 		},
 		{
+			name = "Maptest10.sd7",
+			path = [[C:\Users\Jean\Documents\GitHub\the-maestros\maps\]],
+			modified = "1359244957",
+			checksum = "1961467165",
+			archivedata = {
+				mapfile = "maps/Maptest10.smf",
+				modtype = 3,
+				name = "Maptest10",
+			},
+		},
+		{
+			name = "Small_Supreme_Battlefield_V2.sd7",
+			path = [[C:\Users\Jean\Documents\GitHub\the-maestros\maps\]],
+			modified = "1359193418",
+			checksum = "2658974177",
+			archivedata = {
+				mapfile = "maps/Small Supreme Battlefield V2.smf",
+				modtype = 3,
+				name = "Small Supreme Battlefield V2",
+			},
+		},
+		{
 			name = "springcontent.sdz",
 			path = [[C:\Users\Jean\Documents\GitHub\the-maestros\base\]],
 			modified = "1359173935",
@@ -92,8 +114,8 @@ local archiveCache = {
 		{
 			name = "TheMaestros.sdd",
 			path = [[C:\Users\Jean\Documents\GitHub\the-maestros\games\]],
-			modified = "1359173935",
-			checksum = "3626970354",
+			modified = "1359180050",
+			checksum = "19271085",
 			archivedata = {
 				description = "Prototype for Maestro",
 				game = "The Maestros Game",

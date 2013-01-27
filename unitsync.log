@@ -14,6 +14,7 @@ Using read-only data directory: C:\Users\Jean\Documents\My Games\Spring\
 Scanning: C:\Users\Jean\Documents\My Games\Spring\maps
 Scanning: C:\Users\Jean\Documents\My Games\Spring\mods
 Scanning: C:\Users\Jean\Documents\My Games\Spring\packages
+Scanning: C:\Users\Jean\Documents\GitHub\the-maestros\maps
 Scanning: C:\Users\Jean\Documents\GitHub\the-maestros\base
 Scanning: C:\Users\Jean\Documents\GitHub\the-maestros\games
 [unitsync] loaded, 91.0 (Headless Unitsync)
@@ -31,9 +32,6 @@ Scanning: C:\Users\Jean\Documents\GitHub\the-maestros\games
 [unitsync] Error: GetPrimaryModName: deprecated unitsync function called: GetPrimaryModName
 [unitsync] Error: GetPrimaryModVersion: deprecated unitsync function called: GetPrimaryModVersion
 [unitsync] Error: GetPrimaryModShortName: deprecated unitsync function called: GetPrimaryModShortName
-Loading all definitions:  0.000000
-[unitsync] Error: GetPrimaryModArchive: Argument index out of bounds. Index: -1 Array size: 3
-[unitsync] Error: AddAllArchives: Argument rootArchiveName may not be null or empty.
 [unitsync] Warning: The deprecated unitsync function GetInfoValue was called. Please update your lobby client
 [unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
 [unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue

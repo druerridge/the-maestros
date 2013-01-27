@@ -5,9 +5,9 @@
 	IsHost=1;
 	MyPlayerName=invalid;
 
-	ModHash=4032068617;
-	MapHash=480445294;
-	Mapname=IsisDelta_v02;
+	ModHash=693984598;
+	MapHash=3427893200;
+	Mapname=Maptest10;
 	GameType=The Maestros;
 
 	startpostype=3;
@@ -46,8 +46,8 @@
 	[TEAM0]
 	{
 		TeamLeader=0;
-		StartPosX=5060;
-		StartPosZ=2104;
+		StartPosX=1700;
+		StartPosZ=2000;
 		AllyTeam=0;
 		RGBColor=1 1 0;
 		Side=TANKS;
