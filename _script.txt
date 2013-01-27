@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [game]
 {
 [allyteam0]
@@ -53,3 +54,46 @@ numrestrictions=0;
 numusers=1;
 startpostype=3;
 }
+=======
+[game]
+{
+[allyteam0]
+{
+numallies=0;
+}
+[allyteam1]
+{
+numallies=0;
+}
+[modoptions]
+{
+maxspeed=20;
+}
+[player0]
+{
+name=UnnamedPlayer;
+team=0;
+}
+[player1]
+{
+name=Enemy;
+team=1;
+}
+[team0]
+{
+allyteam=0;
+teamleader=0;
+}
+[team1]
+{
+allyteam=1;
+teamleader=1;
+}
+gametype=The Maestros;
+ishost=1;
+mapname=Maptest10;
+myplayername=UnnamedPlayer;
+nohelperais=0;
+onlylocal=1;
+}
+>>>>>>> d08fb4a3d9b0ba741cc602b1a24efc46aaa6d944

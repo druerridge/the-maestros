@@ -1,0 +1,8 @@
+AAI 0.9 running mod The Maestros
+ 
+Mod config file AI\Skirmish\AAI\0.9\cfg\mod\The_Maestros.cfg not found
+Now trying with legacy mod config file name ...
+Mod config file AI\Skirmish\AAI\0.9\cfg\mod\TheMaestros.cfg not found
+Now trying with version independent mod config file name ...
+Mod config file AI\Skirmish\AAI\0.9\cfg\mod\Maestros.cfg not found
+Give up trying to find mod config file (required).

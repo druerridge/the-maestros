@@ -10,6 +10,9 @@ local unitDef  =  {
     TEDClass = "TANK",
     UnitName = "plaid",
 --script = "tankscript.lua",
+
+	customParams = {transform = "edward",},
+	--currently only supports one transformation, not helped by the obscure way the map works
     
 --Unit limitations and properties
     BuildTime = 500,
