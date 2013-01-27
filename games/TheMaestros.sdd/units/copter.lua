@@ -34,7 +34,7 @@ local unitDef  =  {
     FootprintX = 3,
     FootprintZ = 3,
     MaxSlope = 15,
-    MaxVelocity = 7,
+    MaxVelocity = 6,
     MaxWaterDepth = 20,
     MovementClass = "Default2x2",
     TurnRate = 3600,
@@ -82,7 +82,7 @@ local weaponDefs = {
     craterboost = 0,
     cratermult = 0,
 	areaofeffect = 100,
-    edgeeffectiveness = 0.1,
+    edgeeffectiveness = 0.5,
     explosionspeed = 128,
     impulseboost = 0,
     impulsefactor = 0,
@@ -93,7 +93,7 @@ local weaponDefs = {
 	tolerence = 4000,
 --        soundstart = "tank_fire",
 --        soundhit = "explo01",
-    range = 100,
+    range = 150,
 	weaponvelocity = 500,
     reloadtime = 0.5,
     rgbcolor = "1.0 1.0 1.0",
@@ -102,7 +102,7 @@ local weaponDefs = {
 --		explosiongenerator = "custom:TANKGUN_FX",
     damage =
     {
-        default = 55,
+        default = 40,
     },
     },
 }

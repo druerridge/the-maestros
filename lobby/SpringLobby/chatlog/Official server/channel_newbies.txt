@@ -25,3 +25,16 @@
 [20:30]  ** Set by ChanServ
 [23:52]  ** Server ** Disconnected from server, chat closed.
 [23:52]  ** Server ** Chat closed.
+### Session Start at [2013-01-27 14:31]
+[14:31]  ** Channel topic:
+[14:31]  Welcome to the main Spring server
+[14:31]  Frequently asked questions: http://springrts.com/wiki/FAQ
+[14:31]  Still have troubles? http://springrts.com/wiki/Bugs
+[14:31]  Forum: http://springrts.com/phpbb/
+[14:31]  games & maps download mirrors: http://springrts.com/wiki/Getting_Spring_Content_and_Links
+[14:31]  Mumble (voice comm) server: springrts.com (mumble download: http://mumble.sourceforge.net/)
+[14:31]  Need help? Try to ask it on this channel.
+[14:31]  ** Set by ChanServ
+[14:40]  <Lordgges> hai
+[14:41]  ** Server ** Disconnected from server, chat closed.
+[14:41]  ** Server ** Chat closed.

@@ -75,3 +75,13 @@
 [20:30]  ** motd ** Server's uptime is 1.59 weeks
 [23:52]  ** Server ** disconnected from server: Official server
 [23:52]  ** Server ** Chat closed.
+### Session Start at [2013-01-27 14:31]
+[14:31]  ** Server ** Connecting to server Official server...
+[14:31]  ** Server ** Connected to Official server.
+[14:31]  ** motd ** Welcome, Huniku!
+[14:31]  ** motd ** There are currently 282 clients connected
+[14:31]  ** motd ** to the server talking in 4263 open channels
+[14:31]  ** motd ** and participating in 80 battles.
+[14:31]  ** motd ** Server's uptime is 1.70 weeks
+[14:41]  ** Server ** disconnected from server: Official server
+[14:41]  ** Server ** Chat closed.
