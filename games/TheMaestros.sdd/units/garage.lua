@@ -5,7 +5,7 @@ local unitDef =
 -- Internal settings
 	BuildPic = "base.bmp",
 	Category = "BUILDING NOTSCOUT NOTHEAVY NOTAIR NOTEPIC NOTSHIP NOTSTEALTHY ALL",
-	ObjectName = "base2.s3o",
+	ObjectName = "garage.s3o",
 	Side = "TANK",
 	TEDClass = "PLANT",
 	script = "garagescript.lua",
@@ -22,14 +22,13 @@ local unitDef =
 	SoundCategory = "BUILDING",
 	Upright = 1,
 	WorkerTime = 80,
-	levelground = 1,
 	
 -- Energy and metal related
 	BuildCostEnergy = 500,
 	EnergyStorage = 0,
 	EnergyUse = 0,
 	MetalStorage = 0,
-	EnergyMake = 1, 
+	EnergyMake = 0, 
 	MakesMetal = 0, 
 	MetalMake = 0,
 	
@@ -46,7 +45,8 @@ local unitDef =
 
 -- Abilities
 	Builder = 1,
-        Reclaimable = 0,
+    Reclaimable = 0,
+    CanReclaim = 0,
 	ShowNanoSpray = 1,
 	CanMove = 1,
 	CanStop = 1,
