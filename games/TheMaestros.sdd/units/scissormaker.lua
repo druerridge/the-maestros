@@ -3,18 +3,21 @@ local unitName = "scissormaker"
 local unitDef =
 {
 -- Internal settings
-	BuildPic = "base.bmp",
+	BuildPic = "scisormaker.bmp",
 	Category = "BUILDING NOTSCOUT NOTHEAVY NOTAIR NOTEPIC NOTSHIP NOTSTEALTHY ALL",
-	ObjectName = "building.s3o",
+	ObjectName = "spider.s3o",
 	Side = "TANK",
 	TEDClass = "PLANT",
 	script = "scissormakerscript.lua",
+	
+	customParams = {modify = "edward",},
+	--modify refers to the target output of the possible modifications
 	
 -- Unit limitations and properties
 	ActivateWhenBuilt = true,
 	BuildTime = 800,
     commander = true,
-	Description = "Produces tinkerer base units and factories",
+	Description = "Produces EDWARD_2.6's",
 	MaxDamage = 1500,
 	Name = "The Scissor Maker",
 	RadarDistance = 0,
@@ -22,7 +25,6 @@ local unitDef =
 	SoundCategory = "BUILDING",
 	Upright = 1,
 	WorkerTime = 80,
-	levelground = 1,
 	
 -- Energy and metal related
 	BuildCostEnergy = 0,
@@ -30,15 +32,15 @@ local unitDef =
 	EnergyStorage = 0,
 	EnergyUse = 0,
 	MetalStorage = 0,
-	EnergyMake = 1, 
+	EnergyMake = 0, 
 	MakesMetal = 0, 
 	MetalMake = 0,
 	
 -- Pathfinding and related
 	Acceleration = 0.15,
     BrakeRate = 0.1,
-    FootprintX = 4,
-    FootprintZ = 4,
+    FootprintX = 2,
+    FootprintZ = 2,
     MaxSlope = 15,
     MaxVelocity = 2.0,
     MaxWaterDepth = 20,
@@ -47,7 +49,8 @@ local unitDef =
 
 -- Abilities
 	Builder = 1,
-        Reclaimable = 0,
+    Reclaimable = 0,
+    reclaimSpeed = 1000.0;
 	ShowNanoSpray = 0,
 	CanMove = 1,
 	CanStop = 1,
