@@ -5,9 +5,9 @@
 	IsHost=1;
 	MyPlayerName=invalid;
 
-	ModHash=2066710741;
-	MapHash=3321872071;
-	Mapname=Maptest29;
+	ModHash=676751262;
+	MapHash=650402604;
+	Mapname=Small Supreme Battlefield V2;
 	GameType=The Maestros;
 
 	startpostype=3;
@@ -63,8 +63,8 @@
 	[TEAM0]
 	{
 		TeamLeader=1;
-		StartPosX=2700;
-		StartPosZ=2000;
+		StartPosX=2460;
+		StartPosZ=6202;
 		AllyTeam=1;
 		RGBColor=0.976471 1 0;
 		Side=Maestros;
@@ -73,10 +73,10 @@
 	[TEAM1]
 	{
 		TeamLeader=1;
-		StartPosX=1700;
-		StartPosZ=2000;
+		StartPosX=2787;
+		StartPosZ=7564;
 		AllyTeam=0;
-		RGBColor=0 0 1;
+		RGBColor=1 0 0.0235294;
 		Side=Maestros;
 		Handicap=0;
 	}
