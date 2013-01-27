@@ -34,19 +34,19 @@ team=0;
 {
 allyteam=0;
 handicap=0;
-rgbcolor=0 0 1;
+rgbcolor=1 1 0;
 side=Maestros;
-startposx=936;
-startposz=5210;
+startposx=1700;
+startposz=2000;
 teamleader=0;
 }
 gametype=The Maestros;
 hostip=;
 hostport=8452;
 ishost=1;
-maphash=650402604;
-mapname=Small Supreme Battlefield V2;
-modhash=316862356;
+maphash=3321872071;
+mapname=Maptest29;
+modhash=3355260587;
 myplayername=invalid;
 numplayers=1;
 numrestrictions=0;

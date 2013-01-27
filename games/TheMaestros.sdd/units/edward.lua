@@ -5,7 +5,7 @@ local unitDef  =  {
     BuildPic = "filename.bmp",
     Category = "TANK SMALL NOTAIR NOTSUB",
     ObjectName = "edward.s3o",
-    name = "EDWARD",
+    name = "EDWARD_2.6",
     Side = "TANKS",
     TEDClass = "TANK",
     UnitName = "edward",
@@ -15,7 +15,7 @@ local unitDef  =  {
     
 --Unit limitations and properties
     BuildTime = 1000,
-    Description = "A single target melee robot.",
+    Description = "A multi-target melee robot.",
     MaxDamage = 800,
     RadarDistance = 0,
     SightDistance = 4000,
@@ -56,9 +56,9 @@ local unitDef  =  {
     
 --Weapons and related
 
-    BadTargetCategory = "NOTAIR",
+
     ExplodeAs = "TANKDEATH",
-    NoChaseCategory = "AIR",
+
 	weapons = {
         [1] = {
             def = "arms",
@@ -70,16 +70,16 @@ local weaponDefs = {
     arms = {
     name = "ScisorHands",
     weapontype = "Cannon",
-    accuracy = 10,
-    areaofeffect = 100,
     avoidfeature = false,
     avoidfriendly = false,
     canattackground = false,
     collidefriendly = false,
-    collisionsize = 8,
+	collideground = false,
+    collisionsize = 1,
     commandfire = false,
     craterboost = 0,
     cratermult = 0,
+	areaofeffect = 500,
     edgeeffectiveness = 0.1,
     explosionspeed = 128,
     impulseboost = 0,
@@ -87,17 +87,16 @@ local weaponDefs = {
     intensity = 1,
     noselfdamage = true,
     size = 4,
-	targetborder = -1,
+	targetborder = 0,
 	tolerence = 4000,
 --        soundstart = "tank_fire",
 --        soundhit = "explo01",
-    range = 250,
+    range = 150,
 	weaponvelocity = 500,
     reloadtime = 0.5,
     rgbcolor = "1.0 1.0 1.0",
     turret = false,
     texture1 = "flame",
-    weaponvelocity = 400,
 --		explosiongenerator = "custom:TANKGUN_FX",
     damage =
     {
