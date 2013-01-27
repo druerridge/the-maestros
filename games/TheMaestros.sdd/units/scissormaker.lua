@@ -3,7 +3,7 @@ local unitName = "scissormaker"
 local unitDef =
 {
 -- Internal settings
-	BuildPic = "scisormaker.bmp",
+	BuildPic = "SpiderThumbnail.png",
 	Category = "BUILDING NOTSCOUT NOTHEAVY NOTAIR NOTEPIC NOTSHIP NOTSTEALTHY ALL",
 	ObjectName = "spider.s3o",
 	Side = "TANK",
@@ -48,19 +48,17 @@ local unitDef =
     TurnRate = 3600,
 
 -- Abilities
-	Builder = 1,
+	Builder = 0,
     Reclaimable = 0,
-    canReclaim = 0,
 	ShowNanoSpray = 0,
 	CanMove = 1,
-	CanBuild = 0,
 	CanStop = 1,
 	LeaveTracks = 1,
 	CanBeAssisted = 0,
-	buildoptions = 
-	{
-		"edward",
-	},
+	--buildoptions = 
+	--{
+	--	"edward",
+	--},
 	
 -- Abilities new to Spring
 	

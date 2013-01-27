@@ -2,7 +2,7 @@ local unitName  =  "plaid"
 
 local unitDef  =  {
 --Internal settings
-    BuildPic = "plaid.bmp",
+    BuildPic = "PlaidThumbnail.png",
     Category = "TANK SMALL NOTAIR NOTSUB",
     ObjectName = "plaid.s3o",
     name = "PLAID_V1.0",
@@ -40,15 +40,17 @@ local unitDef  =  {
     
 --Abilities
     Builder = 1,
+    CanReclaim = 1,
+    ReclaimSpeed = 1000,
+    ShowNanoSpray = 1,
     CanAttack = 1,
     CanFight = 1,
     CanGuard = 1,
     CanMove = 1,
     CanPatrol = 1,
     CanStop = 1,
-    CanReclaim = 1,
     LeaveTracks = 1,
-    Reclaimable = 1,
+    Reclaimable = 0,
     
 --Hitbox
 --    collisionVolumeOffsets    =  "0 0 0",

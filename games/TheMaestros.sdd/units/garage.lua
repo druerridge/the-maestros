@@ -3,7 +3,7 @@ local unitName = "garage"
 local unitDef =
 {
 -- Internal settings
-	BuildPic = "garage.bmp",
+	BuildPic = "GarageThumbnail.png",
 	Category = "BUILDING NOTSCOUT NOTHEAVY NOTAIR NOTEPIC NOTSHIP NOTSTEALTHY ALL",
 	ObjectName = "garage.s3o",
 	Side = "TANK",
@@ -49,7 +49,7 @@ local unitDef =
 -- Abilities
 	Builder = 1,
     Reclaimable = 0,
-    CanReclaim = 0,
+    CanReclaim = 1,
 	ShowNanoSpray = 1,
 	CanMove = 1,
 	CanStop = 1,
