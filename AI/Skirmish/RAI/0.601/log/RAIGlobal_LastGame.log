@@ -1,0 +1,23 @@
+Loading Global RAI...
+ Mod = The Maestros(e343ef72)
+ Map = Small Supreme Battlefield V2(26c45b2c)
+ Loading the Terrain-Map ...
+  Sector-Map Block Size: 64
+  Sector-Map Size: 16384 (x128,z128)
+  Determining Usable Terrain for all units ...
+   Map Land Percent: 40.95%
+   Water is a void: 0
+   Water is harmful: 0
+   Minimum Elevation: -79
+   Immobile-Type: Min/Max Elevation=(0 / any)   	Is buildable across 39.12% of the map. (used by 0 unit-defs)
+   Immobile-Type: Min/Max Elevation=(any / 0)   	Is buildable across 57.25% of the map. (used by 0 unit-defs)
+  Terrain-Map Loading Time: 0.022 seconds
+ Loading the Resource-Map ...
+  No resource units were detected for this mod.
+  Resource-Map Loading Time: 0 seconds
+
+Global RAI Loading Complete.
+
+
+ Global RAI Shutting Down
+ Global RAI Shutdown Complete.

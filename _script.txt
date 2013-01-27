@@ -1,10 +1,34 @@
 [game]
 {
+[ai0]
+{
+[options]
+{
+aggressiveness=normal;
+maphack=0;
+maxgroupsize=10;
+reporturl=http://myAIStats.myDomain.com/statsReceiver.cgi;
+resourcebonous=0;
+}
+host=1;
+isfromdemo=0;
+name=Bot1;
+shortname=NullAI;
+team=0;
+version=0.1;
+}
 [allyteam0]
 {
 numallies=0;
 }
 [allyteam1]
+<<<<<<< HEAD
+=======
+{
+numallies=0;
+}
+[mapoptions]
+>>>>>>> e97a68aa0241f4b738ec873881425c35e79e42e5
 {
 numallies=0;
 }
@@ -12,10 +36,19 @@ numallies=0;
 {
 maxspeed=20;
 }
-[player0]
+[player1]
 {
+<<<<<<< HEAD
 name=UnnamedPlayer;
 team=0;
+=======
+countrycode=;
+isfromdemo=0;
+name=invalid;
+rank=0;
+spectator=0;
+team=1;
+>>>>>>> e97a68aa0241f4b738ec873881425c35e79e42e5
 }
 [player1]
 {
@@ -24,8 +57,27 @@ team=1;
 }
 [team0]
 {
+allyteam=1;
+handicap=0;
+rgbcolor=0.976471 1 0;
+side=TANKS;
+startposx=2460;
+startposz=6202;
+teamleader=1;
+}
+[team1]
+{
 allyteam=0;
+<<<<<<< HEAD
 teamleader=0;
+=======
+handicap=0;
+
+rgbcolor=1 1 0;
+side=TANKS;
+startposx=1700;
+startposz=2000;
+>>>>>>> e97a68aa0241f4b738ec873881425c35e79e42e5
 }
 [team1]
 {
@@ -35,7 +87,16 @@ teamleader=1;
 gametype=The Maestros;
 ishost=1;
 mapname=Small Supreme Battlefield V2;
+<<<<<<< HEAD
 myplayername=UnnamedPlayer;
 nohelperais=0;
 onlylocal=1;
+=======
+modhash=693984598;
+myplayername=invalid;
+numplayers=1;
+numrestrictions=0;
+numusers=2;
+startpostype=3;
+>>>>>>> e97a68aa0241f4b738ec873881425c35e79e42e5
 }
