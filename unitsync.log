@@ -247,9 +247,218 @@ Scanning: C:\workspace\Spring\the-maestros\games
 [unitsync] Error: GetPrimaryModName: deprecated unitsync function called: GetPrimaryModName
 [unitsync] Error: GetPrimaryModVersion: deprecated unitsync function called: GetPrimaryModVersion
 [unitsync] Error: GetPrimaryModShortName: deprecated unitsync function called: GetPrimaryModShortName
+Error: 2, maphelper/mapinfo.lua, [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+[unitsync] Error: internal_GetMapInfo: [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+Error: 2, maphelper/mapinfo.lua, [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+[unitsync] Error: internal_GetMapInfo: [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+Error: 2, maphelper/mapinfo.lua, [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+[unitsync] Error: internal_GetMapInfo: [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+Error: 2, maphelper/mapinfo.lua, [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+[unitsync] Error: internal_GetMapInfo: [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+Error: 2, maphelper/mapinfo.lua, [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+[unitsync] Error: internal_GetMapInfo: [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+Error: 2, maphelper/mapinfo.lua, [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+[unitsync] Error: internal_GetMapInfo: [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+Error: 2, maphelper/mapinfo.lua, [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+[unitsync] Error: internal_GetMapInfo: [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+Error: 2, maphelper/mapinfo.lua, [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+[unitsync] Error: internal_GetMapInfo: [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+Error: 2, maphelper/mapinfo.lua, [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+[unitsync] Error: internal_GetMapInfo: [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+Error: 2, maphelper/mapinfo.lua, [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+[unitsync] Error: internal_GetMapInfo: [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+Error: 2, maphelper/mapinfo.lua, [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+[unitsync] Error: internal_GetMapInfo: [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+Error: 2, MapOptions.lua, error = 2, maphelper/mapinfo.lua, [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+
+[unitsync] Error: GetMapOptionCount: luaParser.Execute() failed: error = 2, maphelper/mapinfo.lua, [string "maphelper/mapinfo.lua"]:69: drumap/Maptest4.smd: missing file
+
+[unitsync] Error: OpenFileVFS: File 'SidePics/MAESTROS.png' does not exist
+[unitsync] Error: OpenFileVFS: File 'SidePics/MAESTROS.bmp' does not exist
 [unitsync] deinitialized
 Using read-write data directory: C:\workspace\Spring\the-maestros\
 Using read-only data directory: C:\Users\RAICHU\Documents\My Games\Spring\
 Scanning: C:\workspace\Spring\the-maestros\maps
 Scanning: C:\workspace\Spring\the-maestros\base
-Scanning: C:\workspace\Spring\the-
+Scanning: C:\workspace\Spring\the-maestros\games
+[unitsync] loaded, 91.0 (Headless Unitsync)
+[unitsync] initialized, 91.0 (Headless Unitsync)
+[unitsync] hosting
+[unitsync] Error: GetPrimaryModName: deprecated unitsync function called: GetPrimaryModName
+[unitsync] Error: GetPrimaryModVersion: deprecated unitsync function called: GetPrimaryModVersion
+[unitsync] Error: GetPrimaryModShortName: deprecated unitsync function called: GetPrimaryModShortName
+[unitsync] deinitialized
+Using read-write data directory: C:\workspace\Spring\the-maestros\
+Using read-only data directory: C:\Users\RAICHU\Documents\My Games\Spring\
+Scanning: C:\workspace\Spring\the-maestros\maps
+Scanning: C:\workspace\Spring\the-maestros\base
+Scanning: C:\workspace\Spring\the-maestros\games
+[unitsync] loaded, 91.0 (Headless Unitsync)
+[unitsync] initialized, 91.0 (Headless Unitsync)
+[unitsync] hosting
+[unitsync] Error: GetPrimaryModName: deprecated unitsync function called: GetPrimaryModName
+[unitsync] Error: GetPrimaryModVersion: deprecated unitsync function called: GetPrimaryModVersion
+[unitsync] Error: GetPrimaryModShortName: deprecated unitsync function called: GetPrimaryModShortName
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] deinitialized

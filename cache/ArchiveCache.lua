@@ -2,7 +2,7 @@ local archiveCache = {
 
 	internalver = 9,
 
-	archives = {  -- count = 6
+	archives = {  -- count = 7
 		{
 			name = "bitmaps.sdz",
 			path = [[C:\workspace\Spring\the-maestros\base\spring\]],
@@ -23,6 +23,17 @@ local archiveCache = {
 				description = "Cursor pack by Erom",
 				modtype = 0,
 				name = "Spring Cursors",
+			},
+		},
+		{
+			name = "drumap.sd7",
+			path = [[C:\workspace\Spring\the-maestros\maps\]],
+			modified = "1359240444",
+			checksum = "3941799158",
+			archivedata = {
+				mapfile = "drumap/maps/drumap.smf",
+				modtype = 3,
+				name = "drumap",
 			},
 		},
 		{

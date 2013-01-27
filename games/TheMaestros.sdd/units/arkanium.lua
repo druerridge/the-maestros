@@ -1,30 +1,32 @@
-local unitName = "garage"
+local unitName = "arkanium"
 
 local unitDef =
 {
 -- Internal settings
 	BuildPic = "base.bmp",
 	Category = "BUILDING NOTSCOUT NOTHEAVY NOTAIR NOTEPIC NOTSHIP NOTSTEALTHY ALL",
-	ObjectName = "base2.s3o",
+	ObjectName = "arkanium.s3o",
 	Side = "TANK",
 	TEDClass = "PLANT",
-	script = "garagescript.lua",
+--script = "basescript.lua",
 	
 -- Unit limitations and properties
 	ActivateWhenBuilt = true,
 	BuildTime = 1000,
     commander = true,
-	Description = "Produces tinkerer base units and factories",
-	MaxDamage = 1500,
-	Name = "The Garage",
+	Description = "A patch of the rare and valuable mineral, Arkanium",
+	MaxDamage = 0,
+	Name = "Arkanium",
 	RadarDistance = 0,
 	SightDistance = 400,
 	SoundCategory = "BUILDING",
 	Upright = 1,
 	WorkerTime = 80,
-	
+	levelground = 1,
+		
 -- Energy and metal related
-	BuildCostEnergy = 500,
+	BuildCostEnergy = 0,
+	BuildCostMetal = 100,
 	EnergyStorage = 0,
 	EnergyUse = 0,
 	MetalStorage = 0,
@@ -33,35 +35,24 @@ local unitDef =
 	MetalMake = 0,
 	
 -- Pathfinding and related
-	Acceleration = 0.15,
-    BrakeRate = 0.1,
-    FootprintX = 4,
-    FootprintZ = 4,
-    MaxSlope = 15,
-    MaxVelocity = 2.0,
-    MaxWaterDepth = 20,
-    MovementClass = "Default2x2",
-    TurnRate = 3600,
+	FootprintX = 4,
+	FootprintZ = 4,
+	MaxSlope = 10,
+	MaxWaterDepth = 0,
+	YardMap = "cccc cccc cccc cccc",
 
 -- Abilities
-	Builder = 1,
-    Reclaimable = 0,
-    CanReclaim = 0,
-	ShowNanoSpray = 1,
-	CanMove = 1,
-	CanStop = 1,
-	LeaveTracks = 1,
+	Builder = 0,
+    Reclaimable = 1,
+	ShowNanoSpray = 0,
 	CanBeAssisted = 0,
-	buildoptions = 
-	{
-		"scissormaker",
-		"plaid",
-	},
+	CanMove = 0,
+	CanWait = 0,
+	CanStop = 0,
 	
 -- Abilities new to Spring
 	
 -- Weapons and related
-
 	ExplodeAs = "BUILDINGLARGEDEATH",
 	SelfDestructAs = "BUILDINGLARGEDEATH",
 	SelfDestructCountdown = 5,

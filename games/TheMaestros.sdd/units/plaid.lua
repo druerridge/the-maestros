@@ -36,14 +36,15 @@ local unitDef  =  {
     TurnRate = 3600,
     
 --Abilities
-    Builder = 0,
+    Builder = 1,
     CanAttack = 1,
     CanGuard = 1,
     CanMove = 1,
     CanPatrol = 1,
     CanStop = 1,
+    CanReclaim = 1,
     LeaveTracks = 1,
-    Reclaimable = 0,
+    Reclaimable = 1,
     
 --Hitbox
 --    collisionVolumeOffsets    =  "0 0 0",
