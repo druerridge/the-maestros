@@ -52,6 +52,8 @@ if (gadgetHandler:IsSyncedCode()) then
 	}
 		
 	function gadget:UnitCreated(u, ud, team)
+					Spring.Echo(UnitDefs[Spring.GetUnitDefID(u)]["customParams"]["transform"])
+					Spring.Echo(UnitDefs[Spring.GetUnitDefID(u)]["customParams"]["buildpermit"])
 		if UnitDefs[Spring.GetUnitDefID(u)]["customParams"]["transform"] ~= nil then
 			Spring.InsertUnitCmdDesc(u,desc)
 		end
@@ -61,7 +63,7 @@ if (gadgetHandler:IsSyncedCode()) then
 		if cmd == CMD_CHANGECLASS then
 			if param[1] and Spring.ValidUnitID(param[1]) then
 				if Spring.GetUnitTeam(param[1]) == team then
-					if UnitDefs[Spring.GetUnitDefID(u)]["customParams"]["transform"] == UnitDefs[Spring.GetUnitDefID(param[1])]["customParams"]["modify"] then
+					if UnitDefs[Spring.GetUnitDefID(u)]["customParams"]["buildpermit"] == UnitDefs[Spring.GetUnitDefID(param[1])]["customParams"]["buildreq"] then
 					--Spring.Echo("AllowCommand")
 						return true
 					end
@@ -83,7 +85,7 @@ if (gadgetHandler:IsSyncedCode()) then
 			--Spring.Echo("moving")
 				return true, false
 			else
-				local newUnitID = Spring.CreateUnit(UnitDefs[Spring.GetUnitDefID(u)]["customParams"]["transform"], x, y, z, Spring.GetUnitBuildFacing(u), team)
+				local newUnitID = Spring.CreateUnit(UnitDefs[Spring.GetUnitDefID(param[1])]["customParams"]["modify"], x, y, z, Spring.GetUnitBuildFacing(u), team)
 				x,y,z = Spring.GetUnitDirection(u)
 				Spring.SetUnitDirection(newUnitID, x, y, z)
 				Spring.DestroyUnit(u, false, true)
