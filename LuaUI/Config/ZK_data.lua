@@ -74,7 +74,7 @@ return {
 		country = "wut",
 		lang = "en",
 		music_volume = 0.5,
-		show_crudemenu = true,
+		show_crudemenu = false,
 		sub_pos_x = 512,
 		sub_pos_y = 384,
 		versionmin = 50,
