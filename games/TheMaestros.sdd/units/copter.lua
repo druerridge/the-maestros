@@ -12,7 +12,7 @@ local unitDef  =  {
 	--animation script
     script = "copterscriptS.lua",
 
-    customParams = {transform = "plaid",},
+    customParams = {transform = "plaid", buildpermit = "t0",},
     --modify refers to the target output of the possible modifications
 
 --Unit limitations and properties

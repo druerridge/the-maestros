@@ -10,7 +10,7 @@ local unitDef =
 	TEDClass = "PLANT",
 	script = "garagescript.lua",
 	
-	customParams = {modify = "plaid",},
+	customParams = {modify = "plaid", buildreq = "t0",},
 	--modify refers to the target output of the possible modifications
 
 -- Unit limitations and properties
