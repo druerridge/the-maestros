@@ -390,4 +390,6 @@ Scanning: C:\Workspace\Maestro\the-maestros\games
 [unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
 [unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
 [unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
-[unitsync] Error: GetInfoValue: deprecate
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] Error: GetInfoValue: deprecated unitsync function called: GetInfoValue
+[unitsync] deinitialized

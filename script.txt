@@ -6,8 +6,8 @@
 	MyPlayerName=invalid;
 
 	ModHash=693984598;
-	MapHash=650402604;
-	Mapname=Small Supreme Battlefield V2;
+	MapHash=3427893200;
+	Mapname=Maptest10;
 	GameType=The Maestros;
 
 	startpostype=3;

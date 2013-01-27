@@ -65,11 +65,11 @@ teamleader=1;
 {
 allyteam=0;
 handicap=0;
-rgbcolor=0 0 1;
-side=Maestros;
-startposx=936;
-startposz=5210;
-teamleader=1;
+
+rgbcolor=1 1 0;
+side=TANKS;
+startposx=1700;
+startposz=2000;
 }
 gametype=The Maestros;
 hostip=;
