@@ -25,7 +25,6 @@ local unitDef =
 	SoundCategory = "BUILDING",
 	Upright = 1,
 	WorkerTime = 80,
-	levelground = 1,
 	
 -- Energy and metal related
 	BuildCostEnergy = 0,
@@ -33,15 +32,15 @@ local unitDef =
 	EnergyStorage = 0,
 	EnergyUse = 0,
 	MetalStorage = 0,
-	EnergyMake = 1, 
+	EnergyMake = 0, 
 	MakesMetal = 0, 
 	MetalMake = 0,
 	
 -- Pathfinding and related
 	Acceleration = 0.15,
     BrakeRate = 0.1,
-    FootprintX = 4,
-    FootprintZ = 4,
+    FootprintX = 2,
+    FootprintZ = 2,
     MaxSlope = 15,
     MaxVelocity = 2.0,
     MaxWaterDepth = 20,
@@ -50,7 +49,8 @@ local unitDef =
 
 -- Abilities
 	Builder = 1,
-        Reclaimable = 0,
+    Reclaimable = 0,
+    reclaimSpeed = 1000.0;
 	ShowNanoSpray = 0,
 	CanMove = 1,
 	CanStop = 1,

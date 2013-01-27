@@ -10,9 +10,6 @@ local unitDef  =  {
     TEDClass = "TANK",
     UnitName = "plaid",
 --script = "tankscript.lua",
-
-	customParams = {transform = "edward",},
-	--currently only supports one transformation, not helped by the obscure way the map works
     
 --Unit limitations and properties
     BuildTime = 500,
@@ -39,14 +36,15 @@ local unitDef  =  {
     TurnRate = 3600,
     
 --Abilities
-    Builder = 0,
+    Builder = 1,
     CanAttack = 1,
     CanGuard = 1,
     CanMove = 1,
     CanPatrol = 1,
     CanStop = 1,
+    CanReclaim = 1,
     LeaveTracks = 1,
-    Reclaimable = 0,
+    Reclaimable = 1,
     
 --Hitbox
 --    collisionVolumeOffsets    =  "0 0 0",
