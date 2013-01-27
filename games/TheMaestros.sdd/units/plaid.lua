@@ -9,14 +9,14 @@ local unitDef  =  {
     Side = "TANKS",
     TEDClass = "TANK",
     UnitName = "plaid",
---script = "tankscript.lua",
+	script = "plaidScripts.lua",
     
 --Unit limitations and properties
     BuildTime = 500,
     Description = "A tiny melee robot and arkanium gatherer.",
     MaxDamage = 400,
     RadarDistance = 0,
-    SightDistance = 400,
+    SightDistance = 4000,
     SoundCategory = "TANK",
     Upright = 0,
     
@@ -25,12 +25,12 @@ local unitDef  =  {
     BuildCostMetal = 100,
     
 --Pathfinding and related
-    Acceleration = 0.15,
-    BrakeRate = 0.1,
+    Acceleration = 0.2,
+    BrakeRate = 0.5,
     FootprintX = 2,
     FootprintZ = 2,
     MaxSlope = 15,
-    MaxVelocity = 6.0,
+    MaxVelocity = 12,
     MaxWaterDepth = 20,
     MovementClass = "Default2x2",
     TurnRate = 3600,
@@ -52,10 +52,43 @@ local unitDef  =  {
 --    collisionVolumeType       =  "box",
     
 --Weapons and related
-    BadTargetCategory = "NOTAIR",
+    
     ExplodeAs = "TANKDEATH",
-    NoChaseCategory = "AIR",
-
+	weapons = {
+        [1] = {
+            def = "smallarms",
+        },
+    },
 }
+local weaponDefs = {
+    smallarms = {
+    name = "Clamps",
+    weapontype = "LaserCannon",
+    areaofeffect = 0,
+    avoidfeature = false,
+    avoidfriendly = false,
+    canattackground = false,
+    collidefriendly = false,
+	collideground = false,
+    collisionsize = 1,
+    commandfire = false,
+    noselfdamage = true,
+	targetborder = 0,
+	tolerence = 4000,
+--        soundstart = "tank_fire",
+--        soundhit = "explo01",
+    range = 250,
+	weaponvelocity = 500,
+    reloadtime = 0.5,
+    rgbcolor = "1.0 1.0 1.0",
+    turret = false,
+--		explosiongenerator = "custom:TANKGUN_FX",
+    damage =
+    {
+        default = 55,
+    },
+    },
+}
+unitDef.weaponDefs = weaponDefs
 
 return lowerkeys({ [unitName]  =  unitDef })

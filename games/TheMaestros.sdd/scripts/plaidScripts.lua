@@ -1,9 +1,9 @@
 local base = piece "base"
-local body = piece "body"
+local body = piece "plaid_model"
 --local turret = piece "turret"
 --local gun = piece "gun"
 local flare = piece "flare"
-local arm = piece "arm base"
+local arm = piece "armbase"
 -- declares all the pieces we'll use in the script.
 
 local SIG_AIM = 2
@@ -18,7 +18,7 @@ end
 local function RestoreAfterDelay(unitID)
     -- defines a local funtion to wait a bit, then move the turret back to how it was originally.
 	--Sleep(RESTORE_DELAY)
-	--Turn(body,y_axis, 0, math.rad(35))
+	--Turn(body,y_axis, 0, math.rad(60))
 	--Turn(gun, x_axis, 0, math.rad(30))
 end
 
@@ -27,7 +27,7 @@ function script.AimWeapon(weaponID, heading, pitch)
 	SetSignalMask(SIG_AIM)
 	Spring.Echo("aiming")
     -- each time the Signal is called, all other functions with the same SignalMask will stop running. This makes sure the tank isn't trying to fire at something, and restore the turret position, at the same time.
-	--Turn(body, y_axis, heading, math.rad(35))
+	--Turn(body, y_axis, heading, math.rad(60))
 	--Turn(gun, x_axis, -pitch, math.rad(30))
 	--WaitForTurn(body, y_axis)
 	--WaitForTurn(gun, x_axis)
@@ -44,7 +44,6 @@ function script.QueryWeapon() return flare end
 -- The piece that the bullet/laser/whatever comes out of.
 
 function script.AimFromWeapon() 
-	
 	return arm 
 end
 -- The unit looks from this piece down the QueryWeapon piece, to see whether it's aiming at anything.
