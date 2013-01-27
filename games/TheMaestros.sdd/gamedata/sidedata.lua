@@ -1,7 +1,7 @@
 local sidedata = {
 	{
-	name = "TANKS",
-	startUnit = "EDWARD",
+	name = "Maestros",
+	startUnit = "garage",
 	}
 }
 return sidedata

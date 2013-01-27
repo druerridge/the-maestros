@@ -11,6 +11,7 @@ local unitDef  =  {
     UnitName = "edward",
 	--animation script
     script = "edwardScript.lua",
+
     
 --Unit limitations and properties
     BuildTime = 1000,
@@ -22,8 +23,8 @@ local unitDef  =  {
     Upright = 0,
     
 --Energy and metal related
-    BuildCostEnergy = 100,
-    BuildCostMetal = 0,
+    BuildCostEnergy = 0,
+    BuildCostMetal = 100,
     
 --Pathfinding and related
     Acceleration = 0.15,
@@ -35,6 +36,7 @@ local unitDef  =  {
     MaxWaterDepth = 20,
     MovementClass = "Default2x2",
     TurnRate = 3600,
+    
     
 --Abilities
     Builder = 0,
