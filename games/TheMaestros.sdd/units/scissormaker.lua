@@ -10,6 +10,9 @@ local unitDef =
 	TEDClass = "PLANT",
 	script = "scissormakerscript.lua",
 	
+	customParams = {modify = "edward",},
+	--modify refers to the target output of the possible modifications
+	
 -- Unit limitations and properties
 	ActivateWhenBuilt = true,
 	BuildTime = 800,
