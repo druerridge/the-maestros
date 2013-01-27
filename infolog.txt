@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+Using configuration source: "C:\Users\Jean\AppData\Local\springsettings.cfg"
+=======
 Using configuration source: "C:\Users\RAICHU\AppData\Local\springsettings.cfg"
+>>>>>>> 0065847a1dcfa8d9311f7ef3aba9f9a86bd7bf52
 [CMyMath::Init] CPU SSE mask: 127, flags:
 	SSE 1.0:  1,  SSE 2.0:  1
 	SSE 3.0:  1, SSSE 3.0:  1
@@ -6,8 +10,13 @@ Using configuration source: "C:\Users\RAICHU\AppData\Local\springsettings.cfg"
 	SSE 4.0A: 0,  SSE 5.0A: 0
 	using streflop SSE FP-math mode, CPU supports SSE instructions
 OS: Microsoft Windows
+<<<<<<< HEAD
+Microsoft Windows 7 Home Premium Edition, 64-bit Service Pack 1 (build 7601)
+Intel(R) Core(TM) i7-2640M CPU @ 2.80GHz; 8139MB RAM, 16277MB pagefile
+=======
 Microsoft Windows 7 Business Edition, 64-bit Service Pack 1 (build 7601)
 Intel(R) Core(TM) i7-2670QM CPU @ 2.20GHz; 8139MB RAM, 16277MB pagefile
+>>>>>>> 0065847a1dcfa8d9311f7ef3aba9f9a86bd7bf52
 OS: emulated 32bit mode
 [Watchdog] Installed (HangTimeout: 10sec)
 Available log sections: KeyBindings, CSMFGroundTextures, RoamMeshDrawer, BumpWater, DynWater, SkyBox, FarTextureHandler, Model, Piece, ModelDrawer, OBJParser, WorldObjectModelRenderer, Texture, Font, CollisionVolume, GroundMoveType, Path, UnitScript, AutohostInterface, ArchiveScanner, VFS, Sound, LuaSocket
@@ -20,6 +29,23 @@ Spring 91.0
 Build date/time: Aug 30 2012 21:05:51
 Build environment: boost-104800, GNU libstdc++ version 20100429
 Compiler: gcc-4.4.4
+<<<<<<< HEAD
+Using read-write data directory: C:\Users\Jean\Documents\GitHub\the-maestros\
+Using read-only data directory: C:\Users\Jean\Documents\My Games\Spring\
+Scanning: C:\Users\Jean\Documents\My Games\Spring\maps
+Scanning: C:\Users\Jean\Documents\My Games\Spring\mods
+Scanning: C:\Users\Jean\Documents\My Games\Spring\packages
+Scanning: C:\Users\Jean\Documents\GitHub\the-maestros\maps
+Scanning: C:\Users\Jean\Documents\GitHub\the-maestros\base
+Scanning: C:\Users\Jean\Documents\GitHub\the-maestros\games
+Supported Video modes: 1366x768, 1360x768, 1280x768, 1280x720, 1280x600, 1024x768, 800x600, 640x480, 640x400, 512x384, 400x300, 320x240, 320x200
+Video mode set to 1366x768/32bit
+[f=0000000] SDL version:  1.2.10
+[f=0000000] GL version:   3.1.0 - Build 8.15.10.2653
+[f=0000000] GL vendor:    Intel
+[f=0000000] GL renderer:  Intel(R) HD Graphics 3000
+[f=0000000] GLSL version: 1.40 - Intel Build 8.15.10.2653
+=======
 Using read-write data directory: C:\workspace\Spring\the-maestros\
 Using read-only data directory: C:\Users\RAICHU\Documents\My Games\Spring\
 Scanning: C:\workspace\Spring\the-maestros\maps
@@ -32,9 +58,23 @@ Video mode set to 1920x1080/32bit
 [f=0000000] GL vendor:    ATI Technologies Inc.
 [f=0000000] GL renderer:  Radeon (TM) HD 7690M
 [f=0000000] GLSL version: 4.10
+>>>>>>> 0065847a1dcfa8d9311f7ef3aba9f9a86bd7bf52
 [f=0000000] GLEW version: 1.5.8
 [f=0000000] Video RAM:    total 739MB, available 964MB
 [f=0000000] GL info:
+<<<<<<< HEAD
+	haveARB: 1, haveGLSL: 0, ATI hacks: 0
+	FBO support: 1, NPOT-texture support: 1, 24bit Z-buffer support: 1
+	maximum texture size: 8192, compress MIP-map textures: 0
+	maximum SmoothPointSize: 20, maximum vec4 varying/attributes: 10/16
+	maximum drawbuffers: 8, maximum recommended indices/vertices: 1200/1200
+	number of UniformBufferBindings: 36 (16kB)
+[f=0000000] VSync disabled
+[f=0000000] Joysticks found: 0
+[f=0000000] Warning: Joystick 0 not found
+[f=0000000] CPU Cores: 4
+[f=0000000] CPU affinity not set
+=======
 	haveARB: 1, haveGLSL: 1, ATI hacks: 1
 	FBO support: 1, NPOT-texture support: 1, 24bit Z-buffer support: 0
 	maximum texture size: 16384, compress MIP-map textures: 0
@@ -53,6 +93,7 @@ Video mode set to 1920x1080/32bit
 [f=0000000] PreGame::StartServer: 10 ms
 [f=0000000] Using map: drumap
 [f=0000000] Using game: The Maestros
+>>>>>>> 0065847a1dcfa8d9311f7ef3aba9f9a86bd7bf52
 [f=0000000] [Sound] OpenAL info:
 [f=0000000] [Sound]   Available Devices:
 [f=0000000] [Sound]               DirectSound Software
@@ -64,6 +105,10 @@ Video mode set to 1920x1080/32bit
 [f=0000000] [Sound]   ALC Extensions: ALC_ENUMERATE_ALL_EXT ALC_ENUMERATION_EXT ALC_EXT_CAPTURE ALC_EXT_disconnect ALC_EXT_EFX ALC_EXTX_thread_local_context
 [f=0000000] [Sound]   EFX Enabled: yes
 [f=0000000] [Sound]   Max Sounds: 128
+<<<<<<< HEAD
+[f=0000000] [ArchiveScanner] Warning: No game selected checksum: not found (0)
+[f=0000000] [ArchiveScanner] Warning: No map selected checksum: not found (0)
+=======
 [f=0000000] Using game archive: TheMaestros.sdd
 [f=0000000] recording demo: demos/20130126_144802_drumap_91.sdf
 [f=0000000] PreGame::GameDataReceived: 142 ms
@@ -182,8 +227,12 @@ Video mode set to 1920x1080/32bit
 Received: 362 bytes
 Sent: 4 bytes
 
+<<<<<<< HEAD
 Error: Spring: Unhandled exception Spring has crashed:
   Access violation.
 
 A stacktrace has been written to:
   C:\workspace\Spring\the-maestros\infolog.txt
+=======
+>>>>>>> 0065847a1dcfa8d9311f7ef3aba9f9a86bd7bf52
+>>>>>>> 656695a7d590c1969c763f08cd6e8391246c6f70

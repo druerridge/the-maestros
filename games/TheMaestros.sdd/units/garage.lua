@@ -5,7 +5,7 @@ local unitDef =
 -- Internal settings
 	BuildPic = "base.bmp",
 	Category = "BUILDING NOTSCOUT NOTHEAVY NOTAIR NOTEPIC NOTSHIP NOTSTEALTHY ALL",
-	ObjectName = "base2.s3o",
+	ObjectName = "garage.s3o",
 	Side = "TANK",
 	TEDClass = "PLANT",
 	script = "garagescript.lua",
