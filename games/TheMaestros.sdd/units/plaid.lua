@@ -10,6 +10,8 @@ local unitDef  =  {
     TEDClass = "TANK",
     UnitName = "plaid",
 --script = "tankscript.lua",
+
+	customParams = {transform = "edward",},
     
 --Unit limitations and properties
     BuildTime = 500,

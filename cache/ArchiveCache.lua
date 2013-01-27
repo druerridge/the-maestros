@@ -2,11 +2,11 @@ local archiveCache = {
 
 	internalver = 9,
 
-	archives = {  -- count = 6
+	archives = {  -- count = 7
 		{
 			name = "bitmaps.sdz",
-			path = [[C:\workspace\Spring\the-maestros\base\spring\]],
-			modified = "1346357261",
+			path = [[C:\Users\Diglett\Documents\GIT\maestrohub\the-maestros\base\spring\]],
+			modified = "1359173222",
 			checksum = "2343186445",
 			archivedata = {
 				description = "Various bitmaps used by spring",
@@ -16,8 +16,8 @@ local archiveCache = {
 		},
 		{
 			name = "cursors.sdz",
-			path = [[C:\workspace\Spring\the-maestros\base\]],
-			modified = "1346357261",
+			path = [[C:\Users\Diglett\Documents\GIT\maestrohub\the-maestros\base\]],
+			modified = "1359173222",
 			checksum = "2940605174",
 			archivedata = {
 				description = "Cursor pack by Erom",
@@ -26,9 +26,28 @@ local archiveCache = {
 			},
 		},
 		{
+			name = "mainmod.sdz",
+			path = [[C:\Users\Diglett\Documents\My Games\Spring\games\]],
+			modified = "1356564762",
+			checksum = "4052349838",
+			archivedata = {
+				description = "Basic mod with some example units",
+				game = "Example Mod",
+				modtype = 1,
+				name = "Example Mod",
+				shortgame = "Example",
+				shortname = "Example",
+				url = "http://www.somewebsite.com/",
+				depend = {
+					"cursors.sdz",
+					"springcontent.sdz",
+				},
+			},
+		},
+		{
 			name = "maphelper.sdz",
-			path = [[C:\workspace\Spring\the-maestros\base\]],
-			modified = "1346357261",
+			path = [[C:\Users\Diglett\Documents\GIT\maestrohub\the-maestros\base\]],
+			modified = "1359173222",
 			checksum = "3099124429",
 			archivedata = {
 				description = "Maps can use this archive for its lua tdf parser",
@@ -38,8 +57,8 @@ local archiveCache = {
 		},
 		{
 			name = "Small_Supreme_Battlefield_V2.sd7",
-			path = [[C:\workspace\Spring\the-maestros\maps\]],
-			modified = "1359179646",
+			path = [[C:\Users\Diglett\Documents\GIT\maestrohub\the-maestros\maps\]],
+			modified = "1359232953",
 			checksum = "2658974177",
 			archivedata = {
 				mapfile = "maps/Small Supreme Battlefield V2.smf",
@@ -49,8 +68,8 @@ local archiveCache = {
 		},
 		{
 			name = "springcontent.sdz",
-			path = [[C:\workspace\Spring\the-maestros\base\]],
-			modified = "1346357261",
+			path = [[C:\Users\Diglett\Documents\GIT\maestrohub\the-maestros\base\]],
+			modified = "1359173222",
 			checksum = "211251712",
 			archivedata = {
 				description = "Mods can depend on this archive to get all the spring content",
@@ -63,9 +82,9 @@ local archiveCache = {
 		},
 		{
 			name = "TheMaestros.sdd",
-			path = [[C:\workspace\Spring\the-maestros\games\]],
-			modified = "1359173242",
-			checksum = "19271085",
+			path = [[C:\Users\Diglett\Documents\GIT\maestrohub\the-maestros\games\]],
+			modified = "1359232953",
+			checksum = "4259528176",
 			archivedata = {
 				description = "Prototype for Maestro",
 				game = "The Maestros Game",
