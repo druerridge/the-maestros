@@ -12,7 +12,7 @@ local unitDef  =  {
     --animation script
 	script = "plaidscriptS.lua",
     
-    customParams = {transform = "edward",},
+    customParams = {transform = "edward", buildpermit = "t1"},
 
 --Unit limitations and properties
     BuildTime = 500,

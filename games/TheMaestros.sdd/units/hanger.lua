@@ -10,7 +10,7 @@ local unitDef =
 	TEDClass = "PLANT",
 	script = "hangerscript.lua",
 	
-	customParams = {modify = "copter",},
+	customParams = {modify = "copter", buildreq = "t1",},
 	--modify refers to the target output of the possible modifications
 	
 -- Unit limitations and properties
