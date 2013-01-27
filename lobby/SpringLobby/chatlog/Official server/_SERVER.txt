@@ -65,3 +65,16 @@
 ### Session Closed at [2013-01-26 20:02] 
  
  
+### Session Start at [2013-01-26 20:27]
+[20:27]  ** Server ** Connecting to server Official server...
+[20:27]  ** Server ** Connected to Official server.
+[20:27]  ** motd ** Welcome, druerridge!
+[20:27]  ** motd ** There are currently 177 clients connected
+[20:27]  ** motd ** to the server talking in 3902 open channels
+[20:27]  ** motd ** and participating in 66 battles.
+[20:27]  ** motd ** Server's uptime is 1.59 weeks
+[20:43]  ** Server ** disconnected from server: Official server
+[20:43]  ** Server ** Chat closed.
+### Session Closed at [2013-01-26 20:43] 
+ 
+ 

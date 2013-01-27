@@ -11,6 +11,7 @@ local unitDef  =  {
     UnitName = "plaid",
 	script = "plaidScripts.lua",
     
+    customParams = {transform = "edward",},
 --Unit limitations and properties
     BuildTime = 500,
     Description = "A tiny melee robot and arkanium gatherer.",

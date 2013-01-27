@@ -56,6 +56,7 @@ local unitDef =
 	{
 		"scissormaker",
 		"plaid",
+		"arkanium",
 	},
 	
 -- Abilities new to Spring
