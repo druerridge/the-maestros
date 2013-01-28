@@ -85,3 +85,84 @@
 [14:31]  ** motd ** Server's uptime is 1.70 weeks
 [14:41]  ** Server ** disconnected from server: Official server
 [14:41]  ** Server ** Chat closed.
+### Session Closed at [2013-01-27 15:01] 
+ 
+ 
+### Session Start at [2013-01-27 15:01]
+[15:01]  ** Server ** Connecting to server Official server...
+[15:01]  ** Server ** Connected to Official server.
+[15:01]  ** motd ** Welcome, Huniku!
+[15:01]  ** motd ** There are currently 281 clients connected
+[15:01]  ** motd ** to the server talking in 4272 open channels
+[15:01]  ** motd ** and participating in 83 battles.
+[15:01]  ** motd ** Server's uptime is 1.70 weeks
+[15:22]  ** Server ** disconnected from server: Official server
+[15:22]  ** Server ** Chat closed.
+### Session Closed at [2013-01-27 15:22] 
+ 
+ 
+### Session Start at [2013-01-27 15:22]
+[15:22]  ** Server ** Connecting to server Official server...
+[15:22]  ** Server ** Connected to Official server.
+[15:22]  ** motd ** Welcome, Huniku!
+[15:22]  ** motd ** There are currently 279 clients connected
+[15:22]  ** motd ** to the server talking in 4280 open channels
+[15:22]  ** motd ** and participating in 79 battles.
+[15:22]  ** motd ** Server's uptime is 1.70 weeks
+[15:55]  ** Server ** disconnected from server: Official server
+[15:55]  ** Server ** Chat closed.
+### Session Closed at [2013-01-27 15:55] 
+ 
+ 
+### Session Start at [2013-01-27 15:59]
+[15:59]  ** Server ** Connecting to server Official server...
+[15:59]  ** Server ** Connected to Official server.
+[15:59]  ** motd ** Welcome, druerridge!
+[15:59]  ** motd ** There are currently 257 clients connected
+[15:59]  ** motd ** to the server talking in 4288 open channels
+[15:59]  ** motd ** and participating in 75 battles.
+[15:59]  ** motd ** Server's uptime is 1.70 weeks
+[16:23]  ** Server ** disconnected from server: Official server
+[16:23]  ** Server ** Chat closed.
+### Session Closed at [2013-01-27 16:25] 
+ 
+ 
+### Session Start at [2013-01-27 16:25]
+[16:25]  ** Server ** Connecting to server Official server...
+[16:25]  ** Server ** Connected to Official server.
+[16:25]  ** motd ** Welcome, Huniku!
+[16:25]  ** motd ** There are currently 251 clients connected
+[16:25]  ** motd ** to the server talking in 4294 open channels
+[16:25]  ** motd ** and participating in 76 battles.
+[16:25]  ** motd ** Server's uptime is 1.71 weeks
+[16:52]  ** Server ** disconnected from server: Official server
+[16:52]  ** Server ** Chat closed.
+### Session Closed at [2013-01-27 16:53] 
+ 
+ 
+### Session Start at [2013-01-27 16:53]
+[16:53]  ** Server ** Connecting to server Official server...
+[16:53]  ** Server ** Connected to Official server.
+[16:53]  ** motd ** Welcome, Huniku!
+[16:53]  ** motd ** There are currently 234 clients connected
+[16:53]  ** motd ** to the server talking in 4299 open channels
+[16:53]  ** motd ** and participating in 73 battles.
+[16:53]  ** motd ** Server's uptime is 1.71 weeks
+[16:57]  ** Server ** disconnected from server: Official server
+[16:57]  ** Server ** Chat closed.
+### Session Closed at [2013-01-27 17:05] 
+ 
+ 
+### Session Start at [2013-01-27 17:05]
+[17:05]  ** Server ** Connecting to server Official server...
+[17:05]  ** Server ** Connected to Official server.
+[17:05]  ** motd ** Welcome, Huniku!
+[17:05]  ** motd ** There are currently 234 clients connected
+[17:05]  ** motd ** to the server talking in 4301 open channels
+[17:05]  ** motd ** and participating in 75 battles.
+[17:05]  ** motd ** Server's uptime is 1.71 weeks
+[19:03]  ** Server ** disconnected from server: Official server
+[19:03]  ** Server ** Chat closed.
+### Session Closed at [2013-01-27 19:03] 
+ 
+ 

@@ -2,6 +2,7 @@
 return {
 	data = {},
 	order = {
+		HealthBars = 1,
 		WidgetSelector = 1,
 	},
 }

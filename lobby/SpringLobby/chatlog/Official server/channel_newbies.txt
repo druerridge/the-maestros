@@ -38,3 +38,80 @@
 [14:40]  <Lordgges> hai
 [14:41]  ** Server ** Disconnected from server, chat closed.
 [14:41]  ** Server ** Chat closed.
+[15:01]  ** Channel topic:
+[15:01]  Welcome to the main Spring server
+[15:01]  Frequently asked questions: http://springrts.com/wiki/FAQ
+[15:01]  Still have troubles? http://springrts.com/wiki/Bugs
+[15:01]  Forum: http://springrts.com/phpbb/
+[15:01]  games & maps download mirrors: http://springrts.com/wiki/Getting_Spring_Content_and_Links
+[15:01]  Mumble (voice comm) server: springrts.com (mumble download: http://mumble.sourceforge.net/)
+[15:01]  Need help? Try to ask it on this channel.
+[15:01]  ** Set by ChanServ
+[15:22]  ** Server ** Disconnected from server, chat closed.
+[15:22]  ** Server ** Chat closed.
+### Session Closed at [2013-01-27 15:22] 
+ 
+ 
+### Session Start at [2013-01-27 15:22]
+[15:22]  ** Channel topic:
+[15:22]  Welcome to the main Spring server
+[15:22]  Frequently asked questions: http://springrts.com/wiki/FAQ
+[15:22]  Still have troubles? http://springrts.com/wiki/Bugs
+[15:22]  Forum: http://springrts.com/phpbb/
+[15:22]  games & maps download mirrors: http://springrts.com/wiki/Getting_Spring_Content_and_Links
+[15:22]  Mumble (voice comm) server: springrts.com (mumble download: http://mumble.sourceforge.net/)
+[15:22]  Need help? Try to ask it on this channel.
+[15:22]  ** Set by ChanServ
+[15:55]  ** Server ** Disconnected from server, chat closed.
+[15:55]  ** Server ** Chat closed.
+### Session Closed at [2013-01-27 15:55] 
+ 
+ 
+### Session Start at [2013-01-27 15:59]
+[15:59]  ** Channel topic:
+[15:59]  Welcome to the main Spring server
+[15:59]  Frequently asked questions: http://springrts.com/wiki/FAQ
+[15:59]  Still have troubles? http://springrts.com/wiki/Bugs
+[15:59]  Forum: http://springrts.com/phpbb/
+[15:59]  games & maps download mirrors: http://springrts.com/wiki/Getting_Spring_Content_and_Links
+[15:59]  Mumble (voice comm) server: springrts.com (mumble download: http://mumble.sourceforge.net/)
+[15:59]  Need help? Try to ask it on this channel.
+[15:59]  ** Set by ChanServ
+[16:23]  ** Server ** Disconnected from server, chat closed.
+[16:23]  ** Server ** Chat closed.
+[16:25]  ** Channel topic:
+[16:25]  Welcome to the main Spring server
+[16:25]  Frequently asked questions: http://springrts.com/wiki/FAQ
+[16:25]  Still have troubles? http://springrts.com/wiki/Bugs
+[16:25]  Forum: http://springrts.com/phpbb/
+[16:25]  games & maps download mirrors: http://springrts.com/wiki/Getting_Spring_Content_and_Links
+[16:25]  Mumble (voice comm) server: springrts.com (mumble download: http://mumble.sourceforge.net/)
+[16:25]  Need help? Try to ask it on this channel.
+[16:25]  ** Set by ChanServ
+[16:52]  ** Server ** Disconnected from server, chat closed.
+[16:52]  ** Server ** Chat closed.
+[16:53]  ** Channel topic:
+[16:53]  Welcome to the main Spring server
+[16:53]  Frequently asked questions: http://springrts.com/wiki/FAQ
+[16:53]  Still have troubles? http://springrts.com/wiki/Bugs
+[16:53]  Forum: http://springrts.com/phpbb/
+[16:53]  games & maps download mirrors: http://springrts.com/wiki/Getting_Spring_Content_and_Links
+[16:53]  Mumble (voice comm) server: springrts.com (mumble download: http://mumble.sourceforge.net/)
+[16:53]  Need help? Try to ask it on this channel.
+[16:53]  ** Set by ChanServ
+[16:57]  ** Server ** Disconnected from server, chat closed.
+[16:57]  ** Server ** Chat closed.
+[17:05]  ** Channel topic:
+[17:05]  Welcome to the main Spring server
+[17:05]  Frequently asked questions: http://springrts.com/wiki/FAQ
+[17:05]  Still have troubles? http://springrts.com/wiki/Bugs
+[17:05]  Forum: http://springrts.com/phpbb/
+[17:05]  games & maps download mirrors: http://springrts.com/wiki/Getting_Spring_Content_and_Links
+[17:05]  Mumble (voice comm) server: springrts.com (mumble download: http://mumble.sourceforge.net/)
+[17:05]  Need help? Try to ask it on this channel.
+[17:05]  ** Set by ChanServ
+[19:03]  ** Server ** Disconnected from server, chat closed.
+[19:03]  ** Server ** Chat closed.
+### Session Closed at [2013-01-27 19:03] 
+ 
+ 

@@ -3,7 +3,7 @@ local unitName  =  "edward"
 local unitDef  =  {
 --Internal settings
     BuildPic = "EdwardThumbnail.png",
-    Category = "TANK SMALL NOTAIR NOTSUB",
+    Category = "BUILDING TANK SMALL NOTAIR NOTSUB",
     ObjectName = "edward.s3o",
     name = "EDWARD_2.6",
     Side = "TANKS",
@@ -59,7 +59,8 @@ local unitDef  =  {
 --Weapons and related
 
 
-    ExplodeAs = "TANKDEATH",
+    ExplodeAs = "BUILDINGLARGEDEATH",
+	SelfDestructAs = "BUILDINGLARGEDEATH",
 
 	weapons = {
         [1] = {

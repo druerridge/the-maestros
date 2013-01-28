@@ -3,7 +3,7 @@ local unitName  =  "copter"
 local unitDef  =  {
 --Internal settings
     BuildPic = "HeliThumbnail.png",
-    Category = "TANK SMALL NOTAIR NOTSUB",
+    Category = "BUILDING TANK SMALL NOTAIR NOTSUB",
     ObjectName = "copter.s3o",
     name = "COPTER_2.4",
     Side = "TANKS",
@@ -59,7 +59,8 @@ local unitDef  =  {
 --Weapons and related
 
 
-    ExplodeAs = "TANKDEATH",
+    ExplodeAs = "BUILDINGLARGEDEATH",
+	SelfDestructAs = "BUILDINGLARGEDEATH",
 
 	weapons = {
         [1] = {

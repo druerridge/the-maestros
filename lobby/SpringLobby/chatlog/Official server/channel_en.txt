@@ -10,3 +10,26 @@
 ### Session Start at [2013-01-27 14:31]
 [14:41]  ** Server ** Disconnected from server, chat closed.
 [14:41]  ** Server ** Chat closed.
+[15:22]  ** Server ** Disconnected from server, chat closed.
+[15:22]  ** Server ** Chat closed.
+### Session Closed at [2013-01-27 15:22] 
+ 
+ 
+### Session Start at [2013-01-27 15:22]
+[15:55]  ** Server ** Disconnected from server, chat closed.
+[15:55]  ** Server ** Chat closed.
+### Session Closed at [2013-01-27 15:55] 
+ 
+ 
+### Session Start at [2013-01-27 15:59]
+[16:23]  ** Server ** Disconnected from server, chat closed.
+[16:23]  ** Server ** Chat closed.
+[16:52]  ** Server ** Disconnected from server, chat closed.
+[16:52]  ** Server ** Chat closed.
+[16:57]  ** Server ** Disconnected from server, chat closed.
+[16:57]  ** Server ** Chat closed.
+[19:03]  ** Server ** Disconnected from server, chat closed.
+[19:03]  ** Server ** Chat closed.
+### Session Closed at [2013-01-27 19:03] 
+ 
+ 

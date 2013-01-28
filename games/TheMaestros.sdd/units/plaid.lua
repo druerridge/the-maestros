@@ -3,7 +3,7 @@ local unitName  =  "plaid"
 local unitDef  =  {
 --Internal settings
     BuildPic = "PlaidThumbnail.png",
-    Category = "TANK SMALL NOTAIR NOTSUB",
+    Category = "BUILDING TANK SMALL NOTAIR NOTSUB",
     ObjectName = "plaid.s3o",
     name = "PLAID_V1.0",
     Side = "TANKS",
@@ -60,7 +60,8 @@ local unitDef  =  {
     
 --Weapons and related
     
-    ExplodeAs = "TANKDEATH",
+    ExplodeAs = "BUILDINGLARGEDEATH",
+	SelfDestructAs = "BUILDINGLARGEDEATH",
 	weapons = {
         [1] = {
             def = "smallarms",

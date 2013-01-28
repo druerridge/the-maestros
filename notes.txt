@@ -1,0 +1,13 @@
+sugestions
+-----------
+so many buttons on UI makes it overwhelming
+herding mechanics for resources
+attacking is glitchy
+better support for splitting up into multiple groups (option to make another garage?)
+better motivation to build multiple hangars/scisormakers
+
+
+cool features
+--------------
+double clicking to select all of a cetrain type of unit
+lines pointing to destination

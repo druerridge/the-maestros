@@ -1,0 +1,1 @@
+01/27/13 18:25:20 / CUSTOM(-1): [logging started (time-stamps: yes / logLevel: 1)]
