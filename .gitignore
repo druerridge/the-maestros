@@ -3,6 +3,14 @@
 *.log
 script.txt
 _script.txt
+Zero-K.exe
+Zero-K.ico
+infolog.txt
+*.orig
+*.swp
+screenshots/
+demos/
+unitsync.log
 
 # OS generated files #
 ######################
