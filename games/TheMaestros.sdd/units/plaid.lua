@@ -85,7 +85,7 @@ local weaponDefs = {
     
     noselfdamage = true,
     size = 4,
-	targetborder = 1,
+	targetborder = -1,
 	tolerence = 4000,
 --        soundstart = "tank_fire",
 --        soundhit = "explo01",

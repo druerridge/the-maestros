@@ -130,3 +130,13 @@
 ### Session Closed at [2013-02-16 15:55] 
  
  
+### Session Start at [2013-02-16 16:09]
+[16:09]  ** Channel topic:
+[16:09]  Welcome to the main Spring server
+[16:09]  Frequently asked questions: http://springrts.com/wiki/FAQ
+[16:09]  Still have troubles? http://springrts.com/wiki/Bugs
+[16:09]  Forum: http://springrts.com/phpbb/
+[16:09]  games & maps download mirrors: http://springrts.com/wiki/Getting_Spring_Content_and_Links
+[16:09]  Mumble (voice comm) server: springrts.com (mumble download: http://mumble.sourceforge.net/)
+[16:09]  Need help? Try to ask it on this channel.
+[16:09]  ** Set by ChanServ
