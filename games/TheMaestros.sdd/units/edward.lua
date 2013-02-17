@@ -23,6 +23,7 @@ local unitDef  =  {
     SightDistance = 4000,
     SoundCategory = "TANK",
     Upright = 0,
+    targetborder = 1,
     
 --Energy and metal related
     BuildCostEnergy = 0,
