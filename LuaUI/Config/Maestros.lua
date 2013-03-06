@@ -3,6 +3,8 @@ return {
 	data = {},
 	order = {
 		HealthBars = 1,
+		LOS = 2,
+		["Toggle LOS"] = 2,
 		WidgetSelector = 1,
 	},
 }
