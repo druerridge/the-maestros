@@ -1,27 +1,14 @@
-local body = piece "body"
 
 function script.Create(unitID)
 
 end
 
-
---Actually, I'm not sure if Activate() is called when the base is finished, rather than when it starts building anything. I'll need to check that.
-
+-- This is neccesary for the object to die
 function script.Killed(recentDamage, maxHealth)
 
 end
 
+--This is neccesary to fire. Can use to implement cooldown, etc.
 function script.AimWeapon1( heading, pitch )
 	return true
-end
-
-----aimining & fire weapon
---returns from which piece the unit aims
-function script.AimFromWeapon1() 
-	return body 
-end
-
---returns where the weapon projectile will be created
-function script.QueryWeapon1() 
-	return body
 end

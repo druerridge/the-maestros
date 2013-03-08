@@ -10,7 +10,7 @@ local unitDef  =  {
     TEDClass = "TANK",
     UnitName = "copter",
 	--animation script
-    script = "copterscriptS.lua",
+    script = "genericunitscript.lua",
 
     customParams = {transform = "plaid", buildpermit = "t0",},
     --modify refers to the target output of the possible modifications
