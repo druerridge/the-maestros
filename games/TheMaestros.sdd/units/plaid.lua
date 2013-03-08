@@ -89,7 +89,7 @@ local weaponDefs = {
 	tolerence = 4000,
 --        soundstart = "tank_fire",
 --        soundhit = "explo01",
-    range = 150,
+    range = 300,
 	weaponvelocity = 500,
     reloadtime = 0.5,
     rgbcolor = "1.0 1.0 1.0",
@@ -103,5 +103,4 @@ local weaponDefs = {
     },
 }
 unitDef.weaponDefs = weaponDefs
-
 return lowerkeys({ [unitName]  =  unitDef })
