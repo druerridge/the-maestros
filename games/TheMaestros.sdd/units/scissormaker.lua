@@ -39,8 +39,8 @@ local unitDef =
 -- Pathfinding and related
 	Acceleration = 0.15,
     BrakeRate = 0.1,
-    FootprintX = 2,
-    FootprintZ = 2,
+    FootprintX = 3,
+    FootprintZ = 4,
     MaxSlope = 15,
     MaxVelocity = 2.0,
     MaxWaterDepth = 20,

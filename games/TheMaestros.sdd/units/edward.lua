@@ -84,6 +84,7 @@ local weaponDefs = {
     craterboost = 0,
     cratermult = 0,
 	areaofeffect = 0,
+    impulseFactor = 0,
     
     noselfdamage = true,
     size = 4,

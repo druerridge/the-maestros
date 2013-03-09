@@ -17,7 +17,7 @@ local unitDef  =  {
 
 --Unit limitations and properties
     BuildTime = 1000,
-    Description = "A multi-target melee robot.",
+    Description = "A robot with an area-of-effect missle.",
     MaxDamage = 800,
     RadarDistance = 0,
     SightDistance = 4000,
@@ -87,7 +87,7 @@ local weaponDefs = {
     edgeeffectiveness = 0.5,
     explosionspeed = 128,
     impulseboost = 0,
-    impulsefactor = 0,
+    impulseFactor = 0,
     intensity = 1,
     noselfdamage = true,
     size = 4,
