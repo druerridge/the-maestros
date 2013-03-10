@@ -10,7 +10,7 @@ local unitDef  =  {
     TEDClass = "TANK",
     UnitName = "plaid",
     --animation script
-	script = "genericunitscript.lua",
+	script = "plaidscript.lua",
     
     customParams = {transform = "edward", buildpermit = "t1"},
 

@@ -1,1 +1,35 @@
-return {}
+local modrules = {
+	construction = {
+		constructionDecay = false;
+		constructionDecayTime = 3.33;
+		constructionDecaySpeed = 0.03;
+	},
+	
+	reclaim = {
+		multiReclaim = 1;
+		reclaimMethod = 0;
+		unitMethod = 0;	
+		
+		allowEnemies = false;
+		allowAllies = true;
+	},
+	
+	flankingBonus = {
+		defaultMode=0;
+	},
+	
+	nanospray = {
+		allow_team_colors = true;
+	},
+	
+	experience = {
+		experienceMult = 0;
+	},
+	
+	movement = {
+		allowPushingEnemyUnits = true;
+		allowUnitCollisionOverlap = false;
+	}
+}
+
+return modrules

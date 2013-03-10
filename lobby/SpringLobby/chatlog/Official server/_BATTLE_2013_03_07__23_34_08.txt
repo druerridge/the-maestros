@@ -1,0 +1,13 @@
+### Session Start at [2013-03-07 23:34]
+[23:34]  ** Server ** Bad username/password
+[23:34]  ** Server ** Bad username/password
+[23:34]  ** Server ** Bad username/password
+[23:35]  ** Server ** Bad username/password
+[23:35]  ** Server ** Bad username/password
+[23:35]  ** Server ** Bad username/password
+[23:36]  ** Server ** Bad username/password
+[23:36]  ** Joined Battle.
+[23:43]  ** Left Battle.
+### Session Closed at [2013-03-07 23:43] 
+ 
+ 

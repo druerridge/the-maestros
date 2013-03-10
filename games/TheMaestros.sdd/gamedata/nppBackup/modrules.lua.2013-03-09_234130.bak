@@ -1,0 +1,14 @@
+local modrules = {
+	reclaim = {
+		multiReclaim = 1;
+		reclaimMethod = 0;
+		unitMethod = 0;	
+	}
+	construction = {
+		constructionDecay = false;
+		constructionDecayTime = 3.33;
+		constructionDecaySpeed = 0.03;
+	}
+}
+
+return modrules

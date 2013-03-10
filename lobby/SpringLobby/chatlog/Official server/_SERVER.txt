@@ -1,0 +1,76 @@
+### Session Start at [2013-03-07 23:34]
+[23:34]  ** Server ** Connecting to server Official server...
+[23:34]  ** Server ** Connected to Official server.
+[23:34]  ** Server ** Bad username/password
+[23:34]  ** Server ** disconnected from server: Official server
+[23:34]  ** Server ** Chat closed.
+### Session Closed at [2013-03-07 23:34] 
+ 
+ 
+### Session Start at [2013-03-07 23:34]
+[23:34]  ** Server ** Connecting to server Official server...
+[23:34]  ** Server ** Connected to Official server.
+[23:34]  ** Server ** Bad username/password
+[23:34]  ** Server ** disconnected from server: Official server
+[23:34]  ** Server ** Chat closed.
+### Session Closed at [2013-03-07 23:34] 
+ 
+ 
+### Session Start at [2013-03-07 23:34]
+[23:34]  ** Server ** Connecting to server Official server...
+[23:34]  ** Server ** Connected to Official server.
+[23:34]  ** Server ** Bad username/password
+[23:34]  ** Server ** disconnected from server: Official server
+[23:34]  ** Server ** Chat closed.
+### Session Closed at [2013-03-07 23:35] 
+ 
+ 
+### Session Start at [2013-03-07 23:35]
+[23:35]  ** Server ** Connecting to server Official server...
+[23:35]  ** Server ** Connected to Official server.
+[23:35]  ** Server ** Bad username/password
+[23:35]  ** Server ** disconnected from server: Official server
+[23:35]  ** Server ** Chat closed.
+### Session Closed at [2013-03-07 23:35] 
+ 
+ 
+### Session Start at [2013-03-07 23:35]
+[23:35]  ** Server ** Connecting to server Official server...
+[23:35]  ** Server ** Connected to Official server.
+[23:35]  ** Server ** Bad username/password
+[23:35]  ** Server ** disconnected from server: Official server
+[23:35]  ** Server ** Chat closed.
+### Session Closed at [2013-03-07 23:35] 
+ 
+ 
+### Session Start at [2013-03-07 23:35]
+[23:35]  ** Server ** Connecting to server Official server...
+[23:35]  ** Server ** Connected to Official server.
+[23:35]  ** Server ** Bad username/password
+[23:35]  ** Server ** disconnected from server: Official server
+[23:35]  ** Server ** Chat closed.
+### Session Closed at [2013-03-07 23:36] 
+ 
+ 
+### Session Start at [2013-03-07 23:36]
+[23:36]  ** Server ** Connecting to server Official server...
+[23:36]  ** Server ** Connected to Official server.
+[23:36]  ** Server ** Bad username/password
+[23:36]  ** Server ** disconnected from server: Official server
+[23:36]  ** Server ** Chat closed.
+### Session Closed at [2013-03-07 23:36] 
+ 
+ 
+### Session Start at [2013-03-07 23:36]
+[23:36]  ** Server ** Connecting to server Official server...
+[23:36]  ** Server ** Connected to Official server.
+[23:36]  ** motd ** Welcome, catsinthebag!
+[23:36]  ** motd ** There are currently 170 clients connected
+[23:36]  ** motd ** to the server talking in 5860 open channels
+[23:36]  ** motd ** and participating in 71 battles.
+[23:36]  ** motd ** Server's uptime is 2.95 weeks
+[23:43]  ** Server ** disconnected from server: Official server
+[23:43]  ** Server ** Chat closed.
+### Session Closed at [2013-03-07 23:43] 
+ 
+ 

@@ -66,20 +66,23 @@ local function SpawnStartUnit(teamID)
 			and ((x>Game.mapSizeX/2) and "west" or "east")
 			or ((z>Game.mapSizeZ/2) and "north" or "south")
 		local unitID = Spring.CreateUnit(startUnit, x, y, z, facing, teamID)
+		local unit2 = Spring.CreateUnit("plaid", x+1, y, z, facing, teamID)
+		local unit3 = Spring.CreateUnit("plaid", x-1, y, z, facing, teamID)
 	end
 
 	-- set start resources, either from mod options or custom team keys
 	local teamOptions = select(7, Spring.GetTeamInfo(teamID))
 	local m = teamOptions.startmetal  or modOptions.startmetal  or 1000
-	local e = teamOptions.startenergy or modOptions.startenergy or 0
-
+	local e = teamOptions.startenergy or modOptions.startenergy or 1
+	local ms = 10000
+	
 	-- using SetTeamResource to get rid of any existing resource without affecting stats
 	-- using AddTeamResource to add starting resource and counting it as income
 	if (m and tonumber(m) ~= 0) then
 		-- remove the pre-existing storage
 		--   must be done after the start unit is spawned,
 		--   otherwise the starting resources are lost!
-		Spring.SetTeamResource(teamID, "ms", tonumber(m))
+		Spring.SetTeamResource(teamID, "ms", tonumber(ms))
 		Spring.SetTeamResource(teamID, "m", 0)
 		Spring.AddTeamResource(teamID, "m", tonumber(m))
 	end
