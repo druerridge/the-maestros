@@ -30,15 +30,15 @@ local unitDef  =  {
     BuildCostMetal = 100,
     
 --Pathfinding and related
-    Acceleration = 0.15,
-    BrakeRate = 0.5,
+    Acceleration = 0.8,
+    BrakeRate = 1.5,
     FootprintX = 3,
     FootprintZ = 3,
     MaxSlope = 15,
-    MaxVelocity = 7,
+    MaxVelocity = 5,
     MaxWaterDepth = 20,
     MovementClass = "Default2x2",
-    TurnRate = 3600,
+    TurnRate = 10000,
     
     
 --Abilities
@@ -92,16 +92,16 @@ local weaponDefs = {
 	tolerence = 4000,
 --        soundstart = "tank_fire",
 --        soundhit = "explo01",
-    range = 300,
+    range = 450,
 	weaponvelocity = 500,
-    reloadtime = 0.5,
+    reloadtime = 0.3,
     rgbcolor = "1.0 1.0 1.0",
     turret = false,
     texture1 = "flame",
 --		explosiongenerator = "custom:TANKGUN_FX",
     damage =
     {
-        default = 75,
+        default = 20,
     },
     },
 }

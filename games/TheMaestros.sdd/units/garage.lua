@@ -16,9 +16,9 @@ local unitDef =
 -- Unit limitations and properties
 	ActivateWhenBuilt = true,
 	BuildTime = 1000,
-    commander = true,
+    	commander = true,
 	Description = "Produces tinkerer base units and factories",
-	MaxDamage = 1500,
+	MaxDamage = 3000,
 	Name = "The Garage",
 	RadarDistance = 0,
 	SightDistance = 400,
@@ -49,6 +49,7 @@ local unitDef =
 -- Abilities
 	Builder = 1,
     Reclaimable = 0,
+    ReclaimSpeed = 200,
     CanReclaim = 1,
 	ShowNanoSpray = 1,
 	CanMove = 1,

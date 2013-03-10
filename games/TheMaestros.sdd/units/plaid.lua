@@ -15,33 +15,35 @@ local unitDef  =  {
     customParams = {transform = "edward", buildpermit = "t1"},
 
 --Unit limitations and properties
-    BuildTime = 500,
+    BuildTime = 100,
     Description = "A tiny melee robot and arkanium gatherer.",
-    MaxDamage = 400,
+    MaxDamage = 350,
     RadarDistance = 0,
     SightDistance = 4000,
     SoundCategory = "TANK",
     Upright = 0,
+    WorkerTime = 80,
     
 --Energy and metal related
     BuildCostEnergy = 0,
     BuildCostMetal = 100,
     
 --Pathfinding and related
-    Acceleration = 0.2,
-    BrakeRate = 0.5,
+    Acceleration = 0.8,
+    BrakeRate = 1.5,
     FootprintX = 2,
     FootprintZ = 2,
     MaxSlope = 15,
-    MaxVelocity = 8,
+    MaxVelocity = 7,
     MaxWaterDepth = 20,
     MovementClass = "Default2x2",
-    TurnRate = 3600,
+    TurnRate = 10000,
     
 --Abilities
     Builder = 1,
     CanReclaim = 1,
-    ReclaimSpeed = 1000,
+    ReclaimSpeed = 200,
+    CanRepair = 0,
     ShowNanoSpray = 1,
     CanAttack = 1,
     CanFight = 1,
@@ -92,14 +94,14 @@ local weaponDefs = {
 --        soundhit = "explo01",
     range = 300,
 	weaponvelocity = 500,
-    reloadtime = 0.5,
+    reloadtime = 0.1,
     rgbcolor = "1.0 1.0 1.0",
     turret = false,
     texture1 = "flame",
 --		explosiongenerator = "custom:TANKGUN_FX",
     damage =
     {
-        default = 50,
+        default = 6,
     },
     },
 }
