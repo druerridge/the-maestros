@@ -15,7 +15,7 @@ local unitDef =
 
 -- Unit limitations and properties
 	ActivateWhenBuilt = true,
-	BuildTime = 1000,
+	BuildTime = 2000,
     	commander = true,
 	Description = "Produces tinkerer base units and factories",
 	MaxDamage = 3000,
@@ -27,7 +27,8 @@ local unitDef =
 	WorkerTime = 80,
 	
 -- Energy and metal related
-	BuildCostEnergy = 500,
+	BuildCostEnergy = 0,
+	BuildCostMetal = 800,
 	EnergyStorage = 0,
 	EnergyUse = 0,
 	MetalStorage = 0,
@@ -61,6 +62,7 @@ local unitDef =
 		"scissormaker",
 		"hanger",
 		"plaid",
+		"garage",
 	},
 	
 -- Abilities new to Spring
