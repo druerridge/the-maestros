@@ -14,11 +14,11 @@ if (gadgetHandler:IsSyncedCode()) then
 --SYNCED
 
 function gadget:UnitEnteredRadar(unitID, unitTeam, allyTeam, unitDefID)
-	Spring.Echo(UnitDefs[unitDefID].name .. " entered radar " .. allyTeam)
+	--Spring.Echo(UnitDefs[unitDefID].name .. " entered radar " .. allyTeam)
 end
 
 function gadget:UnitLeftRadar(unitID, unitTeam, allyTeam, unitDefID)
-	Spring.Echo(UnitDefs[unitDefID].name .. " left radar" .. allyTeam)
+	--Spring.Echo(UnitDefs[unitDefID].name .. " left radar" .. allyTeam)
 end
 
 -- UNSYNCED

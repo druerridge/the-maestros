@@ -61,19 +61,15 @@ if (gadgetHandler:IsSyncedCode()) then
 
 	--define new icon
 	local desc = {
-		name = "Change Class",
+		name = "Transform",
 		action = "dgun",
 		id = CMD_CHANGECLASS,
 		type = CMDTYPE.ICON_UNIT,
-		tooltip = "Changes unit class",
+		tooltip = "Changes unit type",
 		cursor = "Capture",
 		hidden = false,
 		disabled = false,
 	}
-	
-	function gadget:Update(dt)
-		Spring.Echo("ccUpdate()")
-	end
 	
 	--adds icon to units upon unit creation
 	function gadget:UnitCreated(u, ud, team)
@@ -92,10 +88,10 @@ if (gadgetHandler:IsSyncedCode()) then
 			local merchdist = math.sqrt((herpderp[1][1] - merchx)*(herpderp[1][1] - merchx) + (herpderp[1][2] - merchy)*(herpderp[1][2] - merchy) + (herpderp[1][3] - merchz)*(herpderp[1][3] - merchz))
 			
 			if merchdist < herpderp[1][4] then
-				Spring.Echo("in area")
+				--Spring.Echo("in area")
 				SetBuildoptionDisabled(3, team, false)
 			else
-				Spring.Echo(merchdist)
+				--Spring.Echo(merchdist)
 				SetBuildoptionDisabled(3, team, true)
 			end
 		end
@@ -119,7 +115,7 @@ if (gadgetHandler:IsSyncedCode()) then
 	end
 	--perform command
 	function gadget:CommandFallback(u,ud,team,cmd,param,opt)
-		Spring.Echo("ccCommandFallback()")
+		--Spring.Echo("ccCommandFallback()")
 		if cmd == CMD_CHANGECLASS then
 			--calculate location of target
 			local x,y,z = Spring.GetUnitPosition(u)
@@ -133,11 +129,18 @@ if (gadgetHandler:IsSyncedCode()) then
 				return true, false
 			else
 				--at target, swap out units
-				local newUnitID = Spring.CreateUnit(UnitDefs[Spring.GetUnitDefID(param[1])]["customParams"]["modify"], x, y, z, Spring.GetUnitBuildFacing(u), team)
-				x,y,z = Spring.GetUnitDirection(u)
-				Spring.SetUnitDirection(newUnitID, x, y, z)
-				Spring.DestroyUnit(u, false, true)
-				return true, true
+				
+				--so the way transform cost works is that costs are defined in the unit being transformed
+				--there is an entry in customparam with the index that is the defname of the target of the transformation
+				--the value of that entry is cost
+				--lack of such an entry makes transformation impossible
+				if(Spring.UseTeamResource(team, "metal", UnitDefs[ud]["customParams"][UnitDefs[Spring.GetUnitDefID(param[1])]["customParams"]["modify"]])) then
+					local newUnitID = Spring.CreateUnit(UnitDefs[Spring.GetUnitDefID(param[1])]["customParams"]["modify"], x, y, z, Spring.GetUnitBuildFacing(u), team)
+					x,y,z = Spring.GetUnitDirection(u)
+					Spring.SetUnitDirection(newUnitID, x, y, z)
+					Spring.DestroyUnit(u, false, true)
+					return true, true
+				end
 			end
 		end
 		return false
@@ -146,7 +149,7 @@ if (gadgetHandler:IsSyncedCode()) then
 else
 	--async initialization, no idea what this does at all
 	function gadget:Initialize()
-		Spring.Echo("ccInitialize()")
+		--Spring.Echo("ccInitialize()")
 		Spring.SetCustomCommandDrawData(CMD_CHANGECLASS, "Capture",{1,.5,.5,.9})
 	end
 

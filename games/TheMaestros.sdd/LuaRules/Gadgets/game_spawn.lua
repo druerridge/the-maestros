@@ -68,6 +68,7 @@ local function SpawnStartUnit(teamID)
 		local unitID = Spring.CreateUnit(startUnit, x, y, z, facing, teamID)
 		local unit2 = Spring.CreateUnit("plaid", x+1, y, z, facing, teamID)
 		local unit3 = Spring.CreateUnit("plaid", x-1, y, z, facing, teamID)
+		--local unit4 = Spring.CreateUnit("plaid", x+1, y, z, facing, teamID)
 	end
 
 	-- set start resources, either from mod options or custom team keys

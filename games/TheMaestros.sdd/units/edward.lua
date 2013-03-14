@@ -12,7 +12,7 @@ local unitDef  =  {
 	--animation script
     script = "genericunitscript.lua",
 
-    customParams = {transform = "plaid", buildpermit = "t0",},
+    customParams = {transform = "plaid", buildpermit = "t0", plaid = "100",},
     --modify refers to the target output of the possible modifications
 
 --Unit limitations and properties

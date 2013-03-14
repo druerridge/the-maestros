@@ -11,7 +11,7 @@ local unitDef =
     TEDClass = "TANK",
     script = "plaidscript.lua",
     
-    customParams = {transform = "edward", buildpermit = "t1",},
+    customParams = {transform = "edward", buildpermit = "t1", edward = "200", copter = "200"},
     --modify refers to the target output of the possible modifications
 
 -- Unit limitations and properties
