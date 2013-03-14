@@ -1,102 +1,13 @@
-### Session Start at [2013-03-07 23:34]
-[23:34]  ** Server ** Connecting to server Official server...
-[23:34]  ** Server ** Connected to Official server.
-[23:34]  ** Server ** Bad username/password
-[23:34]  ** Server ** disconnected from server: Official server
-[23:34]  ** Server ** Chat closed.
-### Session Closed at [2013-03-07 23:34] 
- 
- 
-### Session Start at [2013-03-07 23:34]
-[23:34]  ** Server ** Connecting to server Official server...
-[23:34]  ** Server ** Connected to Official server.
-[23:34]  ** Server ** Bad username/password
-[23:34]  ** Server ** disconnected from server: Official server
-[23:34]  ** Server ** Chat closed.
-### Session Closed at [2013-03-07 23:34] 
- 
- 
-### Session Start at [2013-03-07 23:34]
-[23:34]  ** Server ** Connecting to server Official server...
-[23:34]  ** Server ** Connected to Official server.
-[23:34]  ** Server ** Bad username/password
-[23:34]  ** Server ** disconnected from server: Official server
-[23:34]  ** Server ** Chat closed.
-### Session Closed at [2013-03-07 23:35] 
- 
- 
-### Session Start at [2013-03-07 23:35]
-[23:35]  ** Server ** Connecting to server Official server...
-[23:35]  ** Server ** Connected to Official server.
-[23:35]  ** Server ** Bad username/password
-[23:35]  ** Server ** disconnected from server: Official server
-[23:35]  ** Server ** Chat closed.
-### Session Closed at [2013-03-07 23:35] 
- 
- 
-### Session Start at [2013-03-07 23:35]
-[23:35]  ** Server ** Connecting to server Official server...
-[23:35]  ** Server ** Connected to Official server.
-[23:35]  ** Server ** Bad username/password
-[23:35]  ** Server ** disconnected from server: Official server
-[23:35]  ** Server ** Chat closed.
-### Session Closed at [2013-03-07 23:35] 
- 
- 
-### Session Start at [2013-03-07 23:35]
-[23:35]  ** Server ** Connecting to server Official server...
-[23:35]  ** Server ** Connected to Official server.
-[23:35]  ** Server ** Bad username/password
-[23:35]  ** Server ** disconnected from server: Official server
-[23:35]  ** Server ** Chat closed.
-### Session Closed at [2013-03-07 23:36] 
- 
- 
-### Session Start at [2013-03-07 23:36]
-[23:36]  ** Server ** Connecting to server Official server...
-[23:36]  ** Server ** Connected to Official server.
-[23:36]  ** Server ** Bad username/password
-[23:36]  ** Server ** disconnected from server: Official server
-[23:36]  ** Server ** Chat closed.
-### Session Closed at [2013-03-07 23:36] 
- 
- 
-### Session Start at [2013-03-07 23:36]
-[23:36]  ** Server ** Connecting to server Official server...
-[23:36]  ** Server ** Connected to Official server.
-[23:36]  ** motd ** Welcome, catsinthebag!
-[23:36]  ** motd ** There are currently 170 clients connected
-[23:36]  ** motd ** to the server talking in 5860 open channels
-[23:36]  ** motd ** and participating in 71 battles.
-[23:36]  ** motd ** Server's uptime is 2.95 weeks
-[23:43]  ** Server ** disconnected from server: Official server
-[23:43]  ** Server ** Chat closed.
-### Session Closed at [2013-03-07 23:43] 
- 
- 
-### Session Start at [2013-03-14 13:41]
-[13:41]  ** Server ** Connecting to server Official server...
-[13:41]  ** Server ** Connected to Official server.
-[13:41]  ** motd ** Welcome, druerridge!
-[13:41]  ** motd ** There are currently 237 clients connected
-[13:41]  ** motd ** to the server talking in 438 open channels
-[13:41]  ** motd ** and participating in 62 battles.
-[13:41]  ** motd ** Server's uptime is 4.79 hours
-[13:42]  ** Server ** disconnected from server: Official server
-[13:42]  ** Server ** Chat closed.
-### Session Closed at [2013-03-14 13:42] 
- 
- 
-### Session Start at [2013-03-14 13:42]
-[13:42]  ** Server ** Connecting to server Official server...
-[13:42]  ** Server ** Connected to Official server.
-[13:42]  ** motd ** Welcome, druerridge!
-[13:42]  ** motd ** There are currently 238 clients connected
-[13:42]  ** motd ** to the server talking in 439 open channels
-[13:42]  ** motd ** and participating in 62 battles.
-[13:42]  ** motd ** Server's uptime is 4.81 hours
-[13:44]  ** Server ** disconnected from server: Official server
-[13:44]  ** Server ** Chat closed.
-### Session Closed at [2013-03-14 13:44] 
+### Session Start at [2013-03-14 13:47]
+[13:47]  ** Server ** Connecting to server Official server...
+[13:47]  ** Server ** Connected to Official server.
+[13:47]  ** motd ** Welcome, druerridge!
+[13:47]  ** motd ** There are currently 246 clients connected
+[13:47]  ** motd ** to the server talking in 440 open channels
+[13:47]  ** motd ** and participating in 64 battles.
+[13:47]  ** motd ** Server's uptime is 4.89 hours
+[13:59]  ** Server ** disconnected from server: Official server
+[13:59]  ** Server ** Chat closed.
+### Session Closed at [2013-03-14 13:59] 
  
  

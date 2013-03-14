@@ -2,6 +2,8 @@
 //  DEFAULT UIKEYS.TXT FOR SPRING
 //  -----------------------------
 //
+
+
 //
 //  Quick Notes:
 //
@@ -20,6 +22,8 @@
 //  4. A keyset using the Shift modifier should be bound with its
 //     unshifted key  (ex: bind  "Shift+."  instead of  "Shift+>" )
 //
+
+
 //
 //  Commands that can be used in this file:
 //
@@ -70,6 +74,8 @@
 //  * NOTE: These commands can also be run from the chat line in-game using
 //          the slash command syntax  (/bind, /unbind, etc...)
 //
+
+
 //
 //  Keyset Format:
 //
@@ -110,6 +116,8 @@
 //      bind Ctrl+0x20  firestate 0  // hold fire
 //      bind Ctrl+space firestate 0  // hold fire
 //
+
+
 //
 //  Extra Run-Time Commands
 //
@@ -121,6 +129,8 @@
 //    /keyprint  : prints the current bindings to standard out
 //    /keydebug  : prints debugging information to standard out (for each keystroke)
 //
+
+
 //
 //  Hotbinding:
 //
@@ -132,6 +142,8 @@
 //    mouse cursor over an icon and hitting Ctrl+delete will delete all bindings
 //    associated with that icon's command.
 //
+
+
 //
 //  Default Bindings:
 //
@@ -326,6 +338,7 @@
 //  bind             Ctrl+w  select AllMap+_Not_Aircraft_Weapons+_ClearSelection_SelectAll+
 //  bind             Ctrl+x  select AllMap+_InPrevSel_Not_InHotkeyGroup+_SelectAll+
 //  bind             Ctrl+z  select AllMap+_InPrevSel+_ClearSelection_SelectAll+
+
 //  Key Symbol    Key Code
 //  ----------    --------
 //

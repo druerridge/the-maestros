@@ -1,45 +1,15 @@
-### Session Start at [2013-03-07 23:36]
-[23:36]  ** Channel topic:
-[23:36]  Frequently asked questions: http://springrts.com/wiki/FAQ
-[23:36]  Still have troubles? http://springrts.com/wiki/Bugs
-[23:36]  Forum: http://springrts.com/phpbb/
-[23:36]  Games & maps download mirrors: http://springrts.com/wiki/Getting_Spring_Content_and_Links
-[23:36]  Mumble (voice comm) server: springrts.com (mumble download: http://mumble.sourceforge.net/)
-[23:36]  Replays: http://replays.springrts.com/
-[23:36]  Need help? Try to ask it on this channel.
-[23:36]  ** Set by ChanServ
-[23:43]  ** Server ** Disconnected from server, chat closed.
-[23:43]  ** Server ** Chat closed.
-### Session Closed at [2013-03-07 23:43] 
- 
- 
-### Session Start at [2013-03-14 13:41]
-[13:41]  ** Channel topic:
-[13:41]  Frequently asked questions: http://springrts.com/wiki/FAQ
-[13:41]  Still have troubles? http://springrts.com/wiki/Bugs
-[13:41]  Forum: http://springrts.com/phpbb/
-[13:41]  Games & maps download mirrors: http://springrts.com/wiki/Getting_Spring_Content_and_Links
-[13:41]  Mumble (voice comm) server: springrts.com (mumble download: http://mumble.sourceforge.net/)
-[13:41]  Replays: http://replays.springrts.com/
-[13:41]  Need help? Try to ask it on this channel.
-[13:41]  ** Set by ChanServ
-[13:42]  ** Server ** Disconnected from server, chat closed.
-[13:42]  ** Server ** Chat closed.
-### Session Closed at [2013-03-14 13:42] 
- 
- 
-### Session Start at [2013-03-14 13:42]
-[13:42]  ** Channel topic:
-[13:42]  Frequently asked questions: http://springrts.com/wiki/FAQ
-[13:42]  Still have troubles? http://springrts.com/wiki/Bugs
-[13:42]  Forum: http://springrts.com/phpbb/
-[13:42]  Games & maps download mirrors: http://springrts.com/wiki/Getting_Spring_Content_and_Links
-[13:42]  Mumble (voice comm) server: springrts.com (mumble download: http://mumble.sourceforge.net/)
-[13:42]  Replays: http://replays.springrts.com/
-[13:42]  Need help? Try to ask it on this channel.
-[13:42]  ** Set by ChanServ
-[13:44]  ** Server ** Disconnected from server, chat closed.
-[13:44]  ** Server ** Chat closed.
-### Session Closed at [2013-03-14 13:44] 
+### Session Start at [2013-03-14 13:47]
+[13:47]  ** Channel topic:
+[13:47]  Frequently asked questions: http://springrts.com/wiki/FAQ
+[13:47]  Still have troubles? http://springrts.com/wiki/Bugs
+[13:47]  Forum: http://springrts.com/phpbb/
+[13:47]  Games & maps download mirrors: http://springrts.com/wiki/Getting_Spring_Content_and_Links
+[13:47]  Mumble (voice comm) server: springrts.com (mumble download: http://mumble.sourceforge.net/)
+[13:47]  Replays: http://replays.springrts.com/
+[13:47]  Need help? Try to ask it on this channel.
+[13:47]  ** Set by ChanServ
+[13:59]  ** Server ** Disconnected from server, chat closed.
+[13:59]  ** Server ** Chat closed.
+### Session Closed at [2013-03-14 13:59] 
  
  
