@@ -15,6 +15,9 @@ unitsync.log
 /lobby/chatlog
 /log
 /AI/Interfaces/Java/0.1/log
+/games/1944.sdd/
+/games/kp.sdd/
+/games/tutorial.sdd/
 
 # OS generated files #
 ######################
