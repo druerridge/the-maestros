@@ -24,7 +24,7 @@ function gadget:GetInfo()
 	}
 end
 
---VFS.Include("LuaRules/Gadgets/cmd_index.lua",nil)
+VFS.Include("LuaRules/Gadgets/cmd_index.lua",nil)
 
 local herpderp = {
 	{2000, 5, 2000, 700},
@@ -56,6 +56,7 @@ end
 
 --local modOptions = Spring.GetModOptions()
 
+--define new icon
 if (gadgetHandler:IsSyncedCode()) then
 
 	--define new icon
@@ -66,7 +67,8 @@ if (gadgetHandler:IsSyncedCode()) then
 		type = CMDTYPE.ICON_UNIT,
 		tooltip = "Changes unit class",
 		cursor = "Capture",
-		disabled = false
+		hidden = false,
+		disabled = false,
 	}
 	
 	function gadget:Update(dt)
@@ -76,26 +78,30 @@ if (gadgetHandler:IsSyncedCode()) then
 	--adds icon to units upon unit creation
 	function gadget:UnitCreated(u, ud, team)
 		Spring.Echo("ccUnitCreated()")
+		Spring.Echo(desc.id)
+		Spring.Echo(desc.name)
 		--perform check to see if transformation is target is set for unit before adding icon
-		if UnitDefs[Spring.GetUnitDefID(u)]["customParams"]["transform"] ~= nil then
+		--if UnitDefs[Spring.GetUnitDefID(u)]["customParams"]["transform"] ~= nil then
 			Spring.InsertUnitCmdDesc(u,desc)
-		end
+		--end
 	end
 
 	function gadget:AllowCommand(u, ud, team, cmd, param, opt)
 		Spring.Echo("ccAllowCommand()")
 		--Spring.Echo(Spring.GetUnitDefID(u))
 		if ud == 3 then
-		local merchx, merchy, merchz = Spring.GetUnitPosition(u)
-		local merchdist = math.sqrt((herpderp[1][1] - merchx)*(herpderp[1][1] - merchx) + (herpderp[1][2] - merchy)*(herpderp[1][2] - merchy) + (herpderp[1][3] - merchz)*(herpderp[1][3] - merchz))
-		if merchdist < herpderp[1][4] then
-			Spring.Echo("in area")
-			SetBuildoptionDisabled(3, team, false)
-		else
-			Spring.Echo(merchdist)
-			SetBuildoptionDisabled(3, team, true)
+			local merchx, merchy, merchz = Spring.GetUnitPosition(u)
+			local merchdist = math.sqrt((herpderp[1][1] - merchx)*(herpderp[1][1] - merchx) + (herpderp[1][2] - merchy)*(herpderp[1][2] - merchy) + (herpderp[1][3] - merchz)*(herpderp[1][3] - merchz))
+			
+			if merchdist < herpderp[1][4] then
+				Spring.Echo("in area")
+				SetBuildoptionDisabled(3, team, false)
+			else
+				Spring.Echo(merchdist)
+				SetBuildoptionDisabled(3, team, true)
+			end
 		end
-		end
+
 		--parse command
 		if cmd == CMD_CHANGECLASS then
 			--validate target selection
