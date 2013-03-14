@@ -4,7 +4,7 @@ local modinfo = {
 	game = "The Maestros Game",
 	shortgame = "MaestrosGame",
 	description = "Prototype for Maestro",
-	url = "http://www.somewebsite.com/",
+	url = "http://www.example.com",
 	
 	modtype = "1",
 

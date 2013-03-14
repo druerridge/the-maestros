@@ -19,20 +19,37 @@ function gadget:GetInfo()
 		author    = "Ruben Zhang",
 		date      = "January, 2012",
 		license   = "GNU GPL, v2 or later",
-		layer     = 0,
+		layer     = -10,
 		enabled   = true  --  loaded by default?
 	}
 end
 
-VFS.Include("LuaRules/Gadgets/cmd_index.lua",nil)
+--VFS.Include("LuaRules/Gadgets/cmd_index.lua",nil)
+
+local herpderp = {
+	{2000, 5, 2000, 700},
+}
+
+local function SetBuildoptionDisabled(unitDefID, teamID, disable)
+  local teamUnits = Spring.GetTeamUnits(teamID)
+  for i = 1, #teamUnits do
+    local unitID = teamUnits[i]
+    local cmdDescID = Spring.FindUnitCmdDesc(unitID, -unitDefID)
+    if cmdDescID then
+      Spring.EditUnitCmdDesc(unitID, cmdDescID, {disabled = disable})
+    end
+  end
+end
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
 -- synced only
---if (not gadgetHandler:IsSyncedCode()) then
-	--return false
---end
+if (not gadgetHandler:IsSyncedCode()) then	
+	return false
+end
+
+--local merchantreqs = VFS.Include("LuaRules/Configs/merchant_defs.lua")
 
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
@@ -41,6 +58,7 @@ VFS.Include("LuaRules/Gadgets/cmd_index.lua",nil)
 
 if (gadgetHandler:IsSyncedCode()) then
 
+	--define new icon
 	local desc = {
 		name = "Change Class",
 		action = "dgun",
@@ -50,21 +68,43 @@ if (gadgetHandler:IsSyncedCode()) then
 		cursor = "Capture",
 		disabled = false
 	}
-		
+	
+	function gadget:Update(dt)
+		Spring.Echo("ccUpdate()")
+	end
+	
+	--adds icon to units upon unit creation
 	function gadget:UnitCreated(u, ud, team)
-					Spring.Echo(UnitDefs[Spring.GetUnitDefID(u)]["customParams"]["transform"])
-					Spring.Echo(UnitDefs[Spring.GetUnitDefID(u)]["customParams"]["buildpermit"])
+		Spring.Echo("ccUnitCreated()")
+		--perform check to see if transformation is target is set for unit before adding icon
 		if UnitDefs[Spring.GetUnitDefID(u)]["customParams"]["transform"] ~= nil then
 			Spring.InsertUnitCmdDesc(u,desc)
 		end
 	end
 
 	function gadget:AllowCommand(u, ud, team, cmd, param, opt)
+		Spring.Echo("ccAllowCommand()")
+		--Spring.Echo(Spring.GetUnitDefID(u))
+		if ud == 3 then
+		local merchx, merchy, merchz = Spring.GetUnitPosition(u)
+		local merchdist = math.sqrt((herpderp[1][1] - merchx)*(herpderp[1][1] - merchx) + (herpderp[1][2] - merchy)*(herpderp[1][2] - merchy) + (herpderp[1][3] - merchz)*(herpderp[1][3] - merchz))
+		if merchdist < herpderp[1][4] then
+			Spring.Echo("in area")
+			SetBuildoptionDisabled(3, team, false)
+		else
+			Spring.Echo(merchdist)
+			SetBuildoptionDisabled(3, team, true)
+		end
+		end
+		--parse command
 		if cmd == CMD_CHANGECLASS then
+			--validate target selection
 			if param[1] and Spring.ValidUnitID(param[1]) then
+				--check if target belongs to player
 				if Spring.GetUnitTeam(param[1]) == team then
+					--if transform and build requirements meet,
 					if UnitDefs[Spring.GetUnitDefID(u)]["customParams"]["buildpermit"] == UnitDefs[Spring.GetUnitDefID(param[1])]["customParams"]["buildreq"] then
-					--Spring.Echo("AllowCommand")
+						--queue command to be executed
 						return true
 					end
 				end
@@ -73,23 +113,26 @@ if (gadgetHandler:IsSyncedCode()) then
 		end
 		return true
 	end
-
+	--perform command
 	function gadget:CommandFallback(u,ud,team,cmd,param,opt)
+		Spring.Echo("ccCommandFallback()")
 		if cmd == CMD_CHANGECLASS then
+			--calculate location of target
 			local x,y,z = Spring.GetUnitPosition(u)
 			local targetx, targety, targetz
 			targetx, targety, targetz = Spring.GetUnitPosition(param[1])
 			local distance = math.sqrt((x - targetx)*(x - targetx) + (y - targety)*(y - targety) + (z - targetz)*(z - targetz))
+			
 			if distance > 200 then
+				--move to target
 				Spring.SetUnitMoveGoal(u, targetx, targety, targetz)
-			--Spring.Echo("moving")
 				return true, false
 			else
+				--at target, swap out units
 				local newUnitID = Spring.CreateUnit(UnitDefs[Spring.GetUnitDefID(param[1])]["customParams"]["modify"], x, y, z, Spring.GetUnitBuildFacing(u), team)
 				x,y,z = Spring.GetUnitDirection(u)
 				Spring.SetUnitDirection(newUnitID, x, y, z)
 				Spring.DestroyUnit(u, false, true)
-			--Spring.Echo("action complete")
 				return true, true
 			end
 		end
@@ -97,8 +140,9 @@ if (gadgetHandler:IsSyncedCode()) then
 	end
 
 else
-		
+	--async initialization, no idea what this does at all
 	function gadget:Initialize()
+		Spring.Echo("ccInitialize()")
 		Spring.SetCustomCommandDrawData(CMD_CHANGECLASS, "Capture",{1,.5,.5,.9})
 	end
 
