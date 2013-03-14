@@ -77,17 +77,15 @@ if (gadgetHandler:IsSyncedCode()) then
 	
 	--adds icon to units upon unit creation
 	function gadget:UnitCreated(u, ud, team)
-		Spring.Echo("ccUnitCreated()")
-		Spring.Echo(desc.id)
-		Spring.Echo(desc.name)
+		--Spring.Echo("ccUnitCreated()")
 		--perform check to see if transformation is target is set for unit before adding icon
-		--if UnitDefs[Spring.GetUnitDefID(u)]["customParams"]["transform"] ~= nil then
+		if UnitDefs[Spring.GetUnitDefID(u)]["customParams"]["transform"] ~= nil then
 			Spring.InsertUnitCmdDesc(u,desc)
-		--end
+		end
 	end
 
 	function gadget:AllowCommand(u, ud, team, cmd, param, opt)
-		Spring.Echo("ccAllowCommand()")
+		--Spring.Echo("ccAllowCommand()")
 		--Spring.Echo(Spring.GetUnitDefID(u))
 		if ud == 3 then
 			local merchx, merchy, merchz = Spring.GetUnitPosition(u)

@@ -4,3 +4,15 @@
 ### Session Closed at [2013-03-07 23:43] 
  
  
+### Session Start at [2013-03-14 13:41]
+[13:42]  ** Server ** Disconnected from server, chat closed.
+[13:42]  ** Server ** Chat closed.
+### Session Closed at [2013-03-14 13:42] 
+ 
+ 
+### Session Start at [2013-03-14 13:42]
+[13:44]  ** Server ** Disconnected from server, chat closed.
+[13:44]  ** Server ** Chat closed.
+### Session Closed at [2013-03-14 13:44] 
+ 
+ 
