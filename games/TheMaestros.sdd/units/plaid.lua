@@ -1,28 +1,31 @@
-local unitName  =  "plaid"
+local unitName = "plaid"
 
-local unitDef  =  {
---Internal settings
+local unitDef =
+{
+-- Internal settings
     BuildPic = "PlaidThumbnail.png",
     Category = "BUILDING TANK SMALL NOTAIR NOTSUB",
     ObjectName = "plaid.s3o",
-    name = "PLAID_V1.0",
-    Side = "TANKS",
+    Name = "PLAID_V1.0",
+    Side = "TANK",
     TEDClass = "TANK",
-    UnitName = "plaid",
-    --animation script
-	script = "plaidscript.lua",
+    script = "plaidscript.lua",
     
-    customParams = {transform = "edward", buildpermit = "t1"},
+    customParams = {transform = "edward", buildpermit = "t1",},
+    --modify refers to the target output of the possible modifications
 
---Unit limitations and properties
+-- Unit limitations and properties
+    ActivateWhenBuilt = true,
     BuildTime = 100,
-    Description = "A tiny melee robot and arkanium gatherer.",
+    commander = false,
+    Description = "A tiny melee robot and arkanium gatherer",
     MaxDamage = 350,
     RadarDistance = 0,
     SightDistance = 4000,
     SoundCategory = "TANK",
-    Upright = 0,
+    Upright = 1,
     WorkerTime = 80,
+
     
 --Energy and metal related
     BuildCostEnergy = 0,
@@ -63,8 +66,8 @@ local unitDef  =  {
 --Weapons and related
     
     ExplodeAs = "BUILDINGLARGEDEATH",
-	SelfDestructAs = "BUILDINGLARGEDEATH",
-	weapons = {
+    SelfDestructAs = "BUILDINGLARGEDEATH",
+    weapons = {
         [1] = {
             def = "smallarms",
         },
@@ -78,27 +81,27 @@ local weaponDefs = {
     avoidfriendly = false,
     canattackground = false,
     collidefriendly = false,
-	collideground = false,
+    collideground = false,
     collisionsize = 1,
     commandfire = false,
     craterboost = 0,
     cratermult = 0,
-	areaofeffect = 0,
+    areaofeffect = 0,
     impulseFactor = 0,
     
     noselfdamage = true,
     size = 4,
-	targetborder = -1,
-	tolerence = 4000,
+    targetborder = -1,
+    tolerence = 4000,
 --        soundstart = "tank_fire",
 --        soundhit = "explo01",
     range = 300,
-	weaponvelocity = 500,
+    weaponvelocity = 500,
     reloadtime = 0.1,
     rgbcolor = "1.0 1.0 1.0",
     turret = false,
     texture1 = "flame",
---		explosiongenerator = "custom:TANKGUN_FX",
+--      explosiongenerator = "custom:TANKGUN_FX",
     damage =
     {
         default = 6,
