@@ -52,6 +52,7 @@ local unitDef =
     Reclaimable = 0,
     ReclaimSpeed = 0,
     CanReclaim = 0,
+    CanRepair = 0,
 	ShowNanoSpray = 1,
 	CanMove = 1,
 	CanStop = 1,

@@ -8,7 +8,7 @@ local unitDef =
 	ObjectName = "spider.s3o",
 	Side = "TANK",
 	TEDClass = "PLANT",
-	script = "scissormakerscript.lua",
+	script = "genericunitscript.lua",
 	
 	customParams = {modify = "edward", buildreq = "t1",},
 	--modify refers to the target output of the possible modifications
