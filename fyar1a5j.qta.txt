@@ -1,0 +1,577 @@
+﻿Fixed mostly everything: -Changed unitpics to all have white backgrounds (instead of some gray) -balancing fixes to PLAID's build time, damage/speed, cost of EDWARD/COPTER -descriptions changed for all units to give more information -turned off inverted scroll by default -turned off logs on screen -reword button from "Change Class" to "Transform" to be more intuitive -example fix for maps -(example fix for maps is basically name the folder .sdd and put it in the maps folder) -rearranged prereqs so copter comes before PLAIDS > EDWARD > Copter > PLAIDS -deleted unnecessary unitpics (.bmps) -updating SpringLobby to .169... I should commit more frequently when I'm working or else my session ends up with a giant commit like this.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 2 and 1 different commit each, respectively.
+#
+# Changes to be committed:
+#   (use "git reset HEAD^1 <file>..." to unstage)
+#
+#	modified:   AI/Interfaces/C/0.1/log/interface-log.txt
+#	modified:   games/TheMaestros.sdd/LuaRules/Configs/prereq_defs.lua
+#	modified:   games/TheMaestros.sdd/unitpics/GarageThumbnail.png
+#	modified:   games/TheMaestros.sdd/unitpics/Hangarthumbnail.png
+#	modified:   games/TheMaestros.sdd/unitpics/PlaidThumbnail.png
+#	modified:   games/TheMaestros.sdd/unitpics/SpiderThumbnail.png
+#	modified:   games/TheMaestros.sdd/units/copter.lua
+#	modified:   games/TheMaestros.sdd/units/edward.lua
+#	modified:   games/TheMaestros.sdd/units/garage.lua
+#	modified:   games/TheMaestros.sdd/units/hanger.lua
+#	modified:   games/TheMaestros.sdd/units/plaid.lua
+#	modified:   games/TheMaestros.sdd/units/scissormaker.lua
+#	new file:   lobby/SpringLobby/chatlog/Official server/_BATTLE_2013_03_15__21_48_07.txt
+#	new file:   lobby/SpringLobby/chatlog/Official server/_BATTLE_2013_03_19__19_15_56.txt
+#	new file:   lobby/SpringLobby/chatlog/Official server/_BATTLE_2013_03_19__19_17_10.txt
+#	new file:   lobby/SpringLobby/chatlog/Official server/_BATTLE_2013_03_19__19_18_34.txt
+#	new file:   lobby/SpringLobby/chatlog/Official server/_BATTLE_2013_03_19__20_03_57.txt
+#	new file:   lobby/SpringLobby/chatlog/Official server/_BATTLE_2013_03_19__21_50_51.txt
+#	new file:   lobby/SpringLobby/chatlog/Official server/_BATTLE_2013_03_19__21_56_49.txt
+#	new file:   lobby/SpringLobby/chatlog/Official server/_BATTLE_2013_03_19__22_01_39.txt
+#	new file:   lobby/SpringLobby/chatlog/Official server/_BATTLE_2013_03_19__22_35_45.txt
+#	new file:   lobby/SpringLobby/chatlog/Official server/_BATTLE_2013_03_19__22_35_59.txt
+#	modified:   lobby/SpringLobby/chatlog/Official server/_SERVER.txt
+#	modified:   lobby/SpringLobby/chatlog/Official server/channel_en.txt
+#	modified:   lobby/SpringLobby/chatlog/Official server/channel_main.txt
+#	modified:   lobby/SpringLobby/chatlog/Official server/channel_newbies.txt
+#	modified:   lobby/SpringLobby/update/locale/ar/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/cs/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/da/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/de/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/el/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/es/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/fi/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/fr/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/it/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/pl/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/pt/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/ro/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/ru/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/sv/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/uk/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/zh_CN/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/springlobby.exe
+#	modified:   lobby/SpringLobby/update/springlobby_updater.exe
+#	modified:   lobby/SpringLobby/update/temp.zip
+#	new file:   maps/IceWastes26.sdd/Objects3d/Buds.S3O
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_bush_1_l.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_bush_1_m.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_bush_1_s.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_bush_2_l.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_bush_2_m.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_bush_2_s.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_bush_3_l.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_bush_3_m.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_bush_3_s.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_bush_4_l.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_bush_4_m.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_bush_4_s.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_1_l.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_1_m.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_1_s.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_1_xl.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_1_xxl.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_2_l.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_2_m.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_2_s.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_2_xl.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_2_xxl.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_3_l.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_3_m.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_3_s.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_3_xl.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_3_xxl.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_snow_1_l.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_snow_1_m.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_snow_1_s.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_snow_1_xl.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_snow_1_xxl.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_snow_2_l.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_snow_2_m.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_snow_2_s.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_snow_2_xl.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_snow_2_xxl.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_snow_3_l.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_snow_3_m.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_snow_3_s.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_snow_3_xl.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_pine_snow_3_xxl.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_senegal_1.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_senegal_1_large.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_senegal_2.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_senegal_2_large.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_senegal_3.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_senegal_3_large.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_senegal_4.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_senegal_4_large.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_senegal_5.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_senegal_5_large.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_senegal_6.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_senegal_6_large.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_senegal_7.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/ad0_senegal_7_large.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/arkanium.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/brock_1.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/brock_10.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/brock_2.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/brock_3.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/brock_4.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/brock_5.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/brock_6.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/brock_7.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/brock_8.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/brock_9.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/brock_texture1.tga
+#	new file:   maps/IceWastes26.sdd/Objects3d/brock_texture2.tga
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreea-1.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreea-2.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreea-3.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreea-4.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreea-5.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreebhi-1.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreebhi-2.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreebhi-3.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreebhi-4.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreebhi-5.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreeblo-1.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreeblo-2.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreeblo-3.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreeblo-4.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreeblo-5.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreechi-1.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreechi-2.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreechi-3.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreechi-4.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreeclo-1.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreeclo-2.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreeclo-3.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/btreeclo-4.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/cluster1.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/cluster1_dead.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/corcom.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/lgreyrock1.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_1_1.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_1_2.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_1_3.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_1_4.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_1_5.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_1_6.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_2_1.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_2_2.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_2_3.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_2_4.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_2_5.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_2_6.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_3_1.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_3_2.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_3_3.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_3_4.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_3_5.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_3_6.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_4_1.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_4_2.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_4_3.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_4_4.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_4_5.s3o
+#	new file:   maps/IceWastes26.sdd/Objects3d/s44_b_house_4_6.s3o
+#	new file:   maps/IceWastes26.sdd/features/ad0_bush_1_l.lua
+#	new file:   maps/IceWastes26.sdd/features/ad0_bush_1_m.lua
+#	new file:   maps/IceWastes26.sdd/features/ad0_bush_1_s.lua
+#	new file:   maps/IceWastes26.sdd/features/ad0_bush_2_l.lua
+#	new file:   maps/IceWastes26.sdd/features/ad0_bush_2_m.lua
+#	new file:   maps/IceWastes26.sdd/features/ad0_bush_2_s.lua
+#	new file:   maps/IceWastes26.sdd/features/ad0_bush_3_l.lua
+#	new file:   maps/IceWastes26.sdd/features/ad0_bush_3_m.lua
+#	new file:   maps/IceWastes26.sdd/features/ad0_bush_3_s.lua
+#	new file:   maps/IceWastes26.sdd/features/ad0_bush_4_l.lua
+#	new file:   maps/IceWastes26.sdd/features/ad0_bush_4_m.lua
+#	new file:   maps/IceWastes26.sdd/features/ad0_bush_4_s.lua
+#	new file:   maps/IceWastes26.sdd/features/ad0_bushes.tdf
+#	new file:   maps/IceWastes26.sdd/features/ad0_pines.tdf
+#	new file:   maps/IceWastes26.sdd/features/ad0_pines_snow.tdf
+#	new file:   maps/IceWastes26.sdd/features/ad0_senegal.tdf
+#	new file:   maps/IceWastes26.sdd/features/arkanium.lua
+#	new file:   maps/IceWastes26.sdd/features/brock_1.lua
+#	new file:   maps/IceWastes26.sdd/features/brock_10.lua
+#	new file:   maps/IceWastes26.sdd/features/brock_2.lua
+#	new file:   maps/IceWastes26.sdd/features/brock_3.lua
+#	new file:   maps/IceWastes26.sdd/features/brock_4.lua
+#	new file:   maps/IceWastes26.sdd/features/brock_5.lua
+#	new file:   maps/IceWastes26.sdd/features/brock_6.lua
+#	new file:   maps/IceWastes26.sdd/features/brock_7.lua
+#	new file:   maps/IceWastes26.sdd/features/brock_8.lua
+#	new file:   maps/IceWastes26.sdd/features/brock_9.lua
+#	new file:   maps/IceWastes26.sdd/features/brocks.tdf
+#	new file:   maps/IceWastes26.sdd/features/btreea.tdf
+#	new file:   maps/IceWastes26.sdd/features/btreeb.tdf
+#	new file:   maps/IceWastes26.sdd/features/btreec.tdf
+#	new file:   maps/IceWastes26.sdd/features/cluster1.tdf
+#	new file:   maps/IceWastes26.sdd/features/cluster1_dead.tdf
+#	new file:   maps/IceWastes26.sdd/features/commanders.tdf
+#	new file:   maps/IceWastes26.sdd/features/geovent.tdf
+#	new file:   maps/IceWastes26.sdd/features/lgreyrock1.tdf
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_1_1.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_1_2.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_1_3.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_1_4.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_1_5.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_1_6.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_2_1.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_2_2.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_2_3.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_2_4.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_2_5.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_2_6.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_3_1.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_3_2.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_3_3.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_3_4.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_3_5.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_3_6.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_4_1.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_4_2.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_4_3.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_4_4.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_4_5.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_house_4_6.lua
+#	new file:   maps/IceWastes26.sdd/features/s44_b_houses.tdf
+#	new file:   maps/IceWastes26.sdd/features/tdf2lua.py
+#	new file:   maps/IceWastes26.sdd/maps/IceWastes26.smd
+#	new file:   maps/IceWastes26.sdd/maps/IceWastes26.smf
+#	new file:   maps/IceWastes26.sdd/maps/IceWastes26.smt
+#	new file:   maps/IceWastes26.sdd/unittextures/LargeGreyRock1.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/S44Features1a.dds
+#	new file:   maps/IceWastes26.sdd/unittextures/S44Features1b.dds
+#	new file:   maps/IceWastes26.sdd/unittextures/S44Trees1.dds
+#	new file:   maps/IceWastes26.sdd/unittextures/S44Trees2.dds
+#	new file:   maps/IceWastes26.sdd/unittextures/Tyranid1.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/Tyranid1R.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/Tyranid2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/Tyranid2R.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/Tyranid3.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/Tyranid3R.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/TyranidC.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/TyranidCR.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/ad0_bush_1_1.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/ad0_bush_1_2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/ad0_bush_2_1.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/ad0_bush_2_2 .tga
+#	new file:   maps/IceWastes26.sdd/unittextures/ad0_bush_3_1.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/ad0_bush_3_2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/ad0_bush_4_1.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/ad0_bush_4_2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/ad0_pine_1.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/ad0_pine_2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/ad0_pine_snow_1.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/ad0_pine_snow_2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/ad0senegal_1.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/ad0senegal_2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/arkanium.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/brock_texture1.bmp
+#	new file:   maps/IceWastes26.sdd/unittextures/brock_texture1.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/brock_texture2.bmp
+#	new file:   maps/IceWastes26.sdd/unittextures/brock_texture2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/btreebt1.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/btreebt2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/btreect1.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/btreect2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/buds.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/budsT.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/core_commander_1.dds
+#	new file:   maps/IceWastes26.sdd/unittextures/core_commander_2.dds
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2chemicalplant.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2chemicalplant2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2city2a.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2city2a2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2city2b.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2city2b2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2city2c.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2city2c2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2city4a.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2city4a2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2city4b.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2city4b2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2city4c.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2city4c2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2city8a.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2city8a2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2city8b.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2city8b2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2city8c.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2city8c2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2heavyindustrial.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2heavyindustrial2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2industrialcomplex.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2industrialcomplex2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2industrialplant.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2industrialplant2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2processing.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2processing2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2purification.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2purification2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2transformer.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2transformer2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2valvestation.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2valvestation2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2wasteprocessor.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mc2wasteprocessor2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mtt-1.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/mtt-2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/palmtree.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/s44_b_house_1_1.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/s44_b_house_2_1.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/s44_b_house_3_1.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/s44_b_house_4_1.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/s44_b_house_common_2.tga
+#	new file:   maps/IceWastes26.sdd/unittextures/smothdist1.png
+#	new file:   maps/IceWastes26.sdd/unittextures/smothdist2.png
+#	new file:   maps/IceWastes26.sdd/unittextures/tex2.png
+#	new file:   maps/Maptest31.sdd/Objects3d/Buds.S3O
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_bush_1_l.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_bush_1_m.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_bush_1_s.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_bush_2_l.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_bush_2_m.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_bush_2_s.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_bush_3_l.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_bush_3_m.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_bush_3_s.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_bush_4_l.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_bush_4_m.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_bush_4_s.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_1_l.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_1_m.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_1_s.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_1_xl.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_1_xxl.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_2_l.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_2_m.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_2_s.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_2_xl.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_2_xxl.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_3_l.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_3_m.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_3_s.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_3_xl.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_3_xxl.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_snow_1_l.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_snow_1_m.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_snow_1_s.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_snow_1_xl.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_snow_1_xxl.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_snow_2_l.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_snow_2_m.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_snow_2_s.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_snow_2_xl.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_snow_2_xxl.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_snow_3_l.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_snow_3_m.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_snow_3_s.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_snow_3_xl.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_pine_snow_3_xxl.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_senegal_1.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_senegal_1_large.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_senegal_2.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_senegal_2_large.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_senegal_3.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_senegal_3_large.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_senegal_4.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_senegal_4_large.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_senegal_5.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_senegal_5_large.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_senegal_6.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_senegal_6_large.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_senegal_7.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/ad0_senegal_7_large.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/arkanium.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/brock_1.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/brock_10.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/brock_2.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/brock_3.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/brock_4.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/brock_5.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/brock_6.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/brock_7.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/brock_8.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/brock_9.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/brock_texture1.tga
+#	new file:   maps/Maptest31.sdd/Objects3d/brock_texture2.tga
+#	new file:   maps/Maptest31.sdd/Objects3d/btreea-1.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreea-2.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreea-3.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreea-4.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreea-5.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreebhi-1.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreebhi-2.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreebhi-3.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreebhi-4.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreebhi-5.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreeblo-1.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreeblo-2.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreeblo-3.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreeblo-4.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreeblo-5.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreechi-1.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreechi-2.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreechi-3.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreechi-4.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreeclo-1.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreeclo-2.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreeclo-3.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/btreeclo-4.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/cluster1.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/cluster1_dead.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/corcom.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/lgreyrock1.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_1_1.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_1_2.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_1_3.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_1_4.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_1_5.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_1_6.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_2_1.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_2_2.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_2_3.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_2_4.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_2_5.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_2_6.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_3_1.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_3_2.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_3_3.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_3_4.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_3_5.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_3_6.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_4_1.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_4_2.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_4_3.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_4_4.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_4_5.s3o
+#	new file:   maps/Maptest31.sdd/Objects3d/s44_b_house_4_6.s3o
+#	new file:   maps/Maptest31.sdd/features/ad0_bush_1_l.lua
+#	new file:   maps/Maptest31.sdd/features/ad0_bush_1_m.lua
+#	new file:   maps/Maptest31.sdd/features/ad0_bush_1_s.lua
+#	new file:   maps/Maptest31.sdd/features/ad0_bush_2_l.lua
+#	new file:   maps/Maptest31.sdd/features/ad0_bush_2_m.lua
+#	new file:   maps/Maptest31.sdd/features/ad0_bush_2_s.lua
+#	new file:   maps/Maptest31.sdd/features/ad0_bush_3_l.lua
+#	new file:   maps/Maptest31.sdd/features/ad0_bush_3_m.lua
+#	new file:   maps/Maptest31.sdd/features/ad0_bush_3_s.lua
+#	new file:   maps/Maptest31.sdd/features/ad0_bush_4_l.lua
+#	new file:   maps/Maptest31.sdd/features/ad0_bush_4_m.lua
+#	new file:   maps/Maptest31.sdd/features/ad0_bush_4_s.lua
+#	new file:   maps/Maptest31.sdd/features/ad0_bushes.tdf
+#	new file:   maps/Maptest31.sdd/features/ad0_pines.tdf
+#	new file:   maps/Maptest31.sdd/features/ad0_pines_snow.tdf
+#	new file:   maps/Maptest31.sdd/features/ad0_senegal.tdf
+#	new file:   maps/Maptest31.sdd/features/arkanium.lua
+#	new file:   maps/Maptest31.sdd/features/brock_1.lua
+#	new file:   maps/Maptest31.sdd/features/brock_10.lua
+#	new file:   maps/Maptest31.sdd/features/brock_2.lua
+#	new file:   maps/Maptest31.sdd/features/brock_3.lua
+#	new file:   maps/Maptest31.sdd/features/brock_4.lua
+#	new file:   maps/Maptest31.sdd/features/brock_5.lua
+#	new file:   maps/Maptest31.sdd/features/brock_6.lua
+#	new file:   maps/Maptest31.sdd/features/brock_7.lua
+#	new file:   maps/Maptest31.sdd/features/brock_8.lua
+#	new file:   maps/Maptest31.sdd/features/brock_9.lua
+#	new file:   maps/Maptest31.sdd/features/brocks.tdf
+#	new file:   maps/Maptest31.sdd/features/btreea.tdf
+#	new file:   maps/Maptest31.sdd/features/btreeb.tdf
+#	new file:   maps/Maptest31.sdd/features/btreec.tdf
+#	new file:   maps/Maptest31.sdd/features/cluster1.tdf
+#	new file:   maps/Maptest31.sdd/features/cluster1_dead.tdf
+#	new file:   maps/Maptest31.sdd/features/commanders.tdf
+#	new file:   maps/Maptest31.sdd/features/geovent.tdf
+#	new file:   maps/Maptest31.sdd/features/lgreyrock1.tdf
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_1_1.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_1_2.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_1_3.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_1_4.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_1_5.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_1_6.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_2_1.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_2_2.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_2_3.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_2_4.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_2_5.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_2_6.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_3_1.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_3_2.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_3_3.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_3_4.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_3_5.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_3_6.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_4_1.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_4_2.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_4_3.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_4_4.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_4_5.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_house_4_6.lua
+#	new file:   maps/Maptest31.sdd/features/s44_b_houses.tdf
+#	new file:   maps/Maptest31.sdd/features/tdf2lua.py
+#	new file:   maps/Maptest31.sdd/maps/Maptest31.smd
+#	new file:   maps/Maptest31.sdd/maps/Maptest31.smf
+#	new file:   maps/Maptest31.sdd/maps/Maptest31.smt
+#	new file:   maps/Maptest31.sdd/unittextures/LargeGreyRock1.tga
+#	new file:   maps/Maptest31.sdd/unittextures/ad0_bush_1_1.tga
+#	new file:   maps/Maptest31.sdd/unittextures/ad0_bush_1_2.tga
+#	new file:   maps/Maptest31.sdd/unittextures/ad0_bush_2_1.tga
+#	new file:   maps/Maptest31.sdd/unittextures/ad0_bush_2_2 .tga
+#	new file:   maps/Maptest31.sdd/unittextures/ad0_bush_3_1.tga
+#	new file:   maps/Maptest31.sdd/unittextures/ad0_bush_3_2.tga
+#	new file:   maps/Maptest31.sdd/unittextures/ad0_bush_4_1.tga
+#	new file:   maps/Maptest31.sdd/unittextures/ad0_bush_4_2.tga
+#	new file:   maps/Maptest31.sdd/unittextures/ad0_pine_1.tga
+#	new file:   maps/Maptest31.sdd/unittextures/ad0_pine_2.tga
+#	new file:   maps/Maptest31.sdd/unittextures/ad0_pine_snow_1.tga
+#	new file:   maps/Maptest31.sdd/unittextures/ad0_pine_snow_2.tga
+#	new file:   maps/Maptest31.sdd/unittextures/ad0senegal_1.tga
+#	new file:   maps/Maptest31.sdd/unittextures/ad0senegal_2.tga
+#	new file:   maps/Maptest31.sdd/unittextures/arkanium.tga
+#	new file:   maps/Maptest31.sdd/unittextures/brock_texture1.bmp
+#	new file:   maps/Maptest31.sdd/unittextures/brock_texture1.tga
+#	new file:   maps/Maptest31.sdd/unittextures/brock_texture2.bmp
+#	new file:   maps/Maptest31.sdd/unittextures/brock_texture2.tga
+#	new file:   maps/Maptest31.sdd/unittextures/btreebt1.tga
+#	new file:   maps/Maptest31.sdd/unittextures/btreebt2.tga
+#	new file:   maps/Maptest31.sdd/unittextures/btreect1.tga
+#	new file:   maps/Maptest31.sdd/unittextures/btreect2.tga
+#	new file:   maps/Maptest31.sdd/unittextures/buds.tga
+#	new file:   maps/Maptest31.sdd/unittextures/budsT.tga
+#	new file:   maps/Maptest31.sdd/unittextures/core_commander_1.dds
+#	new file:   maps/Maptest31.sdd/unittextures/core_commander_2.dds
+#	new file:   maps/Maptest31.sdd/unittextures/mtt-1.tga
+#	new file:   maps/Maptest31.sdd/unittextures/mtt-2.tga
+#	new file:   maps/Maptest31.sdd/unittextures/palmtree.tga
+#	new file:   maps/Maptest31.sdd/unittextures/s44_b_house_1_1.tga
+#	new file:   maps/Maptest31.sdd/unittextures/s44_b_house_2_1.tga
+#	new file:   maps/Maptest31.sdd/unittextures/s44_b_house_3_1.tga
+#	new file:   maps/Maptest31.sdd/unittextures/s44_b_house_4_1.tga
+#	new file:   maps/Maptest31.sdd/unittextures/s44_b_house_common_2.tga
+#	new file:   maps/Maptest31.sdd/unittextures/tex2.png
+#	new file:   mgftvq0z.rfv.txt
+#	new file:   msurmvdg.3pn.txt
+#	modified:   springlobby.exe
+#	modified:   springlobby.exe.bak
+#	modified:   uikeys.txt.bak
+#	modified:   update.log
+#	new file:   zpjghmiw.sto.txt
+#
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    Saves/20130309_231106_TheMaestros.sdd_Maptest31.ssf
+#	deleted:    games/TheMaestros.sdd/unitpics/copter.bmp
+#	deleted:    games/TheMaestros.sdd/unitpics/edward.bmp
+#	deleted:    games/TheMaestros.sdd/unitpics/garage.bmp
+#	deleted:    games/TheMaestros.sdd/unitpics/hanger.bmp
+#	deleted:    games/TheMaestros.sdd/unitpics/plaid.bmp
+#	deleted:    maps/DruMaptest31.sdz
+#	deleted:    maps/IceWastes21.sd7
+#	deleted:    maps/IceWastes26.sd7
+#	deleted:    maps/Maptest31.sd7
+#
+
