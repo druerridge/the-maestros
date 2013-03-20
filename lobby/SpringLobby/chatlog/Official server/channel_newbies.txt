@@ -13,3 +13,15 @@
 ### Session Closed at [2013-03-14 13:59] 
  
  
+### Session Start at [2013-03-15 21:48]
+[21:48]  ** Channel topic:
+[21:48]  Welcome to the main Spring server
+[21:48]  Frequently asked questions: http://springrts.com/wiki/FAQ
+[21:48]  Still have troubles? http://springrts.com/wiki/Bugs
+[21:48]  Forum: http://springrts.com/phpbb/
+[21:48]  games & maps download mirrors: http://springrts.com/wiki/Getting_Spring_Content_and_Links
+[21:48]  Mumble (voice comm) server: springrts.com (mumble download: http://mumble.sourceforge.net/)
+[21:48]  Need help? Try to ask it on this channel.
+[21:48]  ** Set by ChanServ
+[22:19]  ** Server ** Disconnected from server, chat closed.
+[22:19]  ** Server ** Chat closed.

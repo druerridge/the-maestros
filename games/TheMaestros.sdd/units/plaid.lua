@@ -11,15 +11,15 @@ local unitDef =
     TEDClass = "TANK",
     script = "plaidscript.lua",
     
-    customParams = {transform = "edward", buildpermit = "t1", edward = "200", copter = "200"},
-    --modify refers to the target output of the possible modifications
+    customParams = {transform = "edward", buildpermit = "t1", edward = "100", copter = "150"},
+    --"edward" and "copter" refer to the cost for transformation to that unit
 
 -- Unit limitations and properties
     ActivateWhenBuilt = true,
-    BuildTime = 100,
+    BuildTime = 175,
     commander = false,
-    Description = "A tiny melee robot and arkanium gatherer",
-    MaxDamage = 350,
+    Description = "A tiny arkanium gathering robot with fast, weak machine-gun. Powerful in numbers",
+    MaxDamage = 375,
     RadarDistance = 0,
     SightDistance = 4000,
     SoundCategory = "TANK",
@@ -45,7 +45,7 @@ local unitDef =
 --Abilities
     Builder = 1,
     CanReclaim = 1,
-    ReclaimSpeed = 20,
+    ReclaimSpeed = 25,
     CanRepair = 0,
     ShowNanoSpray = 1,
     CanAttack = 1,
@@ -95,7 +95,7 @@ local weaponDefs = {
     tolerence = 4000,
 --        soundstart = "tank_fire",
 --        soundhit = "explo01",
-    range = 300,
+    range = 325,
     weaponvelocity = 500,
     reloadtime = 0.1,
     rgbcolor = "1.0 1.0 1.0",
@@ -104,7 +104,7 @@ local weaponDefs = {
 --      explosiongenerator = "custom:TANKGUN_FX",
     damage =
     {
-        default = 6,
+        default = 5,
     },
     },
 }

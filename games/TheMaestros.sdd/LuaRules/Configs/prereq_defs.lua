@@ -9,12 +9,12 @@ format:
 }
 ]]
 
-local hangerprereq = {
-  "scissormaker",
+local scissormakerprereqs = {
+  "hanger",
 }
 
 local result = {
-  hanger = hangerprereq,
+  scissormaker = scissormakerprereqs,
 }
 
 return result

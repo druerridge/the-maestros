@@ -1,0 +1,91 @@
+﻿Fixed mostly everything:
+
+-Changed unitpics to all have white backgrounds (instead of some gray)
+-balancing fixes to PLAID's build time, damage/speed, cost of EDWARD/COPTER
+-descriptions changed for all units to give more information
+-turned off inverted scroll by default
+-turned off logs on screen
+-reword button from "Change Class" to "Transform" to be more intuitive
+-example fix for maps
+-(example fix for maps is basically name the folder .sdd and put it in the m
+ps folder)
+-rearranged prereqs so copter comes before PLAIDS > EDWARD > Copter > PLAIDS
+-deleted unnecessary unitpics (.bmps)
+I should commit more frequently when I'm working or else my session ends up
+ith a giant commit like this.
+-updating SpringLobby to .169
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 1 different commit each, respectively.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   AI/Interfaces/C/0.1/log/interface-log.txt
+#	deleted:    Saves/20130309_231106_TheMaestros.sdd_Maptest31.ssf
+#	modified:   games/TheMaestros.sdd/LuaRules/Configs/prereq_defs.lua
+#	modified:   games/TheMaestros.sdd/unitpics/GarageThumbnail.png
+#	modified:   games/TheMaestros.sdd/unitpics/Hangarthumbnail.png
+#	modified:   games/TheMaestros.sdd/unitpics/PlaidThumbnail.png
+#	modified:   games/TheMaestros.sdd/unitpics/SpiderThumbnail.png
+#	deleted:    games/TheMaestros.sdd/unitpics/copter.bmp
+#	deleted:    games/TheMaestros.sdd/unitpics/edward.bmp
+#	deleted:    games/TheMaestros.sdd/unitpics/garage.bmp
+#	deleted:    games/TheMaestros.sdd/unitpics/hanger.bmp
+#	deleted:    games/TheMaestros.sdd/unitpics/plaid.bmp
+#	modified:   games/TheMaestros.sdd/units/copter.lua
+#	modified:   games/TheMaestros.sdd/units/edward.lua
+#	modified:   games/TheMaestros.sdd/units/garage.lua
+#	modified:   games/TheMaestros.sdd/units/hanger.lua
+#	modified:   games/TheMaestros.sdd/units/plaid.lua
+#	modified:   games/TheMaestros.sdd/units/scissormaker.lua
+#	modified:   lobby/SpringLobby/chatlog/Official server/_SERVER.txt
+#	modified:   lobby/SpringLobby/chatlog/Official server/channel_en.txt
+#	modified:   lobby/SpringLobby/chatlog/Official server/channel_main.txt
+#	modified:   lobby/SpringLobby/chatlog/Official server/channel_newbies.txt
+#	modified:   lobby/SpringLobby/update/locale/ar/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/cs/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/da/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/de/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/el/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/es/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/fi/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/fr/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/it/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/pl/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/pt/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/ro/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/ru/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/sv/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/uk/LC_MESSAGES/springlobby.mo
+#	modified:   lobby/SpringLobby/update/locale/zh_CN/LC_MESSAGES/springlobby.mo
+#	renamed:    maps/IceWastes26.sd7 -> lobby/SpringLobby/update/springlobby.exe
+#	renamed:    maps/IceWastes21.sd7 -> lobby/SpringLobby/update/springlobby_updater.exe
+#	renamed:    maps/DruMaptest31.sdz -> lobby/SpringLobby/update/temp.zip
+#	deleted:    maps/Maptest31.sd7
+#	modified:   springlobby.exe
+#	modified:   springlobby.exe.bak
+#	modified:   uikeys.txt.bak
+#	modified:   update.log
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	lobby/SpringLobby/chatlog/Official server/_BATTLE_2013_03_15__21_48_07.txt
+#	lobby/SpringLobby/chatlog/Official server/_BATTLE_2013_03_19__19_15_56.txt
+#	lobby/SpringLobby/chatlog/Official server/_BATTLE_2013_03_19__19_17_10.txt
+#	lobby/SpringLobby/chatlog/Official server/_BATTLE_2013_03_19__19_18_34.txt
+#	lobby/SpringLobby/chatlog/Official server/_BATTLE_2013_03_19__20_03_57.txt
+#	lobby/SpringLobby/chatlog/Official server/_BATTLE_2013_03_19__21_50_51.txt
+#	lobby/SpringLobby/chatlog/Official server/_BATTLE_2013_03_19__21_56_49.txt
+#	lobby/SpringLobby/chatlog/Official server/_BATTLE_2013_03_19__22_01_39.txt
+#	lobby/SpringLobby/chatlog/Official server/_BATTLE_2013_03_19__22_35_45.txt
+#	lobby/SpringLobby/chatlog/Official server/_BATTLE_2013_03_19__22_35_59.txt
+#	maps/IceWastes26.sdd/
+#	maps/Maptest31.sdd/
+#	mgftvq0z.rfv.txt
+#	msurmvdg.3pn.txt
+

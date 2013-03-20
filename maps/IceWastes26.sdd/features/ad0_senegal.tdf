@@ -1,0 +1,295 @@
+//All objects from the game A.D 0 Thanks!
+[ad0_senegal_1] 
+	   { 
+	   world=All Worlds; 
+	   description=Palm Tree; 
+	   category=Vegetation; 
+	   object=ad0_senegal_1.s3o; 
+	   footprintx=1; 
+	   footprintz=1; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=0; 
+	   energy=300;
+	   metal=0; 
+	   damage=216; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 
+[ad0_senegal_2] 
+	   { 
+	   world=All Worlds; 
+	   description=Palm Tree; 
+	   category=Vegetation; 
+	   object=ad0_senegal_2.s3o; 
+	   footprintx=1; 
+	   footprintz=1; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=0; 
+	   energy=300;
+	   metal=0; 
+	   damage=217; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 
+[ad0_senegal_3] 
+	   { 
+	   world=All Worlds; 
+	   description=Palm Tree; 
+	   category=Vegetation; 
+	   object=ad0_senegal_3.s3o; 
+	   footprintx=1; 
+	   footprintz=1; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=0; 
+	   energy=300;
+	   metal=0; 
+	   damage=218; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 
+[ad0_senegal_4] 
+	   { 
+	   world=All Worlds; 
+	   description=Palm Tree; 
+	   category=Vegetation; 
+	   object=ad0_senegal_4.s3o; 
+	   footprintx=1; 
+	   footprintz=1; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=0; 
+	   energy=300;
+	   metal=0; 
+	   damage=219; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 
+[ad0_senegal_5] 
+	   { 
+	   world=All Worlds; 
+	   description=Palm Tree; 
+	   category=Vegetation; 
+	   object=ad0_senegal_5.s3o; 
+	   footprintx=1; 
+	   footprintz=1; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=0; 
+	   energy=300;
+	   metal=0; 
+	   damage=220; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 
+[ad0_senegal_6] 
+	   { 
+	   world=All Worlds; 
+	   description=Palm Tree; 
+	   category=Vegetation; 
+	   object=ad0_senegal_6.s3o; 
+	   footprintx=1; 
+	   footprintz=1; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=0; 
+	   energy=300;
+	   metal=0; 
+	   damage=221; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 
+[ad0_senegal_7] 
+	   { 
+	   world=All Worlds; 
+	   description=Palm Tree; 
+	   category=Vegetation; 
+	   object=ad0_senegal_7.s3o; 
+	   footprintx=1; 
+	   footprintz=1; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=0; 
+	   energy=300;
+	   metal=0; 
+	   damage=222; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 
+[ad0_senegal_1_large] 
+	   { 
+	   world=All Worlds; 
+	   description=Palm Tree; 
+	   category=Vegetation; 
+	   object=ad0_senegal_1_large.s3o;
+	   footprintx=1; 
+	   footprintz=1; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=0; 
+	   energy=300;
+	   metal=0; 
+	   damage=223; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 
+[ad0_senegal_2_large] 
+	   { 
+	   world=All Worlds; 
+	   description=Palm Tree; 
+	   category=Vegetation; 
+	   object=ad0_senegal_2_large.s3o; 
+	   footprintx=1; 
+	   footprintz=1; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=0; 
+	   energy=300;
+	   metal=0; 
+	   damage=224; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 
+[ad0_senegal_3_large] 
+	   { 
+	   world=All Worlds; 
+	   description=Palm Tree; 
+	   category=Vegetation; 
+	   object=ad0_senegal_3_large.s3o; 
+	   footprintx=1; 
+	   footprintz=1; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=0; 
+	   energy=300;
+	   metal=0; 
+	   damage=225; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 
+[ad0_senegal_4_large] 
+	   { 
+	   world=All Worlds; 
+	   description=Palm Tree; 
+	   category=Vegetation; 
+	   object=ad0_senegal_4_large.s3o; 
+	   footprintx=1; 
+	   footprintz=1; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=0; 
+	   energy=300;
+	   metal=0; 
+	   damage=226; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 
+[ad0_senegal_5_large] 
+	   { 
+	   world=All Worlds; 
+	   description=Palm Tree; 
+	   category=Vegetation; 
+	   object=ad0_senegal_5_large.s3o; 
+	   footprintx=1; 
+	   footprintz=1; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=0; 
+	   energy=300;
+	   metal=0; 
+	   damage=227; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 
+[ad0_senegal_6_large] 
+	   { 
+	   world=All Worlds; 
+	   description=Palm Tree; 
+	   category=Vegetation; 
+	   object=ad0_senegal_6_large.s3o; 
+	   footprintx=1; 
+	   footprintz=1; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=0; 
+	   energy=300;
+	   metal=0; 
+	   damage=228; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 
+[ad0_senegal_7_large] 
+	   { 
+	   world=All Worlds; 
+	   description=Palm Tree; 
+	   category=Vegetation; 
+	   object=ad0_senegal_7_large.s3o; 
+	   footprintx=1; 
+	   footprintz=1; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=0; 
+	   energy=300;
+	   metal=0; 
+	   damage=229; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 

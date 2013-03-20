@@ -8,7 +8,7 @@ local unitDef =
 	ObjectName = "hanger.s3o",
 	Side = "TANK",
 	TEDClass = "PLANT",
-	script = "hangerscript.lua",
+	script = "genericunitscript.lua",
 	
 	customParams = {modify = "copter", buildreq = "t1",},
 	--modify refers to the target output of the possible modifications
@@ -17,7 +17,7 @@ local unitDef =
 	ActivateWhenBuilt = true,
 	BuildTime = 800,
     commander = true,
-	Description = "Produces Copters",
+	Description = "PLAIDs can transform into COPTERs here",
 	MaxDamage = 1500,
 	Name = "The Hanger",
 	RadarDistance = 0,

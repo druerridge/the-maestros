@@ -12,12 +12,11 @@ local unitDef  =  {
 	--animation script
     script = "genericunitscript.lua",
 
-    customParams = {transform = "plaid", buildpermit = "t0", plaid = "100",},
-    --modify refers to the target output of the possible modifications
-
+    customParams = {transform = "plaid", buildpermit = "t0", plaid = "0",},
+    
 --Unit limitations and properties
     BuildTime = 1000,
-    Description = "A robot with an area-of-effect missle.",
+    Description = "An attack robot that shoots an area-of-effect missle.",
     MaxDamage = 800,
     RadarDistance = 0,
     SightDistance = 4000,
@@ -26,8 +25,9 @@ local unitDef  =  {
     
 --Energy and metal related
     BuildCostEnergy = 0,
-    BuildCostMetal = 100,
-    
+    BuildCostMetal = 150, --not used to determine the class-change cost, see "plaid.customparams.copter"
+    --NOTE: This does affect the DISPLAYED cost of the unit, so let's try to keep them in sync
+
 --Pathfinding and related
     Acceleration = 0.15,
     BrakeRate = 0.5,
@@ -95,7 +95,7 @@ local weaponDefs = {
 	tolerence = 4000,
 --        soundstart = "tank_fire",
 --        soundhit = "explo01",
-    range = 300,
+    range = 375,
 	weaponvelocity = 500,
     reloadtime = 0.5,
     rgbcolor = "1.0 1.0 1.0",
@@ -104,7 +104,7 @@ local weaponDefs = {
 --		explosiongenerator = "custom:TANKGUN_FX",
     damage =
     {
-        default = 40,
+        default = 30,
     },
     },
 }

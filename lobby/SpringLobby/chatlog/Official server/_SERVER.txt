@@ -11,3 +11,13 @@
 ### Session Closed at [2013-03-14 13:59] 
  
  
+### Session Start at [2013-03-15 21:48]
+[21:48]  ** Server ** Connecting to server Official server...
+[21:48]  ** Server ** Connected to Official server.
+[21:48]  ** motd ** Welcome, toxicoder!
+[21:48]  ** motd ** There are currently 142 clients connected
+[21:48]  ** motd ** to the server talking in 761 open channels
+[21:48]  ** motd ** and participating in 56 battles.
+[21:48]  ** motd ** Server's uptime is 1.54 days
+[22:19]  ** Server ** disconnected from server: Official server
+[22:19]  ** Server ** Chat closed.
