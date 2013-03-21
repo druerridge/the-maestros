@@ -83,6 +83,8 @@ if (gadgetHandler:IsSyncedCode()) then
 	function gadget:AllowCommand(u, ud, team, cmd, param, opt)
 		--Spring.Echo("ccAllowCommand()")
 		--Spring.Echo(Spring.GetUnitDefID(u))
+		--[[ TURNED OFF FOR PITCH-DOC BUILD, REINSTATE FOR FINAL PITCH BUILD 
+			
 		if ud == 3 then
 			local merchx, merchy, merchz = Spring.GetUnitPosition(u)
 			local merchdist = math.sqrt((herpderp[1][1] - merchx)*(herpderp[1][1] - merchx) + (herpderp[1][2] - merchy)*(herpderp[1][2] - merchy) + (herpderp[1][3] - merchz)*(herpderp[1][3] - merchz))
@@ -95,6 +97,8 @@ if (gadgetHandler:IsSyncedCode()) then
 				SetBuildoptionDisabled(3, team, true)
 			end
 		end
+		
+		]]
 
 		--parse command
 		if cmd == CMD_CHANGECLASS then

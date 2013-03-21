@@ -46,7 +46,7 @@ function gadget:UnitDestroyed(unitID, unitDefID, unitTeam, attackerID, attackerD
 			--Spring.Echo(Spring.GetTeamInfo(teamList[i]))
 			_, _, isDead, _, _, _, _, _  = Spring.GetTeamInfo(teamList[i])
 			--Spring.Echo(isDead)
-			if isDead ~= true then --I don't even know.
+			if isDead ~= true then --I don't even know. It just works.
 				table.remove(teamList, i)
 			end
 		end

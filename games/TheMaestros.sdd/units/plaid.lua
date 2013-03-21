@@ -50,12 +50,17 @@ local unitDef =
     ShowNanoSpray = 1,
     CanAttack = 1,
     CanFight = 1,
-    CanGuard = 1,
+    CanGuard = 0,
     CanMove = 1,
-    CanPatrol = 1,
+    CanPatrol = 0,
     CanStop = 1,
     LeaveTracks = 1,
     Reclaimable = 0,
+    
+    CanRepeat = 0,
+    CanAssist = 0,
+    CanRestore = 0,
+    CanGuard = 0,
     
 --Hitbox
 --    collisionVolumeOffsets    =  "0 0 0",

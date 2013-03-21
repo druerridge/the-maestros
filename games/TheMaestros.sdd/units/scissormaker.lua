@@ -55,6 +55,12 @@ local unitDef =
 	CanStop = 1,
 	LeaveTracks = 1,
 	CanBeAssisted = 0,
+
+	CanRepeat = 0,
+    CanAssist = 0,
+    CanRestore = 0,
+    CanGuard = 0,
+    CanPatrol = 0,
 	--buildoptions = 
 	--{
 	--	"edward",
