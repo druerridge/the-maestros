@@ -6,3 +6,4 @@ Mod config file AI\Skirmish\AAI\0.9\cfg\mod\TheMaestros.cfg not found
 Now trying with version independent mod config file name ...
 Mod config file AI\Skirmish\AAI\0.9\cfg\mod\Maestros.cfg not found
 Give up trying to find mod config file (required).
+Error: Could not load mod and/or general config file. For further information see the config file under: C:\workspace\Spring\the-maestros\AI\Skirmish\AAI\0.9\log\AAI_log_team_0.txt
