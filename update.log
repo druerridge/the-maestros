@@ -1,97 +1,101 @@
-23:16:00: m_exe_to_update C:\workspace\Spring\the-maestros\springlobby.exe
-23:16:00: m_version 0.169
-23:16:00: GlobalsManager::GlobalsManager()
-23:16:00: Error: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\AUTHORS
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\COPYING
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/pl
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/pl/LC_MESSAGES/springlobby.mo
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/uk
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/uk/LC_MESSAGES/springlobby.mo
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/da
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/da/LC_MESSAGES/springlobby.mo
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/ru
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/ru/LC_MESSAGES/springlobby.mo
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/es
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/es/LC_MESSAGES/springlobby.mo
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/pt
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/pt/LC_MESSAGES/springlobby.mo
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/sv
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/sv/LC_MESSAGES/springlobby.mo
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/it
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/it/LC_MESSAGES/springlobby.mo
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/fi
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/fi/LC_MESSAGES/springlobby.mo
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/de
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/de/LC_MESSAGES/springlobby.mo
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/ro
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/ro/LC_MESSAGES/springlobby.mo
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/ar
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/ar/LC_MESSAGES/springlobby.mo
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/cs
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/cs/LC_MESSAGES/springlobby.mo
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/fr
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/fr/LC_MESSAGES/springlobby.mo
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/el
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/el/LC_MESSAGES/springlobby.mo
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale
-23:16:09: Warning: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/zh_CN
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\locale/zh_CN/LC_MESSAGES/springlobby.mo
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\NEWS
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\README
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\springlobby.exe
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\springlobby_updater.exe
-23:16:09: unzipping: C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\THANKS
-23:16:09: springlobby.info/windows/springlobby-0.169-win32.zip
+22:34:24: m_exe_to_update C:\Program Files (x86)\Spring\springlobby.exe
+22:34:24: m_version 0.157
+22:34:24: GlobalsManager::GlobalsManager()
+22:34:24: Error: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\
+22:34:54: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\AUTHORS
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\COPYING
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\NEWS
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\README
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\THANKS
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\include
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\include/spring
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\include/spring/Downloader/pr-downloader.h
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/es
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/es/LC_MESSAGES/springlobby.mo
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/da
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/da/LC_MESSAGES/springlobby.mo
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/ar
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/ar/LC_MESSAGES/springlobby.mo
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/de
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/de/LC_MESSAGES/springlobby.mo
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/pt
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/pt/LC_MESSAGES/springlobby.mo
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/fi
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/fi/LC_MESSAGES/springlobby.mo
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/ro
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/ro/LC_MESSAGES/springlobby.mo
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/sv
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/sv/LC_MESSAGES/springlobby.mo
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/el
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/el/LC_MESSAGES/springlobby.mo
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/pl
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/pl/LC_MESSAGES/springlobby.mo
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/cs
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/cs/LC_MESSAGES/springlobby.mo
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/uk
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/uk/LC_MESSAGES/springlobby.mo
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/it
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/it/LC_MESSAGES/springlobby.mo
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/ru
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/ru/LC_MESSAGES/springlobby.mo
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/fr
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/fr/LC_MESSAGES/springlobby.mo
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale
+22:34:55: Warning: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/zh_CN
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\locale/zh_CN/LC_MESSAGES/springlobby.mo
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\springlobby.exe
+22:34:55: unzipping: C:\Program Files (x86)\Spring\lobby\SpringLobby\update\springlobby_updater.exe
+22:34:55: springlobby.info/windows/springlobby-0.157-win32.zip
 successfully unzipped in:
-C:\workspace\Spring\the-maestros\lobby\SpringLobby\update\temp.zip
-23:16:09: Got minor rev 168
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\ar' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\ar\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\cs' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\cs\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\da' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\da\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\de' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\de\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\el' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\el\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\es' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\es\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\fi' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\fi\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\fr' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\fr\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\it' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\it\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\pl' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\pl\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\pt' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\pt\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\ro' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\ro\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\ru' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\ru\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\sv' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\sv\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\uk' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\uk\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\zh_CN' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:09: Error: Directory 'C:\workspace\Spring\the-maestros\locale\zh_CN\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
-23:16:16: GlobalsManager::DestroyAll()
+C:\Program Files (x86)\Spring\lobby\SpringLobby\update\temp.zip
+22:34:55: Got minor rev 147
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\ar' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\ar\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\cs' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\cs\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\da' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\da\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\de' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\de\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\el' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\el\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\es' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\es\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\fi' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\fi\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\fr' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\fr\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\it' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\it\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\pl' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\pl\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\pt' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\pt\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\ro' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\ro\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\ru' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\ru\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\sv' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\sv\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\uk' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\uk\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\zh_CN' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:55: Error: Directory 'C:\Program Files (x86)\Spring\locale\zh_CN\LC_MESSAGES' couldn't be created (error 183: cannot create a file when that file already exists.)
+22:34:58: GlobalsManager::DestroyAll()

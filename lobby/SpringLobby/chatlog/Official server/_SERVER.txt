@@ -11,39 +11,16 @@
 ### Session Closed at [2013-03-14 13:59] 
  
  
-### Session Start at [2013-03-15 21:48]
-[21:48]  ** Server ** Connecting to server Official server...
-[21:48]  ** Server ** Connected to Official server.
-[21:48]  ** motd ** Welcome, toxicoder!
-[21:48]  ** motd ** There are currently 142 clients connected
-[21:48]  ** motd ** to the server talking in 761 open channels
-[21:48]  ** motd ** and participating in 56 battles.
-[21:48]  ** motd ** Server's uptime is 1.54 days
-[22:19]  ** Server ** disconnected from server: Official server
-[22:19]  ** Server ** Chat closed.
-### Session Start at [2013-03-20 20:24]
-[20:24]  ** Server ** Connecting to server Official server...
-[20:24]  ** Server ** Connected to Official server.
-[20:24]  ** motd ** Welcome, toxicoder!
-[20:24]  ** motd ** There are currently 163 clients connected
-[20:24]  ** motd ** to the server talking in 1864 open channels
-[20:24]  ** motd ** and participating in 58 battles.
-[20:24]  ** motd ** Server's uptime is 6.35 days
-[20:30]  ** Server ** disconnected from server: Official server
-[20:30]  ** Server ** Chat closed.
-### Session Closed at [2013-03-20 20:30] 
- 
- 
-### Session Start at [2013-03-20 20:30]
-[20:30]  ** Server ** Connecting to server Official server...
-[20:30]  ** Server ** Connected to Official server.
-[20:30]  ** motd ** Welcome, toxicoder!
-[20:30]  ** motd ** There are currently 163 clients connected
-[20:30]  ** motd ** to the server talking in 1865 open channels
-[20:30]  ** motd ** and participating in 57 battles.
-[20:30]  ** motd ** Server's uptime is 6.36 days
-[20:41]  ** Server ** disconnected from server: Official server
-[20:41]  ** Server ** Chat closed.
-### Session Closed at [2013-03-20 20:41] 
+### Session Start at [2013-04-06 10:57]
+[10:57]  ** Server ** Connecting to server Official server...
+[10:57]  ** Server ** Connected to Official server.
+[10:57]  ** motd ** Welcome, bravojonny!
+[10:57]  ** motd ** There are currently 310 clients connected
+[10:57]  ** motd ** to the server talking in 3124 open channels
+[10:57]  ** motd ** and participating in 78 battles.
+[10:57]  ** motd ** Server's uptime is 1.67 weeks
+[10:58]  ** Server ** disconnected from server: Official server
+[10:58]  ** Server ** Chat closed.
+### Session Closed at [2013-04-06 10:58] 
  
  
