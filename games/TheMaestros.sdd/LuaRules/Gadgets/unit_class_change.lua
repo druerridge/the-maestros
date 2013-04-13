@@ -127,7 +127,7 @@ if (gadgetHandler:IsSyncedCode()) then
 			targetx, targety, targetz = Spring.GetUnitPosition(param[1])
 			local distance = math.sqrt((x - targetx)*(x - targetx) + (y - targety)*(y - targety) + (z - targetz)*(z - targetz))
 			
-			if distance > 200 then
+			if distance > (Spring.GetUnitRadius(u) + 50) then
 				--move to target
 				Spring.SetUnitMoveGoal(u, targetx, targety, targetz)
 				return true, false
