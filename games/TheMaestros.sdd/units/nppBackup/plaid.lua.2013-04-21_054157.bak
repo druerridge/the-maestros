@@ -11,7 +11,7 @@ local unitDef =
     TEDClass = "TANK",
     script = "plaidscript.lua",
     
-    customParams = {transform = "edward", buildpermit = "t1", edward = "0", copter = "0"},
+    customParams = {transform = "edward", buildpermit = "t1", edward = "100", copter = "150"},
     --"edward" and "copter" refer to the cost for transformation to that unit
 
 -- Unit limitations and properties
