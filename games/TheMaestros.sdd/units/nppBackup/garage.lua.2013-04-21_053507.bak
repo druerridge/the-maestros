@@ -70,6 +70,7 @@ local unitDef =
 		"scissormaker",
 		"hanger",
 		"plaid",
+		"garage",
 	},
 	
 -- Abilities new to Spring

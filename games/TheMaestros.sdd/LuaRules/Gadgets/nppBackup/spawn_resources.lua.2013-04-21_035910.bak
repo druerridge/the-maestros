@@ -1,0 +1,34 @@
+function gadget:GetInfo()
+        return {
+                name = "spawnResources",
+                desc = " Spawns resources every turn",
+                author = "Sean", 
+                date = "2013-03-20",
+                license = "Public Domain",
+                layer = -7,
+                enabled = true
+        }
+end
+
+if (gadgetHandler:IsSyncedCode()) then
+
+local myCommander
+
+--SYNCED
+
+function gadget:GameFrame(f)
+        if commander1 then
+			local allUnits = Spring.GetTeamUnitsSorted()
+				
+		end
+		
+		if f%30 < .1 then
+			Xra=math.random(0,4000)
+			Zra = math.random(0,4000)
+            local flagID = Spring.CreateFeature("arkanium", Xra, Spring.GetGroundHeight(Xra,Zra)+5, Zra)
+        end
+end
+
+else
+--UNSYNCED
+end

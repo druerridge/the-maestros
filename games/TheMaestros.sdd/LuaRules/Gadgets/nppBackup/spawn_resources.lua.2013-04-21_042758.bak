@@ -1,0 +1,43 @@
+function gadget:GetInfo()
+        return {
+                name = "spawnResources",
+                desc = " Spawns resources every turn",
+                author = "Sean", 
+                date = "2013-03-20",
+                license = "Public Domain",
+                layer = -7,
+                enabled = true
+        }
+end
+
+if (gadgetHandler:IsSyncedCode()) then
+
+local myCommanderID
+
+--SYNCED
+
+function gadget:GameFrame(f)
+        if (commander1 == nil) then
+			local teamUnits = Spring.GetAllUnits()
+			local i
+			for i = 1, #teamUnits do
+				if (UnitDefs[Spring.GetUnitDefID(teamUnits[i])].name == "garage") then
+					myCommanderID = Spring.GetUnitDefID(teamUnits[i])
+				end
+			end
+		end
+		
+		if f%30 < .1 then
+			local x,y,z = Spring.GetUnitPosition(myCommanderID)
+			--Xra=math.random(0,4000)
+			--Zra = math.random(0,4000)
+			Spring.Echo(myCommanderID)
+			Spring.Echo("hi")
+			Spring.Echo(x)
+            local flagID = Spring.CreateFeature("arkanium", x, Spring.GetGroundHeight(x,z)+5, z)
+        end
+end
+
+else
+--UNSYNCED
+end

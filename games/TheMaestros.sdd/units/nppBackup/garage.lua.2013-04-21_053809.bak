@@ -59,9 +59,9 @@ local unitDef =
 	LeaveTracks = 1,
 	CanBeAssisted = 0,
 	
-	CanRepeat = 0,
-    CanAssist = 0,
-    CanRestore = 0,
+	CanRepeat = 1,
+    CanAssist = 1,
+    CanRestore = 1,
     CanGuard = 0,
     CanPatrol = 0,
 
@@ -70,6 +70,7 @@ local unitDef =
 		"scissormaker",
 		"hanger",
 		"plaid",
+		"garage",
 	},
 	
 -- Abilities new to Spring
