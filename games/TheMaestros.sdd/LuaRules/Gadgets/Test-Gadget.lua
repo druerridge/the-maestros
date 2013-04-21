@@ -15,10 +15,10 @@ if (gadgetHandler:IsSyncedCode()) then
 --SYNCED
 
 function gadget:GameFrame(f)
-        if f%30 < .1 then
+       --[[ if f%30 < .1 then
             Spring.Echo("test")
                 
-        end
+        end]]
 end
 
 else

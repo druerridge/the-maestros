@@ -79,28 +79,41 @@ if (gadgetHandler:IsSyncedCode()) then
 			Spring.InsertUnitCmdDesc(u,desc)
 		end
 	end
-
-	function gadget:AllowCommand(u, ud, team, cmd, param, opt)
-		--Spring.Echo("ccAllowCommand()")
-		--Spring.Echo(Spring.GetUnitDefID(u))
-		--[[ TURNED OFF FOR PITCH-DOC BUILD, REINSTATE FOR FINAL PITCH BUILD 
-			
-		if ud == 3 then
-			local merchx, merchy, merchz = Spring.GetUnitPosition(u)
-			local merchdist = math.sqrt((herpderp[1][1] - merchx)*(herpderp[1][1] - merchx) + (herpderp[1][2] - merchy)*(herpderp[1][2] - merchy) + (herpderp[1][3] - merchz)*(herpderp[1][3] - merchz))
-			
-			if merchdist < herpderp[1][4] then
-				--Spring.Echo("in area")
-				SetBuildoptionDisabled(3, team, false)
-			else
-				--Spring.Echo(merchdist)
-				SetBuildoptionDisabled(3, team, true)
+	
+	function gadget:GameFrame(f)
+		local allUnits = Spring.GetAllUnits()
+		for i = 1, #allUnits do
+			local u = allUnits[i]
+			local ud = Spring.GetUnitDefID(u)
+			local team = Spring.GetUnitTeam(u)
+			if ud == 3 then
+				local merchx, merchy, merchz = Spring.GetUnitPosition(u)
+				local merchdist = math.sqrt((herpderp[1][1] - merchx)*(herpderp[1][1] - merchx) + (herpderp[1][2] - merchy)*(herpderp[1][2] - merchy) + (herpderp[1][3] - merchz)*(herpderp[1][3] - merchz))
+				--access unitdef table with unitDef.member
+				if merchdist < herpderp[1][4] then
+					--Spring.Echo("in area")
+					SetBuildoptionDisabled(3, team, false)
+				else
+					--Spring.Echo(merchdist)
+					SetBuildoptionDisabled(3, team, true)
+				end
 			end
 		end
-		
-		]]
+	end
 
-		--parse command
+	function gadget:AllowCommand(u, ud, team, cmd, param, opt)
+				--parse command
+		if cmd == -3 then
+			local merchdist = math.sqrt((herpderp[1][1] - param[1])*(herpderp[1][1] - param[1]) + (herpderp[1][2] - param[2])*(herpderp[1][2] - param[2]) + (herpderp[1][3] - param[3])*(herpderp[1][3] - param[3]))
+			--access unitdef table with unitDef.member
+			if merchdist < herpderp[1][4] then
+				--Spring.Echo("in area")
+				return true
+			else
+				--Spring.Echo(merchdist)
+				return false
+			end
+		end
 		if cmd == CMD_CHANGECLASS then
 			--validate target selection
 			if param[1] and Spring.ValidUnitID(param[1]) then
