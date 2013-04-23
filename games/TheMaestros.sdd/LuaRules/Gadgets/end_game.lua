@@ -27,12 +27,12 @@ function gadget:UnitDestroyed(unitID, unitDefID, unitTeam, attackerID, attackerD
 	--Spring.Echo("Unit was a garage")
 
 	local teamUnits = Spring.GetTeamUnits(unitTeam)
-	local lastGarage = true;
+	local lastGarage = true
 	
 		if (UnitDefs[Spring.GetUnitDefID(teamUnits[i])].name == "garage" and teamUnits[i] ~= unitID) then
 			--Spring.Echo("There was another garage")
-			lastGarage = false;
-			break;
+			lastGarage = false
+			break
 		end
 	end
 

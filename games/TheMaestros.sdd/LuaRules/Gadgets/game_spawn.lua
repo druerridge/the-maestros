@@ -113,5 +113,11 @@ function gadget:GameStart()
 		if (teamID ~= gaiaTeamID) then
 			SpawnStartUnit(teamID)
 		end
+
+		local x = 5000
+		local z = 5000
+		local y = Spring.GetGroundHeight(x,z) + 5
+		Spring.CreateUnit("arkaniumspawner", x, y, z, 1, gaiaTeamID)
 	end
 end
+

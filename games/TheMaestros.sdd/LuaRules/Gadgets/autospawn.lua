@@ -46,8 +46,8 @@ if (gadgetHandler:IsSyncedCode()) then
 				local u = allUnits[i]
 				local ud = Spring.GetUnitDefID(u)
 				local team = Spring.GetUnitTeam(u)
-				-- id 3 == Garage
-				if ud == 3 then
+				-- id 4 == Garage
+				if ud == 4 then
 					local x, y, z = Spring.GetUnitPosition(u)
 
 					local hadEnough = Spring.UseTeamResource(team, "metal", cost)
@@ -56,7 +56,7 @@ if (gadgetHandler:IsSyncedCode()) then
 						-- Create a PLAID
 						Spring.CreateUnit("plaid", x, y, z+5, 1, team)
 						-- Make him follow your commander
-
+						
 					else
 						Spring.Echo("Insufficient Resources to spawn a PLAID")
 					end
