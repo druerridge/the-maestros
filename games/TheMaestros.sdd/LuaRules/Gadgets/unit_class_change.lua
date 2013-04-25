@@ -73,7 +73,6 @@ if (gadgetHandler:IsSyncedCode()) then
 	
 	--adds icon to units upon unit creation
 	function gadget:UnitCreated(u, ud, team)
-		--Spring.Echo("ccUnitCreated()")
 		--perform check to see if transformation is target is set for unit before adding icon
 		if UnitDefs[Spring.GetUnitDefID(u)]["customParams"]["transform"] ~= nil then
 			Spring.InsertUnitCmdDesc(u,desc)
@@ -86,18 +85,61 @@ if (gadgetHandler:IsSyncedCode()) then
 			local u = allUnits[i]
 			local ud = Spring.GetUnitDefID(u)
 			local team = Spring.GetUnitTeam(u)
-			if ud == 3 then
+			if ud == 4 then
 				local merchx, merchy, merchz = Spring.GetUnitPosition(u)
 				local merchdist = math.sqrt((herpderp[1][1] - merchx)*(herpderp[1][1] - merchx) + (herpderp[1][2] - merchy)*(herpderp[1][2] - merchy) + (herpderp[1][3] - merchz)*(herpderp[1][3] - merchz))
 				--access unitdef table with unitDef.member
 				if merchdist < herpderp[1][4] then
 					--Spring.Echo("in area")
-					SetBuildoptionDisabled(3, team, false)
+					SetBuildoptionDisabled(4, team, false)
 				else
 					--Spring.Echo(merchdist)
-					SetBuildoptionDisabled(3, team, true)
+					SetBuildoptionDisabled(4, team, true)
 				end
 			end
+		end
+		
+		local team1units = Spring.GetTeamUnitsByDefs(0, {5, 7})
+		for i = 1, #team1units do
+			local x, y, z = Spring.GetUnitPosition(team1units[i])
+			local nearby = Spring.GetUnitsInSphere(x, y, z, 500)
+			local t1count = 0
+			local t2count = 0
+			for j = 1, #nearby do
+				if Spring.GetUnitDefID(nearby[j]) ~= 5 and Spring.GetUnitDefID(nearby[j]) ~= 7 then
+					if Spring.GetUnitTeam(nearby[j]) == 0 then
+						t1count = t1count + 1
+					elseif Spring.GetUnitTeam(nearby[j]) == 1 then
+						t2count = t2count + 1
+					end
+				end
+			end
+			Spring.Echo(t1count)
+			Spring.Echo(t2count)
+			if(t2count > t1count) then
+				Spring.TransferUnit(team1units[i], 1)
+			end
+		end
+		local team2units = Spring.GetTeamUnitsByDefs(1, {5, 7})
+		for i = 1, #team2units do
+			local x, y, z = Spring.GetUnitPosition(team2units[i])
+			local nearby = Spring.GetUnitsInSphere(x, y, z, 500)
+			local t1count = 0
+			local t2count = 0
+			for j = 1, #nearby do
+				if Spring.GetUnitDefID(nearby[j]) ~= 5 and Spring.GetUnitDefID(nearby[j]) ~= 7 then
+					if Spring.GetUnitTeam(nearby[j]) == 0 then
+						t1count = t1count + 1
+					elseif Spring.GetUnitTeam(nearby[j]) == 1 then
+						t2count = t2count + 1
+					end
+				end
+			end
+			Spring.Echo(t1count)
+			Spring.Echo(t2count)
+			if(t1count > t2count) then
+				Spring.TransferUnit(team2units[i], 0)
+			end			
 		end
 	end
 
@@ -146,16 +188,17 @@ if (gadgetHandler:IsSyncedCode()) then
 				return true, false
 			else
 				--at target, swap out units
-				
+
 				--so the way transform cost works is that costs are defined in the unit being transformed
 				--there is an entry in customparam with the index that is the defname of the target of the transformation
 				--the value of that entry is cost
 				--lack of such an entry makes transformation impossible
 				if(Spring.UseTeamResource(team, "metal", UnitDefs[ud]["customParams"][UnitDefs[Spring.GetUnitDefID(param[1])]["customParams"]["modify"]])) then
-					local newUnitID = Spring.CreateUnit(UnitDefs[Spring.GetUnitDefID(param[1])]["customParams"]["modify"], x, y, z, Spring.GetUnitBuildFacing(u), team)
-					x,y,z = Spring.GetUnitDirection(u)
-					Spring.SetUnitDirection(newUnitID, x, y, z)
-					Spring.DestroyUnit(u, false, true)
+					local rx,ry,rz = Spring.GetUnitDirection(u)
+					local heading = Spring.GetUnitBuildFacing(u)
+					Spring.DestroyUnit(u, false, false)
+					local newUnitID = Spring.CreateUnit(UnitDefs[Spring.GetUnitDefID(param[1])]["customParams"]["modify"], x, y, z, heading, team)
+					Spring.SetUnitDirection(newUnitID, rx, ry, rz)
 					return true, true
 				end
 			end
