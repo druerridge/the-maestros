@@ -56,7 +56,7 @@ local unitDef =
     CanStop = 1,
     LeaveTracks = 1,
     Reclaimable = 0,
-    
+
     CanRepeat = 0,
     CanAssist = 0,
     CanRestore = 0,

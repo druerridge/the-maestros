@@ -1,0 +1,169 @@
+[btreeclo-1] 
+	   { 
+	   world=All Worlds; 
+	   description=Cedar Tree; 
+	   category=Vegetation; 
+	   object=btreeclo-1.s3o; 
+	   footprintx=3; 
+	   footprintz=3; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=50; 
+	   energy=300;
+	   metal=0; 
+	   damage=200; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 
+[btreeclo-2] 
+	   { 
+	   world=All Worlds; 
+	   description=Cedar Tree; 
+	   category=Vegetation; 
+	   object=btreeclo-2.s3o; 
+	   footprintx=3; 
+	   footprintz=3; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=50; 
+	   energy=300;
+	   metal=0; 
+	   damage=200; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 
+[btreeclo-3] 
+	   { 
+	   world=All Worlds; 
+	   description=Cedar Tree; 
+	   category=Vegetation; 
+	   object=btreeclo-3.s3o; 
+	   footprintx=3; 
+	   footprintz=3; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=50; 
+	   energy=300;
+	   metal=0; 
+	   damage=200; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 
+[btreeclo-4] 
+	   { 
+	   world=All Worlds; 
+	   description=Cedar Tree; 
+	   category=Vegetation; 
+	   object=btreeclo-4.s3o; 
+	   footprintx=3; 
+	   footprintz=3; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=50; 
+	   energy=300;
+	   metal=0; 
+	   damage=200; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 
+
+[btreechi-1] 
+	   { 
+	   world=All Worlds; 
+	   description=Cedar Tree; 
+	   category=Vegetation; 
+	   object=btreechi-1.s3o; 
+	   footprintx=3; 
+	   footprintz=3; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=50; 
+	   energy=300;
+	   metal=0; 
+	   damage=200; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 
+[btreechi-2] 
+	   { 
+	   world=All Worlds; 
+	   description=Cedar Tree; 
+	   category=Vegetation; 
+	   object=btreechi-2.s3o; 
+	   footprintx=3; 
+	   footprintz=3; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=50; 
+	   energy=300;
+	   metal=0; 
+	   damage=200; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 
+[btreechi-3] 
+	   { 
+	   world=All Worlds; 
+	   description=Cedar Tree; 
+	   category=Vegetation; 
+	   object=btreechi-3.s3o; 
+	   footprintx=3; 
+	   footprintz=3; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=50; 
+	   energy=300;
+	   metal=0; 
+	   damage=200; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 
+[btreechi-4] 
+	   { 
+	   world=All Worlds; 
+	   description=Cedar Tree; 
+	   category=Vegetation; 
+	   object=btreechi-4.s3o; 
+	   footprintx=3; 
+	   footprintz=3; 
+	   height=30;
+	   blocking=1;
+	   upright=1; 
+	   hitdensity=50; 
+	   energy=300;
+	   metal=0; 
+	   damage=200; 
+	   flammable=1; 
+	   reclaimable=1; 
+	   autoreclaimable=1; 
+	   featurereclamate=smudge01; 
+	   seqnamereclamate=tree1reclamate; 
+	  } 
