@@ -24,3 +24,29 @@
 ### Session Closed at [2013-04-06 10:58] 
  
  
+### Session Start at [2013-04-25 01:20]
+[01:20]  ** Server ** Connecting to server Official server...
+[01:20]  ** Server ** Connected to Official server.
+[01:20]  ** motd ** Welcome, dispatchNumero!
+[01:20]  ** motd ** There are currently 136 clients connected
+[01:20]  ** motd ** to the server talking in 2340 open channels
+[01:20]  ** motd ** and participating in 59 battles.
+[01:20]  ** motd ** Server's uptime is 1.42 weeks
+[01:38]  ** Server ** disconnected from server: Official server
+[01:38]  ** Server ** Chat closed.
+### Session Closed at [2013-04-25 01:38] 
+ 
+ 
+### Session Start at [2013-04-25 01:43]
+[01:43]  ** Server ** Connecting to server Official server...
+[01:43]  ** Server ** Connected to Official server.
+[01:43]  ** motd ** Welcome, dispatchNumero!
+[01:43]  ** motd ** There are currently 136 clients connected
+[01:43]  ** motd ** to the server talking in 2341 open channels
+[01:43]  ** motd ** and participating in 59 battles.
+[01:43]  ** motd ** Server's uptime is 1.42 weeks
+[02:21]  ** Server ** disconnected from server: Official server
+[02:21]  ** Server ** Chat closed.
+### Session Closed at [2013-04-25 02:21] 
+ 
+ 

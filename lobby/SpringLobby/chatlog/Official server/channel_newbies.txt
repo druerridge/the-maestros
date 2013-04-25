@@ -28,3 +28,33 @@
 ### Session Closed at [2013-04-06 10:58] 
  
  
+### Session Start at [2013-04-25 01:20]
+[01:20]  ** Channel topic:
+[01:20]  Welcome to the main Spring server
+[01:20]  Frequently asked questions: http://springrts.com/wiki/FAQ
+[01:20]  Still have troubles? http://springrts.com/wiki/Bugs
+[01:20]  Forum: http://springrts.com/phpbb/
+[01:20]  games & maps download mirrors: http://springrts.com/wiki/Getting_Spring_Content_and_Links
+[01:20]  Mumble (voice comm) server: springrts.com (mumble download: http://mumble.sourceforge.net/)
+[01:20]  Need help? Try to ask it on this channel.
+[01:20]  ** Set by ChanServ
+[01:38]  ** Server ** Disconnected from server, chat closed.
+[01:38]  ** Server ** Chat closed.
+### Session Closed at [2013-04-25 01:38] 
+ 
+ 
+### Session Start at [2013-04-25 01:43]
+[01:43]  ** Channel topic:
+[01:43]  Welcome to the main Spring server
+[01:43]  Frequently asked questions: http://springrts.com/wiki/FAQ
+[01:43]  Still have troubles? http://springrts.com/wiki/Bugs
+[01:43]  Forum: http://springrts.com/phpbb/
+[01:43]  games & maps download mirrors: http://springrts.com/wiki/Getting_Spring_Content_and_Links
+[01:43]  Mumble (voice comm) server: springrts.com (mumble download: http://mumble.sourceforge.net/)
+[01:43]  Need help? Try to ask it on this channel.
+[01:43]  ** Set by ChanServ
+[02:21]  ** Server ** Disconnected from server, chat closed.
+[02:21]  ** Server ** Chat closed.
+### Session Closed at [2013-04-25 02:21] 
+ 
+ 
