@@ -2,6 +2,8 @@ local building, platform, nanopoint = piece "Body", piece "Body", piece "Body"
 -- declares all the pieces we'll be using.
 
 function script.Create(unitID)
+	Spring.Echo("unit created");
+	Turn(building, y_axis, 1500, math.rad(3))
     return 0
 end
 
@@ -33,5 +35,8 @@ end
 --Actually, I'm not sure if Activate() is called when the base is finished, rather than when it starts building anything. I'll need to check that.
 
 function script.Killed(recentDamage, maxHealth)
+	Spring.Echo("unit killed");
+	Turn(building, y_axis, 1500, math.rad(3))
+	WaitForTurn(building, y_axis)
 	return 0
 end
