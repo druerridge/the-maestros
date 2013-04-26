@@ -58,8 +58,27 @@ function gadget:UnitDestroyed(unitID, unitDefID, unitTeam, attackerID, attackerD
 			--Spring.Echo(isDead)
 			if isDead then --I don't even know. It just works.
 				table.remove(teamList, i)
+				Spring.Echo("Removing: ")
+				Spring.Echo('	Team number: ' .. num)
+  				Spring.Echo('	     leader: ' .. leader)
+  				Spring.Echo('	       dead: ' .. tostring(dead))
+  				Spring.Echo('	       isAI: ' .. tostring(isAI))
+  				Spring.Echo('	       side: ' .. side)
+  				Spring.Echo('	   allyTeam: ' .. allyTeam)
 			end
 		end
+
+		for i = #teamList, 1, -1 do
+			local num, leader, dead, isAI, side, allyTeam = Spring.GetTeamInfo(teamList[i])
+			Spring.Echo("Winners: ")
+			Spring.Echo('	Team number: ' .. num)
+  			Spring.Echo('	     leader: ' .. leader)
+  			Spring.Echo('	       dead: ' .. tostring(dead))
+  			Spring.Echo('	       isAI: ' .. tostring(isAI))
+  			Spring.Echo('	       side: ' .. side)
+  			Spring.Echo('	   allyTeam: ' .. allyTeam)
+  		end
+
 
 		--Spring.Echo(teamList)
 		Spring.GameOver(teamList)
