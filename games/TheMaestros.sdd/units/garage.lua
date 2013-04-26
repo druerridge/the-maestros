@@ -67,9 +67,7 @@ local unitDef =
 
 	buildoptions = 
 	{
-		"scissormaker",
-		"hanger",
-		"plaid",
+		
 	},
 	
 -- Abilities new to Spring
