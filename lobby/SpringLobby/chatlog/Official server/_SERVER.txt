@@ -50,3 +50,16 @@
 ### Session Closed at [2013-04-25 02:21] 
  
  
+### Session Start at [2013-04-25 22:47]
+[22:47]  ** Server ** Connecting to server Official server...
+[22:47]  ** Server ** Connected to Official server.
+[22:47]  ** motd ** Welcome, dispatchNumero!
+[22:47]  ** motd ** There are currently 143 clients connected
+[22:47]  ** motd ** to the server talking in 2489 open channels
+[22:47]  ** motd ** and participating in 62 battles.
+[22:47]  ** motd ** Server's uptime is 1.55 weeks
+[23:30]  ** Server ** disconnected from server: Official server
+[23:30]  ** Server ** Chat closed.
+### Session Closed at [2013-04-25 23:30] 
+ 
+ 

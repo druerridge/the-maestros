@@ -18,15 +18,17 @@ local spawnLocations = {}
 local radius = 100
 
 function gadget:GameFrame(f)
-    if f%900 < .1 then
-        for j = 1, #spawnLocations do
-            local x = spawnLocations[j][1]
-            local y = spawnLocations[j][2]
-            local z = spawnLocations[j][3]
-            Spring.CreateFeature("arkanium", x, Spring.GetGroundHeight(x,z)+5, z)
-            --Spring.Echo("Creating Arkanium")
+    if f > 900 then
+        if f%1800 < .1 then
+            for j = 1, #spawnLocations do
+                local x = spawnLocations[j][1]
+                local y = spawnLocations[j][2]
+                local z = spawnLocations[j][3]
+                Spring.CreateFeature("arkanium", x, Spring.GetGroundHeight(x,z)+5, z)
+                --Spring.Echo("Creating Arkanium")
+            end
         end
-    end
+    end 
     --Spring.Echo("GameFrame")
 end
 

@@ -59,3 +59,19 @@
 ### Session Closed at [2013-04-25 02:21] 
  
  
+### Session Start at [2013-04-25 22:47]
+[22:47]  ** Channel topic:
+[22:47]  Frequently asked questions: http://springrts.com/wiki/FAQ
+[22:47]  Still have troubles? http://springrts.com/wiki/Bugs
+[22:47]  Forum: http://springrts.com/phpbb/
+[22:47]  Games & maps download mirrors: http://springrts.com/wiki/Getting_Spring_Content_and_Links
+[22:47]  Mumble (voice comm) server: springrts.com (mumble download: http://mumble.sourceforge.net/)
+[22:47]  Replays: http://replays.springrts.com/
+[22:47]  Need help? Try to ask it on this channel.
+[22:47]  ** Set by ChanServ
+[23:00]  * [TERA]Host2 * terminator123 wants 17 more for Tempest Dry ("v94.1 no map rotation Unlimited Specs / TS enabled", Balanced Annihilation V7.75)
+[23:30]  ** Server ** Disconnected from server, chat closed.
+[23:30]  ** Server ** Chat closed.
+### Session Closed at [2013-04-25 23:30] 
+ 
+ 

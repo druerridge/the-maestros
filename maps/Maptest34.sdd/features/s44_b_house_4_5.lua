@@ -1,0 +1,24 @@
+local objectname= "s44_b_house_4_5" 
+local featureDef	=	{
+	name			= "s44_b_house_4_5",
+	world				="All Worlds",
+	description				="House",
+	category				="Buildings",
+	object				="s44_b_house_4_5.s3o",
+	footprintx				=15,
+	footprintz				=6,
+	height				=48,
+	blocking				=true,
+	upright				=true,
+	hitdensity				=1,
+	energy				=0,
+	metal				=0,
+	damage				=20000,
+	flammable				=false,
+	reclaimable				=false,
+	autoreclaimable				=false,
+	collisionvolumetype				="box",
+	collisionvolumescales				={72, 36, 48},
+	collisionvolumeoffsets				={12, 0, 0},
+} 
+return lowerkeys({[objectname] = featureDef}) 

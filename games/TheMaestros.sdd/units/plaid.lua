@@ -45,7 +45,7 @@ local unitDef =
 --Abilities
     Builder = 1,
     CanReclaim = 1,
-    ReclaimSpeed = 25,
+    ReclaimSpeed = 1000,
     CanRepair = 0,
     ShowNanoSpray = 1,
     CanAttack = 1,
