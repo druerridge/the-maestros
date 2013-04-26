@@ -50,3 +50,16 @@
 ### Session Closed at [2013-04-25 02:21] 
  
  
+### Session Start at [2013-04-25 22:49]
+[22:49]  ** Server ** Connecting to server Official server...
+[22:49]  ** Server ** Connected to Official server.
+[22:49]  ** motd ** Welcome, Tsugo!
+[22:49]  ** motd ** There are currently 144 clients connected
+[22:49]  ** motd ** to the server talking in 2489 open channels
+[22:49]  ** motd ** and participating in 63 battles.
+[22:49]  ** motd ** Server's uptime is 1.55 weeks
+[22:51]  ** Server ** Failed to join battle. Incorrect password.
+[22:51]  ** Server ** Failed to join battle. Incorrect password.
+### Session Closed at [2013-04-25 22:53] 
+ 
+ 

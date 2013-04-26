@@ -59,3 +59,21 @@
 ### Session Closed at [2013-04-25 02:21] 
  
  
+### Session Start at [2013-04-25 22:49]
+[22:49]  ** Channel topic:
+[22:49]  Frequently asked questions: http://springrts.com/wiki/FAQ
+[22:49]  Still have troubles? http://springrts.com/wiki/Bugs
+[22:49]  Forum: http://springrts.com/phpbb/
+[22:49]  Games & maps download mirrors: http://springrts.com/wiki/Getting_Spring_Content_and_Links
+[22:49]  Mumble (voice comm) server: springrts.com (mumble download: http://mumble.sourceforge.net/)
+[22:49]  Replays: http://replays.springrts.com/
+[22:49]  Need help? Try to ask it on this channel.
+[22:49]  ** Set by ChanServ
+[22:51]  ** Server ** Failed to join battle. Incorrect password.
+[22:51]  ** Server ** Failed to join battle. Incorrect password.
+[23:01]  * [TERA]Host2 * terminator123 wants 17 more for Tempest Dry ("v94.1 no map rotation Unlimited Specs / TS enabled", Balanced Annihilation V7.75)
+[23:27]  ** Server ** Disconnected from server, chat closed.
+[23:27]  ** Server ** Chat closed.
+### Session Closed at [2013-04-25 23:27] 
+ 
+ 

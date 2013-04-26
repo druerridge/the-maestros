@@ -17,7 +17,7 @@ if not gadgetHandler:IsSyncedCode() then return end
 --if a garage was killed, check if it was the last garage on 
 -- the team.  If so, kill the team and end the game
 function gadget:UnitDestroyed(unitID, unitDefID, unitTeam, attackerID, attackerDefID, attackerTeamID)
-	--Spring.Echo("In EndGame.UnitDestroyed")
+	Spring.Echo("In EndGame.UnitDestroyed")
 	local unitDef = UnitDefs[unitDefID]
 	if unitDef.name ~= "garage" then
 		--Spring.Echo(unitDef.name)
@@ -29,15 +29,16 @@ function gadget:UnitDestroyed(unitID, unitDefID, unitTeam, attackerID, attackerD
 	local teamUnits = Spring.GetTeamUnits(unitTeam)
 	local lastGarage = true
 	
+	for i = 1, #teamUnits do
 		if (UnitDefs[Spring.GetUnitDefID(teamUnits[i])].name == "garage" and teamUnits[i] ~= unitID) then
-			--Spring.Echo("There was another garage")
+			Spring.Echo("There was another garage")
 			lastGarage = false
 			break
 		end
 	end
 
 	if lastGarage == true then
-		--Spring.Echo("There was no other garage")
+		Spring.Echo("There was no other garage")
 		Spring.KillTeam(unitTeam)
 		local teamList = Spring.GetTeamList()
 		--Spring.Echo(teamList)
@@ -46,7 +47,7 @@ function gadget:UnitDestroyed(unitID, unitDefID, unitTeam, attackerID, attackerD
 			--Spring.Echo(Spring.GetTeamInfo(teamList[i]))
 			_, _, isDead, _, _, _, _, _  = Spring.GetTeamInfo(teamList[i])
 			--Spring.Echo(isDead)
-			if isDead ~= true then --I don't even know. It just works.
+			if isDead == true then --I don't even know. It just works.
 				table.remove(teamList, i)
 			end
 		end
