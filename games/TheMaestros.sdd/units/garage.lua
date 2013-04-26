@@ -10,7 +10,7 @@ local unitDef =
 	TEDClass = "PLANT",
 	script = "garagescript.lua",
 	
-	customParams = {modify = "plaid", buildreq = "t0",},
+	customParams = {modify = "plaid", buildreq = "t0", bSpawnEnabled = true,},
 	--modify refers to the target output of the possible modifications
 
 -- Unit limitations and properties
@@ -67,7 +67,7 @@ local unitDef =
 
 	buildoptions = 
 	{
-		
+
 	},
 	
 -- Abilities new to Spring

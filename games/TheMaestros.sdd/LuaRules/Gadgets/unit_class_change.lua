@@ -129,8 +129,8 @@ if (gadgetHandler:IsSyncedCode()) then
 			if param[1] ~= nil then
 				local fID = param[1] - Game.maxUnits
 				if (fID > 0) then
-					-- Check if its one of our things
-					Spring.Echo("ID: ", fID)
+					-- Check if its one of our things?
+					--Spring.Echo("ID: ", fID)
 					return true
 				end
 			end
