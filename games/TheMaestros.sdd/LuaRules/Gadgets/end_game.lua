@@ -31,14 +31,14 @@ function gadget:UnitDestroyed(unitID, unitDefID, unitTeam, attackerID, attackerD
 	
 	for i = 1, #teamUnits do
 		if (UnitDefs[Spring.GetUnitDefID(teamUnits[i])].name == "garage" and teamUnits[i] ~= unitID) then
-			Spring.Echo("There was another garage")
+			--Spring.Echo("There was another garage")
 			lastGarage = false
 			break
 		end
 	end
 
 	if lastGarage == true then
-		Spring.Echo("There was no other garage")
+		--Spring.Echo("There was no other garage")
 		Spring.KillTeam(unitTeam)
 		local teamList = Spring.GetTeamList()
 		--Spring.Echo(teamList)
@@ -46,8 +46,17 @@ function gadget:UnitDestroyed(unitID, unitDefID, unitTeam, attackerID, attackerD
 		for i = #teamList, 1, -1 do
 			--Spring.Echo(Spring.GetTeamInfo(teamList[i]))
 			_, _, isDead, _, _, _, _, _  = Spring.GetTeamInfo(teamList[i])
+			local num, leader, dead, isAI, side, allyTeam = Spring.GetTeamInfo(teamList[i])
+			--Spring.Echo('Team number: ' .. num)
+  			--Spring.Echo('     leader: ' .. leader)
+  			--Spring.Echo('       dead: ' .. tostring(dead))
+  			--Spring.Echo('       isAI: ' .. tostring(isAI))
+  			--Spring.Echo('       side: ' .. side)
+  			--Spring.Echo('   allyTeam: ' .. allyTeam)
+
+
 			--Spring.Echo(isDead)
-			if isDead == true then --I don't even know. It just works.
+			if isDead then --I don't even know. It just works.
 				table.remove(teamList, i)
 			end
 		end
