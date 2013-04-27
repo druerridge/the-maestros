@@ -164,7 +164,7 @@ if (gadgetHandler:IsSyncedCode()) then
 	function gadget:CommandFallback(u,ud,team,cmd,param,opt)
 		--Spring.Echo("ccCommandFallback()")
 		
-		if cmd == CMD_CHANGECLASS and ud ~= 4 then
+		if cmd == CMD_CHANGECLASS then
 			local t = Spring.GetUnitTeam(u)
 			
 			local fID = param[1] - Game.maxUnits
